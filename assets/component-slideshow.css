@@ -10,17 +10,17 @@ slideshow-component {
 }
 
 .fade-h2 {
-  animation-duration: fade1;
+  animation-name: fade1;
   animation-duration: 0.25s;
 }
 
 .fade-subheading {
-  animation-duration: fade1;
+  animation-name: fade2;
   animation-duration: 0.5s;
 }
 
 .fade-button {
-  animation-duration: fade1;
+  animation-name: fade3;
   animation-duration: 0.75s;
 }
 
