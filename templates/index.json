@@ -24,22 +24,23 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-1": {
+        "efe4223a-5603-4efe-8c42-0a69f7239057": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
             "heading": "Image slide",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "heading_color": "#000000",
             "subheading": "Tell your brand's story through images",
             "subheading_color": "#0a0a0a",
             "button_label": "Button Label",
             "link": "",
-            "button_background_color": "#ffffff",
+            "button_background_color": "#FFFFFF",
             "button_text_color": "#000000",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "top-left",
             "show_text_box": true,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }
@@ -47,7 +48,7 @@
       },
       "block_order": [
         "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0",
-        "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-1"
+        "efe4223a-5603-4efe-8c42-0a69f7239057"
       ],
       "settings": {
         "layout": "full_bleed",
