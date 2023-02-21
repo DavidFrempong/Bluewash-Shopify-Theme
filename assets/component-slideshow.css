@@ -11,7 +11,7 @@ slideshow-component {
 
 .fade-h2 {
   animation-duration: fade1;
-  animation-duration: 0.5s;
+  animation-duration: 0.25s;
 }
 
 .fade-subheading {
@@ -21,7 +21,7 @@ slideshow-component {
 
 .fade-button {
   animation-duration: fade1;
-  animation-duration: 0.5s;
+  animation-duration: 0.75s;
 }
 
 @keyframes fade1 {
