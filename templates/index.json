@@ -16,7 +16,7 @@
             "button_background_color": "#124d32",
             "button_text_color": "#ead9bd",
             "button_style_secondary": false,
-            "box_align": "middle-left",
+            "box_align": "top-left",
             "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
@@ -51,7 +51,7 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
-        "slider_visual": "counter",
+        "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "show_text_below": true,
@@ -60,6 +60,7 @@
     },
     "4c276526-a52e-48d2-96ce-10764e739b36": {
       "type": "alternate-slideshow",
+      "disabled": true,
       "blocks": {
         "template--16848254239022__4c276526-a52e-48d2-96ce-10764e739b36-1668120900c32b03f1-0": {
           "type": "slide",
