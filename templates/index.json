@@ -16,7 +16,7 @@
             "button_background_color": "#124d32",
             "button_text_color": "#ead9bd",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
