@@ -6,6 +6,7 @@
         "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
             "heading": "Image slide",
             "heading_size": "h0",
             "heading_color": "#102f21",
@@ -50,7 +51,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "small",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
