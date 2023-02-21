@@ -243,6 +243,10 @@ slider-component.slider-component-full-width {
   .slider-counter--dots {
     margin: 0 1.2rem;
   }
+
+  .slider.slider--everywhere .slider__slide {
+    height: 100vh;
+  }
 }
 
 .slider-counter__link {
