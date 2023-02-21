@@ -243,7 +243,9 @@ slider-component.slider-component-full-width {
   .slider-counter--dots {
     margin: 0 1.2rem;
   }
+}
 
+@media screen and (max-width: 750px) {
   .slider.slider--everywhere .slider__slide {
     height: 100vh;
   }
