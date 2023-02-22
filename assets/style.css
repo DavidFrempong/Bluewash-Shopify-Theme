@@ -129,7 +129,8 @@ table {
     border-spacing: 0;
 }
 h1,h2{
-    font-family: 'Fuggles', cursive !important;
+    /* font-family: 'Fuggles', cursive !important; */
+    font-family: 'DM Sans', sans-serif;
 }
 .header1 {
     background: #fcfcfc;
