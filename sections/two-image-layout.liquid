@@ -2,10 +2,9 @@
 
 <div class="main_content">
   <div class="heading">
-    <h2 class="title" style="color: {{section.blocks.settings.title_color}}">{{ settings.title | escape }}</h2>
-    <p class="paragraph">Bluewash is a Shopify 2.0 Template made for Men's Body Care Shopify store owners. Learn
-      more about us
-      <a href="#">here.</a>
+    <h2 class="title" style="color: {{section.blocks.settings.title_color}}">{{ section.settings.title | escape }}</h2>
+    <p class="paragraph" style="color: {{section.blocks.settings.paragraph_color}}">{{ section.settings.paragraph | escape }}
+      <a href="{{ section.settings.link | escape }}">{{ section.settings.link_title | escape }}</a>
     </p>
   </div>
   <div class="images">
@@ -47,11 +46,18 @@
         "id": "paragraph",
         "label": "Paragraph",
         "default": "Bluewash is a Shopify 2.0 Template made for Men's Body Care Shopify store owners. Learn more about us"
-      }, {
+      }, 
+      {
         "type": "url",
         "id": "link",
         "label": "Link (optional)"
-      }
+      },
+      {
+        "type": "text",
+        "id": "link_title",
+        "label": "Link Title",
+        "default": "Type a word here"
+      }, 
     ],
     "blocks": [
       {
@@ -59,6 +65,11 @@
         "name": "Image",
         "limit": 2,
         "settings": [
+            {
+            "type": "image_picker",
+            "id": "image-container",
+            "label": "Choose Image"
+          },
           {
             "type": "text",
             "id": "image-title",
@@ -73,7 +84,7 @@
           }, 
           {
             "type": "text",
-            "id": "image-paragraph",
+            "id": "image_paragraph",
             "label": "Image Paragraph",
             "default": "Paragraph here"
           },{
