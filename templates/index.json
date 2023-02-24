@@ -35,7 +35,7 @@
             "subheading_color": "#0a0a0a",
             "button_label": "Button Label",
             "link": "",
-            "button_background_color": "#FFFFFF",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
             "button_style_secondary": false,
             "box_align": "top-left",
@@ -260,6 +260,40 @@
         "image_3_text": "New in stock",
         "image_3_link": "shopify:\/\/products\/chanel-pink-splash-perfume"
       }
+    },
+    "ecc068c0-ecd6-441c-b88d-a8afc113063d": {
+      "type": "two-image-layout",
+      "blocks": {
+        "template--17982117052734__ecc068c0-ecd6-441c-b88d-a8afc113063d-1677273660fcbfab41-0": {
+          "type": "image",
+          "settings": {
+            "image-title": "Title here",
+            "title_color": "#000000",
+            "image-paragraph": "Paragraph here",
+            "paragraph_color": "#000000",
+            "image-link": ""
+          }
+        },
+        "template--17982117052734__ecc068c0-ecd6-441c-b88d-a8afc113063d-1677273660fcbfab41-1": {
+          "type": "image",
+          "settings": {
+            "image-title": "Title here",
+            "title_color": "#000000",
+            "image-paragraph": "Paragraph here",
+            "paragraph_color": "#000000",
+            "image-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__ecc068c0-ecd6-441c-b88d-a8afc113063d-1677273660fcbfab41-0",
+        "template--17982117052734__ecc068c0-ecd6-441c-b88d-a8afc113063d-1677273660fcbfab41-1"
+      ],
+      "settings": {
+        "title": "Hi, we're Bluewash.",
+        "paragraph": "Bluewash is a Shopify 2.0 Template made for Men's Body Care Shopify store owners. Learn more about us",
+        "link": ""
+      }
     }
   },
   "order": [
@@ -270,6 +304,7 @@
     "1660916297dff089fb",
     "featured_collection",
     "1664247564392cdd39",
-    "16640590680b2f70f3"
+    "16640590680b2f70f3",
+    "ecc068c0-ecd6-441c-b88d-a8afc113063d"
   ]
 }
