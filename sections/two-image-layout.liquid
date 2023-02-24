@@ -2,7 +2,7 @@
 
 <div class="main_content">
   <div class="heading">
-    <h2 class="title">Hi, we're Bluewash.</h2>
+    <h2 class="title" style="color: {{section.blocks.settings.title_color}}">{{ block.settings.title | escape }}</h2>
     <p class="paragraph">Bluewash is a Shopify 2.0 Template made for Men's Body Care Shopify store owners. Learn
       more about us
       <a href="#">here.</a>
@@ -50,6 +50,12 @@
             "id": "title",
             "label": "Hi, we're Bluewash.",
             "default": "Hi, we're Bluewash."
+          },
+          {
+          "type": "color",
+          "id": "title_color",
+          "label": "Title Color",
+          "default": "#000000"
           }
         ]
       }
