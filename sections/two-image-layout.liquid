@@ -42,49 +42,60 @@
         "id": "title",
         "label": "Title of section",
         "default": "Hi, we're Bluewash."
-      },
-      {
+      }, {
         "type": "text",
         "id": "paragraph",
         "label": "Paragraph",
         "default": "Bluewash is a Shopify 2.0 Template made for Men's Body Care Shopify store owners. Learn more about us"
-      },
-      {
+      }, {
         "type": "url",
         "id": "link",
         "label": "Link (optional)"
-      },
+      }
     ],
     "blocks": [
-        {
+      {
         "type": "image",
         "name": "Image",
         "limit": 2,
         "settings": [
           {
-          "type": "color",
-          "id": "title_color",
-          "label": "Title Color",
-          "default": "#000000"
+            "type": "text",
+            "id": "image-title",
+            "label": "Image Title",
+            "default": "Title here"
           },
           {
-          "type": "color",
-          "id": "paragraph_color",
-          "label": "Paragraph Color",
-          "default": "#000000"
+            "type": "text",
+            "id": "image-paragraph",
+            "label": "Image Title",
+            "default": "Title here"
+          },
+           {
+            "type": "color",
+            "id": "title_color",
+            "label": "Title Color",
+            "default": "#000000"
+          }, {
+            "type": "color",
+            "id": "paragraph_color",
+            "label": "Paragraph Color",
+            "default": "#000000"
           }
         ]
       }
     ],
-    "presets": [{
-		"name": "Two Image Layout",
-		"blocks": [{
-				"type": "image"
-			},
-			{
-				"type": "image"
-			}
-		]
-	}]
+    "presets": [
+      {
+        "name": "Two Image Layout",
+        "blocks": [
+          {
+            "type": "image"
+          }, {
+            "type": "image"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
