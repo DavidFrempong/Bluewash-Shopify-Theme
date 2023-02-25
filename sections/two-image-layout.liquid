@@ -13,7 +13,7 @@
         {% when 'image' %}
         <a href="{{ block.settings.image_link | escape }}" class="individual_image">
           <div class="image_container">
-            {%- if block.settings.image -%}
+            {%- if block.settings.image_container != blank -%}
               <img
                 srcset="{%- if block.settings.image.width >= 375 -%}
                 {{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
@@ -116,7 +116,7 @@
         "settings": [
           {
             "type": "image_picker",
-            "id": "image-container",
+            "id": "image_container",
             "label": "Choose Image"
           },
           {
