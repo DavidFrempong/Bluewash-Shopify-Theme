@@ -267,7 +267,6 @@
         "template--17982117052734__ecc068c0-ecd6-441c-b88d-a8afc113063d-1677273660fcbfab41-0": {
           "type": "image",
           "settings": {
-            "image_container": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
             "image_title": "Title here",
             "title_color": "#000000",
             "image_paragraph": "Paragraph here",
@@ -281,7 +280,6 @@
         "template--17982117052734__ecc068c0-ecd6-441c-b88d-a8afc113063d-1677273660fcbfab41-1": {
           "type": "image",
           "settings": {
-            "image_container": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
             "image_title": "Title here",
             "title_color": "#000000",
             "image_paragraph": "Paragraph here",
