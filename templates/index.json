@@ -267,21 +267,29 @@
         "template--17982117052734__ecc068c0-ecd6-441c-b88d-a8afc113063d-1677273660fcbfab41-0": {
           "type": "image",
           "settings": {
-            "image-title": "Title here",
+            "image_container": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
+            "image_title": "Title here",
             "title_color": "#000000",
-            "image-paragraph": "Paragraph here",
+            "image_paragraph": "Paragraph here",
             "paragraph_color": "#000000",
-            "image-link": ""
+            "image_link": "",
+            "image_link_title": "Link here",
+            "image_link_color": "#000000",
+            "image_link_background_color": "#FFFFFF"
           }
         },
         "template--17982117052734__ecc068c0-ecd6-441c-b88d-a8afc113063d-1677273660fcbfab41-1": {
           "type": "image",
           "settings": {
-            "image-title": "Title here",
+            "image_container": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
+            "image_title": "Title here",
             "title_color": "#000000",
-            "image-paragraph": "Paragraph here",
+            "image_paragraph": "Paragraph here",
             "paragraph_color": "#000000",
-            "image-link": ""
+            "image_link": "",
+            "image_link_title": "Link here",
+            "image_link_color": "#000000",
+            "image_link_background_color": "#FFFFFF"
           }
         }
       },
@@ -291,8 +299,11 @@
       ],
       "settings": {
         "title": "Hi, we're Bluewash.",
+        "title_color": "#000000",
         "paragraph": "Bluewash is a Shopify 2.0 Template made for Men's Body Care Shopify store owners. Learn more about us",
-        "link": ""
+        "paragraph_color": "#000000",
+        "link": "",
+        "link_title": "Link here"
       }
     }
   },
