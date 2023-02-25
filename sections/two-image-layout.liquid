@@ -9,11 +9,11 @@
   </div>
   <div class="images">
     {% for block in section.blocks %}
-        {% case block.type %}
-          {% when 'image' %}
+      {% case block.type %}
+        {% when 'image' %}
         <a href="{{ block.settings.image_link | escape }}" class="individual_image">
           <div class="image_container">
-            {%- if blocks.settings.image -%}
+            {%- if block.settings.image -%}
               <img
                 srcset="{%- if block.settings.image.width >= 375 -%}
                 {{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
@@ -52,9 +52,9 @@
             </div>
           </div>
         </a>
-    {% endcase %}
-{% endfor %}
-    <a href="#" class="individual_image">
+      {% endcase %}
+    {% endfor %}
+    {% comment %} <a href="#" class="individual_image">
       <div class="image_container">
         <img src="/images/castlebeard-co-0D6aORtbl-c-unsplash.jpg" />
         <div class="image_information">
@@ -65,7 +65,7 @@
           </div>
         </div>
       </div>
-    </a>
+    </a> {% endcomment %}
   </div>
 </div>
 
