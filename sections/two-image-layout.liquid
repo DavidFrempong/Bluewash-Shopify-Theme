@@ -8,9 +8,9 @@
     </p>
   </div>
   <div class="images">
-    <a href="{{ section.blocks.settings.link | escape }}" class="individual_image">
+    <a href="{{ blocks.settings.image_link | escape }}" class="individual_image">
     <div class="image_container">
-        {%- if section.blocks.settings.image -%}
+        {%- if blocks.settings.image -%}
         <img
           srcset="{%- if section.blocks.settings.image.width >= 375 -%}{{ section.blocks.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
           {%- if section.blocks.settings.image.width >= 550 -%}{{ section.blocks.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
@@ -33,7 +33,7 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       <div class="image_information">
-        <h3 style="color: {{section.blocks.settings.title_color}}">{{ section.blocks.settings.image_title | escape }}</h3>
+        <h3 style="color: {{blocks.settings.title_color}}">{{ blocks.settings.image_title | escape }}</h3>
         <p style="color: {{section.blocks.settings.paragraph_color}}">{{ section.blocks.settings.image_paragraph | escape }}</p>
         <div class="image_link">
           <a href="{{ section.blocks.settings.link | escape }}" style="color: {{section.blocks.settings.image_link_color}}; background-color: {{section.blocks.settings.image_link_background_color}}">{{ section.blocks.settings.image_link_title | escape }}</a>
@@ -138,6 +138,12 @@
         "label": "Image Link"
       },
       {
+        "type": "text",
+        "id": "image_link_title",
+        "label": "Link Title",
+        "default": "Link here"
+      },
+      {
             "type": "color",
             "id": "image_link_color",
             "label": "Link Text Color",
@@ -148,13 +154,7 @@
             "id": "image_link_background_color",
             "label": "Link Background Color",
             "default": "#FFFFFF"
-          },
-      {
-        "type": "text",
-        "id": "image_link_title",
-        "label": "Link Title",
-        "default": "Link here"
-      }
+          }
         ]
       }
     ],
