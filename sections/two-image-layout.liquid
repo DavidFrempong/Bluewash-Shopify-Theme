@@ -41,7 +41,7 @@
               width="{{ block.settings.image_container.width }}"
               height="{{ block.settings.image_container.width | divided_by: block.settings.image_container.aspect_ratio | round }}">
             {%- else -%}
-              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {{ 'image' | placeholder_svg_tag }}
             {%- endif -%}
             <div class="image_information">
               <h3 style="color: {{block.settings.title_color}}">{{ block.settings.image_title | escape }}</h3>
