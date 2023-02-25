@@ -2,12 +2,25 @@
 
 <div class="main_content">
   <div class="heading">
-    <h2 class="title" style="color: {{section.blocks.settings.title_color}}">{{ section.settings.title | escape }}</h2>
-    <p class="paragraph" style="color: {{section.blocks.settings.paragraph_color}}">{{ section.settings.paragraph | escape }}
+    <h2 class="title" style="color: {{section.settings.title_color}}">{{ section.settings.title | escape }}</h2>
+    <p class="paragraph" style="color: {{section.settings.paragraph_color}}">{{ section.settings.paragraph | escape }}
       <a href="{{ section.settings.link | escape }}">{{ section.settings.link_title | escape }}</a>
     </p>
   </div>
   <div class="images">
+    <a href="#" class="individual_image">
+    <div class="image_container">
+      <img src="/images/castlebeard-co-0D6aORtbl-c-unsplash.jpg" />
+      <div class="image_information">
+        <h3 style="color: {{section.blocks.settings.paragraph_color}}">Title here</h3>
+        <p>Paragraph here</p>
+        <div class="image_link">
+          <a href="#">Link here</a>
+        </div>
+      </div>
+    </div>
+    </a>
+    <a href="#" class="individual_image">
     <div class="image_container">
       <img src="/images/castlebeard-co-0D6aORtbl-c-unsplash.jpg" />
       <div class="image_information">
@@ -18,16 +31,7 @@
         </div>
       </div>
     </div>
-    <div class="image_container">
-      <img src="/images/castlebeard-co-0D6aORtbl-c-unsplash.jpg" />
-      <div class="image_information">
-        <h3>Title here</h3>
-        <p>Paragraph here</p>
-        <div class="image_link">
-          <a href="#">Link here</a>
-        </div>
-      </div>
-    </div>
+    </a>
   </div>
 </div>
 
@@ -41,12 +45,25 @@
         "id": "title",
         "label": "Title of section",
         "default": "Hi, we're Bluewash."
-      }, {
+      },
+      {
+            "type": "color",
+            "id": "title_color",
+            "label": "Title Color",
+            "default": "#000000"
+          }, 
+           {
         "type": "text",
         "id": "paragraph",
         "label": "Paragraph",
-        "default": "Bluewash is a Shopify 2.0 Template made for Men's Body Care Shopify store owners. Learn more about us"
+        "default": "Bluewash is a Shopify 2.0 Template."
       }, 
+      {
+            "type": "color",
+            "id": "paragraph_color",
+            "label": "Paragraph Color",
+            "default": "#000000"
+          },
       {
         "type": "url",
         "id": "link",
@@ -56,7 +73,7 @@
         "type": "text",
         "id": "link_title",
         "label": "Link Title",
-        "default": "Type a word here"
+        "default": "link here"
       }
     ],
     "blocks": [
@@ -87,7 +104,8 @@
             "id": "image_paragraph",
             "label": "Image Paragraph",
             "default": "Paragraph here"
-          },{
+          },
+          {
             "type": "color",
             "id": "paragraph_color",
             "label": "Paragraph Color",

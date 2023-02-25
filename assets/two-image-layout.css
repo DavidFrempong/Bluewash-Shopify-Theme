@@ -52,11 +52,16 @@ body{
     justify-content: space-evenly;
 }
 
+.individual_image{
+    display: contents;
+}
+
 .image_container {
     position: relative;
     text-align: center;
     margin: 0px 10px;
   }
+
 
 .image_container img{
     width: 100%;
