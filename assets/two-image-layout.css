@@ -8,6 +8,7 @@ body{
     padding: 0px 20px;
     animation-name: fade1;
     animation-duration: 0.75s;
+    margin-bottom: 50px;
 }
 
 @keyframes fade1 {
@@ -28,9 +29,14 @@ body{
     margin-bottom: 70px;
 }
 
+.heading a{
+    text-decoration: underline;
+}
+
 .title{
     font-size: 40px;
     margin: 20px 0px;
+    font-weight: 700;
 }
 
 .paragraph{
@@ -41,6 +47,7 @@ body{
 
 .paragraph a{
     color: inherit;
+    text-decoration: underline;
 }
 
 /* Images */
@@ -65,6 +72,9 @@ body{
 
 .image_container img{
     width: 100%;
+
+    max-width: 500px;
+    max-height: 600px;
     /* max-width: 500px; */
     /* height: 50%; */
 }
