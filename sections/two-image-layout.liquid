@@ -8,50 +8,63 @@
     </p>
   </div>
   <div class="images">
-    <a href="{{ blocks.settings.image_link | escape }}" class="individual_image">
-    <div class="image_container">
-        {%- if blocks.settings.image -%}
-        <img
-          srcset="{%- if section.blocks.settings.image.width >= 375 -%}{{ section.blocks.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
-          {%- if section.blocks.settings.image.width >= 550 -%}{{ section.blocks.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
-          {%- if section.blocks.settings.image.width >= 750 -%}{{ section.blocks.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-          {%- if section.blocks.settings.image.width >= 1100 -%}{{ section.blocks.settings.image | image_url: width: 1100 }} 1100w,{%- endif -%}
-          {%- if section.blocks.settings.image.width >= 1500 -%}{{ section.blocks.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-          {%- if section.blocks.settings.image.width >= 1780 -%}{{ section.blocks.settings.image | image_url: width: 1780 }} 1780w,{%- endif -%}
-          {%- if section.blocks.settings.image.width >= 2000 -%}{{ section.blocks.settings.image | image_url: width: 2000 }} 2000w,{%- endif -%}
-          {%- if section.blocks.settings.image.width >= 3000 -%}{{ section.blocks.settings.image | image_url: width: 3000 }} 3000w,{%- endif -%}
-          {%- if section.blocks.settings.image.width >= 3840 -%}{{ section.blocks.settings.image | image_url: width: 3840 }} 3840w,{%- endif -%}
-          {{ section.blocks.settings.image | image_url }} {{ section.blocks.settings.image.width }}w"
-          sizes="100vw"
-          src="{{ section.blocks.settings.image | image_url: width: 1500 }}"
-          loading="lazy"
-          alt="{{ section.blocks.settings.image.alt | escape }}"
-          width="{{ section.blocks.settings.image.width }}"
-          height="{{ section.blocks.settings.image.width | divided_by: section.blocks.settings.image.aspect_ratio | round }}"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      <div class="image_information">
-        <h3 style="color: {{blocks.settings.title_color}}">{{ blocks.settings.image_title | escape }}</h3>
-        <p style="color: {{section.blocks.settings.paragraph_color}}">{{ section.blocks.settings.image_paragraph | escape }}</p>
-        <div class="image_link">
-          <a href="{{ section.blocks.settings.link | escape }}" style="color: {{section.blocks.settings.image_link_color}}; background-color: {{section.blocks.settings.image_link_background_color}}">{{ section.blocks.settings.image_link_title | escape }}</a>
-        </div>
-      </div>
-    </div>
-    </a>
+    {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'image' %}
+        <a href="{{ block.settings.image_link | escape }}" class="individual_image">
+          <div class="image_container">
+            {%- if blocks.settings.image -%}
+              <img
+                srcset="{%- if block.settings.image.width >= 375 -%}
+                {{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
+              {%- if block.settings.image.width >= 550 -%}
+                {{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
+              {%- if block.settings.image.width >= 750 -%}
+                {{ block.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if block.settings.image.width >= 1100 -%}
+                {{ block.settings.image | image_url: width: 1100 }} 1100w,{%- endif -%}
+              {%- if block.settings.image.width >= 1500 -%}
+                {{ block.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {%- if block.settings.image.width >= 1780 -%}
+                {{ block.settings.image | image_url: width: 1780 }} 1780w,{%- endif -%}
+              {%- if block.settings.image.width >= 2000 -%}
+                {{ block.settings.image | image_url: width: 2000 }} 2000w,{%- endif -%}
+              {%- if block.settings.image.width >= 3000 -%}
+                {{ block.settings.image | image_url: width: 3000 }} 3000w,{%- endif -%}
+              {%- if block.settings.image.width >= 3840 -%}
+                {{ block.settings.image | image_url: width: 3840 }} 3840w,{%- endif -%}
+              {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+              sizes="100vw"
+              src="{{ block.settings.image | image_url: width: 1500 }}"
+              loading="lazy"
+              alt="{{ block.settings.image.alt | escape }}"
+              width="{{ block.settings.image.width }}"
+              height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round }}">
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+            <div class="image_information">
+              <h3 style="color: {{block.settings.title_color}}">{{ block.settings.image_title | escape }}</h3>
+              <p style="color: {{block.settings.paragraph_color}}">{{ block.settings.image_paragraph | escape }}</p>
+              <div class="image_link">
+                <a href="{{ block.settings.link | escape }}" style="color: {{block.settings.image_link_color}}; background-color: {{block.settings.image_link_background_color}}">{{ block.settings.image_link_title | escape }}</a>
+              </div>
+            </div>
+          </div>
+        </a>
+    {% endcase %}
+{% endfor %}
     <a href="#" class="individual_image">
-    <div class="image_container">
-      <img src="/images/castlebeard-co-0D6aORtbl-c-unsplash.jpg" />
-      <div class="image_information">
-        <h3>Title here</h3>
-        <p>Paragraph here</p>
-        <div class="image_link">
-          <a href="#">Link here</a>
+      <div class="image_container">
+        <img src="/images/castlebeard-co-0D6aORtbl-c-unsplash.jpg" />
+        <div class="image_information">
+          <h3>Title here</h3>
+          <p>Paragraph here</p>
+          <div class="image_link">
+            <a href="#">Link here</a>
+          </div>
         </div>
       </div>
-    </div>
     </a>
   </div>
 </div>
@@ -68,29 +81,27 @@
         "default": "Hi, we're Bluewash."
       },
       {
-            "type": "color",
-            "id": "title_color",
-            "label": "Title Color",
-            "default": "#000000"
-          }, 
-           {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title Color",
+        "default": "#000000"
+      },
+      {
         "type": "text",
         "id": "paragraph",
         "label": "Paragraph",
         "default": "Bluewash is a Shopify 2.0 Template."
-      }, 
+      },
       {
-            "type": "color",
-            "id": "paragraph_color",
-            "label": "Paragraph Color",
-            "default": "#000000"
-          },
-      {
+        "type": "color",
+        "id": "paragraph_color",
+        "label": "Paragraph Color",
+        "default": "#000000"
+      }, {
         "type": "url",
         "id": "link",
         "label": "Link (optional)"
-      },
-      {
+      }, {
         "type": "text",
         "id": "link_title",
         "label": "Link Title",
@@ -103,7 +114,7 @@
         "name": "Image",
         "limit": 2,
         "settings": [
-            {
+          {
             "type": "image_picker",
             "id": "image-container",
             "label": "Choose Image"
@@ -119,37 +130,32 @@
             "id": "title_color",
             "label": "Title Color",
             "default": "#000000"
-          }, 
+          },
           {
             "type": "text",
             "id": "image_paragraph",
             "label": "Paragraph",
             "default": "Paragraph here"
-          },
-          {
+          }, {
             "type": "color",
             "id": "paragraph_color",
             "label": "Paragraph Color",
             "default": "#000000"
-          },
-          {
-        "type": "url",
-        "id": "image_link",
-        "label": "Image Link"
-      },
-      {
-        "type": "text",
-        "id": "image_link_title",
-        "label": "Link Title",
-        "default": "Link here"
-      },
-      {
+          }, {
+            "type": "url",
+            "id": "image_link",
+            "label": "Image Link"
+          }, {
+            "type": "text",
+            "id": "image_link_title",
+            "label": "Link Title",
+            "default": "Link here"
+          }, {
             "type": "color",
             "id": "image_link_color",
             "label": "Link Text Color",
             "default": "#000000"
-          },
-          {
+          }, {
             "type": "color",
             "id": "image_link_background_color",
             "label": "Link Background Color",
