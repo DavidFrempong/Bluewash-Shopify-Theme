@@ -265,8 +265,10 @@
         "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-2"
       ],
       "custom_css": [
-        ".image-with-text {background: #141414;}",
-        ".image-with-text__media{border: none;}"
+        ".image-with-text {\/* background: #141414; *\/}",
+        ".image-with-text__media {border: none;}",
+        "#ImageWithText--template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389 {background: #141414; color: #ffffff;}",
+        "h2{color: #ffffff;}"
       ],
       "settings": {
         "background_color": "#619da2",
