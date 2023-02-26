@@ -240,14 +240,14 @@
         "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Smooth Rock. The freshest beard wash, now available.",
             "heading_size": "h1"
           }
         },
         "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Apply every morning for a fresh and clean look to start your day.<\/p>",
             "text_style": "body"
           }
         },
