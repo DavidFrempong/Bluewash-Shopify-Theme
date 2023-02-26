@@ -146,6 +146,33 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Latest men's self-care products",
+        "heading_size": "h2",
+        "description": "<p>Our latest selection, specially hand-picked for you.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
     "1660916201534f0f42": {
       "type": "newsletter",
       "blocks": {
@@ -225,63 +252,6 @@
         "padding_bottom": 36
       }
     },
-    "1660916297dff089fb": {
-      "type": "hero-one",
-      "disabled": true,
-      "blocks": {
-        "16609162976c5ad124-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Welcome!",
-            "title_size": "sm"
-          }
-        },
-        "16609162976c5ad124-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Here, share a warm greeting to your customers, and invite them to check out your product collections!"
-          }
-        }
-      },
-      "block_order": [
-        "16609162976c5ad124-0",
-        "16609162976c5ad124-1"
-      ],
-      "settings": {
-        "hero_height": "75vh",
-        "background": "#fff3e7",
-        "text_color": "#121212",
-        "opacity": 100,
-        "info_alignment": "center"
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Just for you",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "1664247564392cdd39": {
       "type": "hero-one",
       "settings": {
@@ -311,10 +281,9 @@
     "96101fb8-9d8f-41a8-afa1-139e52fd9d12",
     "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8",
     "4c276526-a52e-48d2-96ce-10764e739b36",
+    "featured_collection",
     "1660916201534f0f42",
     "e1843acb-9b13-4db4-95f3-9c82bcef5ae2",
-    "1660916297dff089fb",
-    "featured_collection",
     "1664247564392cdd39",
     "16640590680b2f70f3"
   ]
