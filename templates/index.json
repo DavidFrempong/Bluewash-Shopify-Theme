@@ -173,6 +173,87 @@
         "padding_bottom": 36
       }
     },
+    "0c28637f-25e1-42c0-9376-c8f275d1e4f9": {
+      "type": "collage",
+      "blocks": {
+        "template--17982117052734__0c28637f-25e1-42c0-9376-c8f275d1e4f9-16773840616734f0dc-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/castlebeard-co-pIMjYBU6Brw-unsplash.jpg",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "template--17982117052734__0c28637f-25e1-42c0-9376-c8f275d1e4f9-16773840616734f0dc-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "template--17982117052734__0c28637f-25e1-42c0-9376-c8f275d1e4f9-16773840616734f0dc-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__0c28637f-25e1-42c0-9376-c8f275d1e4f9-16773840616734f0dc-0",
+        "template--17982117052734__0c28637f-25e1-42c0-9376-c8f275d1e4f9-16773840616734f0dc-1",
+        "template--17982117052734__0c28637f-25e1-42c0-9376-c8f275d1e4f9-16773840616734f0dc-2"
+      ],
+      "settings": {
+        "heading": "Shop men's self care",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "abdc7a3f-cb6f-4348-90ab-047cab478bd8": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17982117052734__abdc7a3f-cb6f-4348-90ab-047cab478bd8-16773839510f19a742-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hydrogen"
+          }
+        },
+        "template--17982117052734__abdc7a3f-cb6f-4348-90ab-047cab478bd8-16773839510f19a742-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "automated-collection"
+          }
+        },
+        "template--17982117052734__abdc7a3f-cb6f-4348-90ab-047cab478bd8-16773839510f19a742-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__abdc7a3f-cb6f-4348-90ab-047cab478bd8-16773839510f19a742-0",
+        "template--17982117052734__abdc7a3f-cb6f-4348-90ab-047cab478bd8-16773839510f19a742-1",
+        "template--17982117052734__abdc7a3f-cb6f-4348-90ab-047cab478bd8-16773839510f19a742-2"
+      ],
+      "settings": {
+        "title": "New in stock",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1660916201534f0f42": {
       "type": "newsletter",
       "blocks": {
@@ -207,61 +288,6 @@
         "padding_bottom": 52
       }
     },
-    "e1843acb-9b13-4db4-95f3-9c82bcef5ae2": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16848254239022__e1843acb-9b13-4db4-95f3-9c82bcef5ae2-1668124555ee3dd50c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Welcome",
-            "heading_size": "h1"
-          }
-        },
-        "template--16848254239022__e1843acb-9b13-4db4-95f3-9c82bcef5ae2-1668124555ee3dd50c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Here is where you want to write an important part of your business and how you can help your customers.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "defde4cf-f6bc-4ae4-b943-b4cce3de7e1f": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16848254239022__e1843acb-9b13-4db4-95f3-9c82bcef5ae2-1668124555ee3dd50c-0",
-        "template--16848254239022__e1843acb-9b13-4db4-95f3-9c82bcef5ae2-1668124555ee3dd50c-1",
-        "defde4cf-f6bc-4ae4-b943-b4cce3de7e1f"
-      ],
-      "settings": {
-        "background_color": "#4e3c1d",
-        "button_text_color": "#fff3e7",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1664247564392cdd39": {
-      "type": "hero-one",
-      "settings": {
-        "hero_height": "75vh",
-        "background": "#000000",
-        "text_color": "#ffffff",
-        "opacity": 0,
-        "info_alignment": "center"
-      }
-    },
     "16640590680b2f70f3": {
       "type": "image-collage",
       "settings": {
@@ -282,9 +308,9 @@
     "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8",
     "4c276526-a52e-48d2-96ce-10764e739b36",
     "featured_collection",
+    "0c28637f-25e1-42c0-9376-c8f275d1e4f9",
+    "abdc7a3f-cb6f-4348-90ab-047cab478bd8",
     "1660916201534f0f42",
-    "e1843acb-9b13-4db4-95f3-9c82bcef5ae2",
-    "1664247564392cdd39",
     "16640590680b2f70f3"
   ]
 }
