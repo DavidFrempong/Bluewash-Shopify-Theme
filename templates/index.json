@@ -108,47 +108,6 @@
         "link_title": "here."
       }
     },
-    "4c276526-a52e-48d2-96ce-10764e739b36": {
-      "type": "alternate-slideshow",
-      "disabled": true,
-      "blocks": {
-        "template--16848254239022__4c276526-a52e-48d2-96ce-10764e739b36-1668120900c32b03f1-0": {
-          "type": "slide",
-          "settings": {
-            "link": "",
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16848254239022__4c276526-a52e-48d2-96ce-10764e739b36-1668120900c32b03f1-1": {
-          "type": "slide",
-          "settings": {
-            "link": "",
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16848254239022__4c276526-a52e-48d2-96ce-10764e739b36-1668120900c32b03f1-0",
-        "template--16848254239022__4c276526-a52e-48d2-96ce-10764e739b36-1668120900c32b03f1-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "24d7c57c-9b11-4fce-85fb-9fd07e454fcf": {
       "type": "image-banner",
       "blocks": {
@@ -274,15 +233,61 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "c0de255c-8a60-47ba-a772-39d42dee1389": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/the-collection-snowboard-hydrogen"
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-0",
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-1",
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-2"
+      ],
+      "settings": {
+        "background_color": "#619da2",
+        "button_text_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9395858.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "96101fb8-9d8f-41a8-afa1-139e52fd9d12",
     "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8",
-    "4c276526-a52e-48d2-96ce-10764e739b36",
     "24d7c57c-9b11-4fce-85fb-9fd07e454fcf",
     "16640590680b2f70f3",
     "featured_collection",
-    "22061fd9-f01c-4b98-a458-6c30cca4e9cf"
+    "22061fd9-f01c-4b98-a458-6c30cca4e9cf",
+    "c0de255c-8a60-47ba-a772-39d42dee1389"
   ]
 }
