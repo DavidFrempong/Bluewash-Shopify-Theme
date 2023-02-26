@@ -313,7 +313,6 @@
       "blocks": {
         "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1"
@@ -344,6 +343,9 @@
         "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-0",
         "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-1",
         "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-2"
+      ],
+      "custom_css": [
+        ".banner__box{background: none;}"
       ],
       "settings": {
         "background_color": "#FFF3E7",
