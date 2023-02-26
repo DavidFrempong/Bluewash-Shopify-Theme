@@ -188,14 +188,14 @@
         "template--17982117052734__0c28637f-25e1-42c0-9376-c8f275d1e4f9-16773840616734f0dc-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "the-collection-snowboard-liquid",
             "second_image": false
           }
         },
         "template--17982117052734__0c28637f-25e1-42c0-9376-c8f275d1e4f9-16773840616734f0dc-2": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "automated-collection"
           }
         }
       },
