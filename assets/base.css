@@ -2815,6 +2815,12 @@ details[open] > .header__menu-item .icon-caret {
   position: static;
 }
 
+.icon-caret {
+  height: 0.4rem !important;
+  right: 1.5rem !important;
+  top: 1.75rem !important;
+}
+
 header-menu > details,
 details-disclosure > details {
   position: relative;
