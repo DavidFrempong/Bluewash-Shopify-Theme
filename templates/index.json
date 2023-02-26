@@ -248,6 +248,32 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "22061fd9-f01c-4b98-a458-6c30cca4e9cf": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17982117052734__22061fd9-f01c-4b98-a458-6c30cca4e9cf-1677386054b269119f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Made for the classy man.<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__22061fd9-f01c-4b98-a458-6c30cca4e9cf-1677386054b269119f-0"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -256,6 +282,7 @@
     "4c276526-a52e-48d2-96ce-10764e739b36",
     "24d7c57c-9b11-4fce-85fb-9fd07e454fcf",
     "16640590680b2f70f3",
-    "featured_collection"
+    "featured_collection",
+    "22061fd9-f01c-4b98-a458-6c30cca4e9cf"
   ]
 }
