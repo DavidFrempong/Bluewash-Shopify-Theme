@@ -146,6 +146,24 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "16640590680b2f70f3": {
+      "type": "image-collage",
+      "settings": {
+        "image_collage_grid": "4",
+        "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9379074.jpg",
+        "imagetext": "Radiant",
+        "imagelink": "shopify:\/\/products\/the-collection-snowboard-hydrogen",
+        "image1": "shopify:\/\/shop_images\/pexels-rodnae-productions-7697224.jpg",
+        "image_1_text": "Fresh Look",
+        "image_1_link": "shopify:\/\/products\/the-collection-snowboard-liquid",
+        "image2": "shopify:\/\/shop_images\/pexels-monstera-6621339.jpg",
+        "image_2_text": "Silky smooth",
+        "image_2_link": "shopify:\/\/products\/the-complete-snowboard",
+        "image3": "shopify:\/\/shop_images\/pexels-monstera-6621323.jpg",
+        "image_3_text": "Radiant Cleansing",
+        "image_3_link": "shopify:\/\/products\/the-multi-location-snowboard"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -175,6 +193,7 @@
     },
     "0c28637f-25e1-42c0-9376-c8f275d1e4f9": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "template--17982117052734__0c28637f-25e1-42c0-9376-c8f275d1e4f9-16773840616734f0dc-0": {
           "type": "video",
@@ -254,24 +273,6 @@
         "padding_bottom": 36
       }
     },
-    "16640590680b2f70f3": {
-      "type": "image-collage",
-      "settings": {
-        "image_collage_grid": "4",
-        "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9379074.jpg",
-        "imagetext": "Radiant",
-        "imagelink": "shopify:\/\/products\/the-collection-snowboard-hydrogen",
-        "image1": "shopify:\/\/shop_images\/pexels-rodnae-productions-7697224.jpg",
-        "image_1_text": "Fresh Look",
-        "image_1_link": "shopify:\/\/products\/the-collection-snowboard-liquid",
-        "image2": "shopify:\/\/shop_images\/pexels-monstera-6621339.jpg",
-        "image_2_text": "Silky smooth",
-        "image_2_link": "shopify:\/\/products\/the-complete-snowboard",
-        "image3": "shopify:\/\/shop_images\/pexels-monstera-6621323.jpg",
-        "image_3_text": "Radiant Cleansing",
-        "image_3_link": "shopify:\/\/products\/the-multi-location-snowboard"
-      }
-    },
     "1660916201534f0f42": {
       "type": "newsletter",
       "blocks": {
@@ -311,10 +312,10 @@
     "96101fb8-9d8f-41a8-afa1-139e52fd9d12",
     "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8",
     "4c276526-a52e-48d2-96ce-10764e739b36",
+    "16640590680b2f70f3",
     "featured_collection",
     "0c28637f-25e1-42c0-9376-c8f275d1e4f9",
     "abdc7a3f-cb6f-4348-90ab-047cab478bd8",
-    "16640590680b2f70f3",
     "1660916201534f0f42"
   ]
 }
