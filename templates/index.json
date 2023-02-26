@@ -265,7 +265,8 @@
         "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-2"
       ],
       "custom_css": [
-        ".image-with-text{background: #0a0a0a;}"
+        ".image-with-text {background: #141414;}",
+        ".image-with-text__media{border: none;}"
       ],
       "settings": {
         "background_color": "#619da2",
