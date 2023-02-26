@@ -120,6 +120,33 @@ body{
     transform: translate(-50%, -90%);
 }
 
+
+
+
+.show_placeholder{
+    position: relative;
+    overflow: hidden;
+}
+
+.show_placeholder::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(var(--color-foreground), 0.04);
+}
+
+.show_placeholder > svg{
+    position: absolute;
+    left: 50%;
+    max-width: 80rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    fill: currentColor;
+}
+
+
 @media only screen and (max-width: 850px){
     .images{
         flex-direction: column;
