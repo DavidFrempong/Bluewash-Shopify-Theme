@@ -96,6 +96,9 @@
         "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-0",
         "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-1"
       ],
+      "custom_css": [
+        "h3{font-weight: 700;}"
+      ],
       "settings": {
         "title": "Hi, we're Bluefall.",
         "title_color": "#000000",
@@ -314,21 +317,19 @@
         "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "Join the community",
+            "heading_size": "h2"
           }
         },
         "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "What's your self-care routine like? Let us know on Instagram @Bluewash",
             "text_style": "body"
           }
         },
         "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-2": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
@@ -345,11 +346,12 @@
         "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-2"
       ],
       "custom_css": [
-        ".banner__box{background: none;}"
+        ".banner__box {background: none; color: #ffffff;}",
+        "h1,h2 {color: #ffffff; font-weight: 700;}"
       ],
       "settings": {
         "background_color": "#FFF3E7",
-        "button_text_color": "#0a0a0a",
+        "button_text_color": "#ffffff",
         "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9379074.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
