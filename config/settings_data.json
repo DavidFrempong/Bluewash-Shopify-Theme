@@ -107,8 +107,8 @@
           "427d87f2-a2fc-4713-ab48-1ff19b598a79": {
             "type": "announcement",
             "settings": {
-              "text": "Site wide sale ONLY today!",
-              "background_color": "#4e3c1d",
+              "text": "SAVE AN EXTRA 15% ON ORDERS OVER $100",
+              "background_color": "#223b3d",
               "announcement_text_color": "#ffffff",
               "text_alignment": "center",
               "color_scheme": "accent-1",
@@ -157,11 +157,11 @@
           "footer-2"
         ],
         "settings": {
-          "background_color": "#fff5ea",
-          "footer_text_color": "#0a0a0a",
+          "background_color": "#eef7f7",
+          "footer_text_color": "#464646",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our email list",
-          "show_social": false,
+          "newsletter_heading": "Subscribe to our email list.",
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true,
@@ -187,7 +187,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 230,
+          "logo": "shopify:\/\/shop_images\/Bluefall_1.png",
+          "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
