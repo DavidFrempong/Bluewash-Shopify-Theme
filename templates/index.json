@@ -260,6 +260,49 @@
         "image_3_text": "New in stock",
         "image_3_link": "shopify:\/\/products\/chanel-pink-splash-perfume"
       }
+    },
+    "696982c9-c40d-459a-8d48-5f51ed92ff45": {
+      "type": "two-image-layout",
+      "blocks": {
+        "template--17982117052734__696982c9-c40d-459a-8d48-5f51ed92ff45-167737751998c0f9f2-0": {
+          "type": "image",
+          "settings": {
+            "image_title": "Title here",
+            "title_color": "#000000",
+            "image_paragraph": "Paragraph here",
+            "paragraph_color": "#000000",
+            "image_link": "",
+            "image_link_title": "Link here",
+            "image_link_color": "#000000",
+            "image_link_background_color": "#FFFFFF"
+          }
+        },
+        "template--17982117052734__696982c9-c40d-459a-8d48-5f51ed92ff45-167737751998c0f9f2-1": {
+          "type": "image",
+          "settings": {
+            "image_title": "Title here",
+            "title_color": "#000000",
+            "image_paragraph": "Paragraph here",
+            "paragraph_color": "#000000",
+            "image_link": "",
+            "image_link_title": "Link here",
+            "image_link_color": "#000000",
+            "image_link_background_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__696982c9-c40d-459a-8d48-5f51ed92ff45-167737751998c0f9f2-0",
+        "template--17982117052734__696982c9-c40d-459a-8d48-5f51ed92ff45-167737751998c0f9f2-1"
+      ],
+      "settings": {
+        "title": "Hi, we're Bluewash.",
+        "title_color": "#000000",
+        "paragraph": "Bluewash is a Shopify 2.0 Template.",
+        "paragraph_color": "#000000",
+        "link": "",
+        "link_title": "Link here"
+      }
     }
   },
   "order": [
@@ -270,6 +313,7 @@
     "1660916297dff089fb",
     "featured_collection",
     "1664247564392cdd39",
-    "16640590680b2f70f3"
+    "16640590680b2f70f3",
+    "696982c9-c40d-459a-8d48-5f51ed92ff45"
   ]
 }
