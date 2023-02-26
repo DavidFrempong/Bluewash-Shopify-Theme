@@ -103,7 +103,7 @@
       "custom_css": [
         "h2 {text-align: center;}",
         ".field__input {border: none;}",
-        "button{border-radius: 30px;}"
+        "button {border-radius: 30px;}"
       ],
       "settings": {
         "heading": "Questions? Get in touch",
@@ -112,12 +112,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "10d13fd9-3511-474d-b6a3-1ab144fe6437": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Join us on our journey<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're glad to have you with us. Feel free to reach out if you ever have any questions.<\/p>"
+          }
+        },
+        "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-0",
+        "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-1",
+        "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "1660938307a9913a0a",
     "cf0c5a9d-1817-4414-be34-a662a746092d",
-    "151d5214-157e-484f-a9fa-0a84af8d9c21"
+    "151d5214-157e-484f-a9fa-0a84af8d9c21",
+    "10d13fd9-3511-474d-b6a3-1ab144fe6437"
   ]
 }
