@@ -60,6 +60,51 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8": {
+      "type": "two-image-layout",
+      "blocks": {
+        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-0": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
+            "image_title": "Title here",
+            "title_color": "#000000",
+            "image_paragraph": "Paragraph here",
+            "paragraph_color": "#000000",
+            "image_link": "",
+            "image_link_title": "Link here",
+            "image_link_color": "#000000",
+            "image_link_background_color": "#ffffff"
+          }
+        },
+        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-1": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
+            "image_title": "Title here",
+            "title_color": "#ffffff",
+            "image_paragraph": "Paragraph here",
+            "paragraph_color": "#fafafa",
+            "image_link": "",
+            "image_link_title": "Link here",
+            "image_link_color": "#ffffff",
+            "image_link_background_color": "#a5dda8"
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-0",
+        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-1"
+      ],
+      "settings": {
+        "title": "Hi, we're Bluefall.",
+        "title_color": "#000000",
+        "paragraph": "Our goal is to provide you with the best men's care products possible. See our product selection",
+        "paragraph_color": "#000000",
+        "link": "shopify:\/\/collections\/all",
+        "link_title": "here."
+      }
+    },
     "4c276526-a52e-48d2-96ce-10764e739b36": {
       "type": "alternate-slideshow",
       "disabled": true,
@@ -260,62 +305,17 @@
         "image_3_text": "New in stock",
         "image_3_link": "shopify:\/\/products\/chanel-pink-splash-perfume"
       }
-    },
-    "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8": {
-      "type": "two-image-layout",
-      "blocks": {
-        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-0": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
-            "image_title": "Title here",
-            "title_color": "#000000",
-            "image_paragraph": "Paragraph here",
-            "paragraph_color": "#000000",
-            "image_link": "",
-            "image_link_title": "Link here",
-            "image_link_color": "#000000",
-            "image_link_background_color": "#ffffff"
-          }
-        },
-        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-1": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
-            "image_title": "Title here",
-            "title_color": "#ffffff",
-            "image_paragraph": "Paragraph here",
-            "paragraph_color": "#fafafa",
-            "image_link": "",
-            "image_link_title": "Link here",
-            "image_link_color": "#ffffff",
-            "image_link_background_color": "#a5dda8"
-          }
-        }
-      },
-      "block_order": [
-        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-0",
-        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-1"
-      ],
-      "settings": {
-        "title": "Hi, we're Bluewash.",
-        "title_color": "#000000",
-        "paragraph": "Bluewash is a Shopify 2.0 Template.",
-        "paragraph_color": "#000000",
-        "link": "",
-        "link_title": "Link here"
-      }
     }
   },
   "order": [
     "96101fb8-9d8f-41a8-afa1-139e52fd9d12",
+    "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8",
     "4c276526-a52e-48d2-96ce-10764e739b36",
     "1660916201534f0f42",
     "e1843acb-9b13-4db4-95f3-9c82bcef5ae2",
     "1660916297dff089fb",
     "featured_collection",
     "1664247564392cdd39",
-    "16640590680b2f70f3",
-    "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8"
+    "16640590680b2f70f3"
   ]
 }
