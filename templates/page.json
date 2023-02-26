@@ -128,23 +128,11 @@
           "settings": {
             "text": "<p>We're glad to have you with us. Feel free to reach out if you ever have any questions.<\/p>"
           }
-        },
-        "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-0",
-        "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-1",
-        "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-2"
+        "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-1"
       ],
       "settings": {
         "desktop_content_position": "center",
