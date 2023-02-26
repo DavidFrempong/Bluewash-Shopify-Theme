@@ -264,6 +264,9 @@
         "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-1",
         "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-2"
       ],
+      "custom_css": [
+        ".image-with-text{background: #0a0a0a;}"
+      ],
       "settings": {
         "background_color": "#619da2",
         "button_text_color": "#ffffff",
