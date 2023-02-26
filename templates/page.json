@@ -101,7 +101,9 @@
     "151d5214-157e-484f-a9fa-0a84af8d9c21": {
       "type": "contact-form",
       "custom_css": [
-        "h2 {text-align: center;}"
+        "h2 {text-align: center;}",
+        ".field__input {border: none;}",
+        "button{border-radius: 30px;}"
       ],
       "settings": {
         "heading": "Questions? Get in touch",
