@@ -307,6 +307,59 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "24d7c57c-9b11-4fce-85fb-9fd07e454fcf": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-0",
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-1",
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-2"
+      ],
+      "settings": {
+        "background_color": "#FFF3E7",
+        "button_text_color": "#0a0a0a",
+        "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9379074.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -317,6 +370,7 @@
     "featured_collection",
     "0c28637f-25e1-42c0-9376-c8f275d1e4f9",
     "abdc7a3f-cb6f-4348-90ab-047cab478bd8",
-    "1660916201534f0f42"
+    "1660916201534f0f42",
+    "24d7c57c-9b11-4fce-85fb-9fd07e454fcf"
   ]
 }
