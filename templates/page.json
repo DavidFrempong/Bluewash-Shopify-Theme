@@ -97,11 +97,25 @@
         "link": "",
         "link_title": ""
       }
+    },
+    "151d5214-157e-484f-a9fa-0a84af8d9c21": {
+      "type": "contact-form",
+      "custom_css": [
+        "h1, h2{margin: 0 auto;}"
+      ],
+      "settings": {
+        "heading": "Questions? Get in touch",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "1660938307a9913a0a",
-    "cf0c5a9d-1817-4414-be34-a662a746092d"
+    "cf0c5a9d-1817-4414-be34-a662a746092d",
+    "151d5214-157e-484f-a9fa-0a84af8d9c21"
   ]
 }
