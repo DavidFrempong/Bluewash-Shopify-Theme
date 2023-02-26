@@ -235,6 +235,7 @@
     },
     "abdc7a3f-cb6f-4348-90ab-047cab478bd8": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--17982117052734__abdc7a3f-cb6f-4348-90ab-047cab478bd8-16773839510f19a742-0": {
           "type": "featured_collection",
