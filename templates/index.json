@@ -254,6 +254,24 @@
         "padding_bottom": 36
       }
     },
+    "16640590680b2f70f3": {
+      "type": "image-collage",
+      "settings": {
+        "image_collage_grid": "4",
+        "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9379074.jpg",
+        "imagetext": "\"Paint Brushes\"",
+        "imagelink": "shopify:\/\/products\/the-collection-snowboard-hydrogen",
+        "image1": "shopify:\/\/shop_images\/pexels-rodnae-productions-7697224.jpg",
+        "image_1_text": "\"Lanzi\"",
+        "image_1_link": "shopify:\/\/products\/wood-cut-lanzi-brown-watch",
+        "image2": "shopify:\/\/shop_images\/pexels-monstera-6621339.jpg",
+        "image_2_text": "\"Chanel\"",
+        "image_2_link": "shopify:\/\/products\/chanel-pink-splash-perfume",
+        "image3": "shopify:\/\/shop_images\/pexels-monstera-6621323.jpg",
+        "image_3_text": "New in stock",
+        "image_3_link": "shopify:\/\/products\/chanel-pink-splash-perfume"
+      }
+    },
     "1660916201534f0f42": {
       "type": "newsletter",
       "blocks": {
@@ -287,20 +305,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "16640590680b2f70f3": {
-      "type": "image-collage",
-      "settings": {
-        "image_collage_grid": "4",
-        "imagetext": "\"Paint Brushes\"",
-        "imagelink": "shopify:\/\/products\/da-vinci-basiel-art-brush-set",
-        "image_1_text": "\"Lanzi\"",
-        "image_1_link": "shopify:\/\/products\/wood-cut-lanzi-brown-watch",
-        "image_2_text": "\"Chanel\"",
-        "image_2_link": "shopify:\/\/products\/chanel-pink-splash-perfume",
-        "image_3_text": "New in stock",
-        "image_3_link": "shopify:\/\/products\/chanel-pink-splash-perfume"
-      }
     }
   },
   "order": [
@@ -310,7 +314,7 @@
     "featured_collection",
     "0c28637f-25e1-42c0-9376-c8f275d1e4f9",
     "abdc7a3f-cb6f-4348-90ab-047cab478bd8",
-    "1660916201534f0f42",
-    "16640590680b2f70f3"
+    "16640590680b2f70f3",
+    "1660916201534f0f42"
   ]
 }
