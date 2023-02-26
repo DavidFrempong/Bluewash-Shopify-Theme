@@ -107,8 +107,8 @@
           "427d87f2-a2fc-4713-ab48-1ff19b598a79": {
             "type": "announcement",
             "settings": {
-              "text": "Site wide sale ONLY today!",
-              "background_color": "#4e3c1d",
+              "text": "SAVE AN EXTRA 15% ON ORDERS OVER $100",
+              "background_color": "#223b3d",
               "announcement_text_color": "#ffffff",
               "text_alignment": "center",
               "color_scheme": "accent-1",
