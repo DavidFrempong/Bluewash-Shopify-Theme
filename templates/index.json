@@ -23,10 +23,32 @@
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }
+        },
+        "e96e9c36-6460-4829-9076-3b0d9a93ea5d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9379076.jpg",
+            "heading": "A bottle of pure freshness.",
+            "heading_size": "h1",
+            "heading_color": "#ffffff",
+            "subheading": "Available for purchase today.",
+            "subheading_color": "#ffffff",
+            "button_label": "Button Label",
+            "link": "shopify:\/\/collections\/all",
+            "button_background_color": "#619da2",
+            "button_text_color": "#ffffff",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0"
+        "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0",
+        "e96e9c36-6460-4829-9076-3b0d9a93ea5d"
       ],
       "settings": {
         "layout": "full_bleed",
