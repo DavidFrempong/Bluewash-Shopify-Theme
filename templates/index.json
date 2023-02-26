@@ -6,35 +6,14 @@
         "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a-hand-removes-a-sweater-from-a-clothing-rack.jpg",
-            "heading": "Image slide",
-            "heading_size": "h0",
-            "heading_color": "#102f21",
-            "subheading": "Tell your brand's story through images",
-            "subheading_color": "#102f21",
-            "button_label": "Button Label",
-            "link": "shopify:\/\/pages\/contact",
-            "button_background_color": "#124d32",
-            "button_text_color": "#ead9bd",
-            "button_style_secondary": false,
-            "box_align": "top-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "text_alignment_mobile": "center"
-          }
-        },
-        "efe4223a-5603-4efe-8c42-0a69f7239057": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
-            "heading": "Image slide",
-            "heading_size": "h0",
+            "image": "shopify:\/\/shop_images\/pexels-leef-parks-3809176.jpg",
+            "heading": "Make your beard shine.",
+            "heading_size": "h1",
             "heading_color": "#000000",
-            "subheading": "Tell your brand's story through images",
-            "subheading_color": "#0a0a0a",
-            "button_label": "Button Label",
-            "link": "",
+            "subheading": "The smooth scent you love in an easy-to-carry bottle.",
+            "subheading_color": "#000000",
+            "button_label": "Shop Beard Oil",
+            "link": "shopify:\/\/collections\/all",
             "button_background_color": "#ffffff",
             "button_text_color": "#000000",
             "button_style_secondary": false,
@@ -47,8 +26,7 @@
         }
       },
       "block_order": [
-        "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0",
-        "efe4223a-5603-4efe-8c42-0a69f7239057"
+        "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0"
       ],
       "settings": {
         "layout": "full_bleed",
