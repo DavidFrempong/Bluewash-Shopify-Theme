@@ -157,8 +157,8 @@
           "footer-2"
         ],
         "settings": {
-          "background_color": "#fff5ea",
-          "footer_text_color": "#0a0a0a",
+          "background_color": "#ccdedf",
+          "footer_text_color": "#464646",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our email list",
           "show_social": false,
