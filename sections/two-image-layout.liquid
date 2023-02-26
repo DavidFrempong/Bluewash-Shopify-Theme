@@ -15,7 +15,7 @@
         <a href="{{ block.settings.image_link | escape }}" class="individual_image">
           <div class="image_container">
             <div
-              class="global-media-settings {% if section.blocks.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}">
+              class="{% if block.settings.image_container != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}">
               {%- if block.settings.image_container != blank -%}
                 <img
                   srcset="{%- if block.settings.image_container.width >= 375 -%}
