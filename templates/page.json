@@ -56,12 +56,13 @@
         "template--17982117216574__cf0c5a9d-1817-4414-be34-a662a746092d-16774478876026612c-0": {
           "type": "image",
           "settings": {
-            "image_title": "Title here",
-            "title_color": "#000000",
-            "image_paragraph": "Paragraph here",
+            "image_container": "shopify:\/\/shop_images\/man-getting-his-beard-trimmed-by-barber.jpg",
+            "image_title": "It's our standard.",
+            "title_color": "#ffffff",
+            "image_paragraph": "",
             "paragraph_color": "#000000",
             "image_link": "",
-            "image_link_title": "Link here",
+            "image_link_title": "",
             "image_link_color": "#000000",
             "image_link_background_color": "#FFFFFF"
           }
@@ -69,12 +70,13 @@
         "template--17982117216574__cf0c5a9d-1817-4414-be34-a662a746092d-16774478876026612c-1": {
           "type": "image",
           "settings": {
-            "image_title": "Title here",
-            "title_color": "#000000",
-            "image_paragraph": "Paragraph here",
+            "image_container": "shopify:\/\/shop_images\/profile-of-a-man-with-beard-and-styled-hair.jpg",
+            "image_title": "A fresh look for all.",
+            "title_color": "#ffffff",
+            "image_paragraph": "",
             "paragraph_color": "#000000",
             "image_link": "",
-            "image_link_title": "Link here",
+            "image_link_title": "",
             "image_link_color": "#000000",
             "image_link_background_color": "#FFFFFF"
           }
@@ -83,6 +85,9 @@
       "block_order": [
         "template--17982117216574__cf0c5a9d-1817-4414-be34-a662a746092d-16774478876026612c-0",
         "template--17982117216574__cf0c5a9d-1817-4414-be34-a662a746092d-16774478876026612c-1"
+      ],
+      "custom_css": [
+        "h3 {font-weight: 600; font-size: 25px;}"
       ],
       "settings": {
         "title": "Operating since 2011.",
