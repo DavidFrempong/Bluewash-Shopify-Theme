@@ -108,7 +108,7 @@
             "type": "announcement",
             "settings": {
               "text": "SAVE AN EXTRA 15% ON ORDERS OVER $100",
-              "background_color": "#000000",
+              "background_color": "#195458",
               "announcement_text_color": "#ffffff",
               "text_alignment": "center",
               "color_scheme": "accent-1",
