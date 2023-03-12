@@ -218,8 +218,8 @@
         "h2 {color: #ffffff; font-weight: 600;}"
       ],
       "settings": {
-        "background_color": "#619da2",
-        "button_text_color": "#ffffff",
+        "background_color": "#bff2f6",
+        "button_text_color": "#195458",
         "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9395858.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
