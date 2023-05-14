@@ -37,11 +37,6 @@
             "show_dynamic_checkout": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -87,6 +82,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -96,21 +97,21 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "description"
       ],
       "custom_css": [
-
+        "h1 {font-size: 17px; font-weight: 600;}"
       ],
       "settings": {
         "background_color": "#fff3e7",
         "button_text_color": "#0a0a0a",
         "enable_sticky_info": true,
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "media_size": "large",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
@@ -119,45 +120,221 @@
         "padding_bottom": 12
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
+    "cc397997-76a6-4151-9145-70a125fccce5": {
+      "type": "rich-text",
       "blocks": {
-        "image-with-text-0": {
+        "template--17982117511486__cc397997-76a6-4151-9145-70a125fccce5-16840981527ed83604-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "More about your product",
+            "heading": "<p>Talk about your brand<\/p>",
             "heading_size": "h1"
           }
         },
-        "image-with-text-1": {
+        "template--17982117511486__cc397997-76a6-4151-9145-70a125fccce5-16840981527ed83604-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<\/p>",
-            "text_style": "body"
+            "text": "<p>The best beard oil available. Comes in two sizes.<\/p>"
+          }
+        },
+        "template--17982117511486__cc397997-76a6-4151-9145-70a125fccce5-16840981527ed83604-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
+        "template--17982117511486__cc397997-76a6-4151-9145-70a125fccce5-16840981527ed83604-0",
+        "template--17982117511486__cc397997-76a6-4151-9145-70a125fccce5-16840981527ed83604-1",
+        "template--17982117511486__cc397997-76a6-4151-9145-70a125fccce5-16840981527ed83604-2"
       ],
       "settings": {
-        "background_color": "#fff3e7",
-        "button_text_color": "#0a0a0a",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "left",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17982117511486__5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6-1684098226eb33ad58-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/profile-of-a-man-with-beard-and-styled-hair.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17982117511486__5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6-1684098226eb33ad58-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/man-getting-his-beard-trimmed-by-barber.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17982117511486__5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6-1684098226eb33ad58-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117511486__5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6-1684098226eb33ad58-0",
+        "template--17982117511486__5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6-1684098226eb33ad58-1",
+        "template--17982117511486__5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6-1684098226eb33ad58-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7f6105c6-0577-4aaa-b3fb-a8b14a163851": {
+      "type": "multicolumn",
+      "blocks": {
+        "7b12ac5e-0d5b-46b7-a3bb-3d4712281b01": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/profile-of-a-man-with-beard-and-styled-hair.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "aa9b1408-b180-4e3a-9a13-f70cc36120bb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/man-getting-his-beard-trimmed-by-barber.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7de3295c-dbc6-40d2-b2cf-47e6156bdc05": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7b12ac5e-0d5b-46b7-a3bb-3d4712281b01",
+        "aa9b1408-b180-4e3a-9a13-f70cc36120bb",
+        "7de3295c-dbc6-40d2-b2cf-47e6156bdc05"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "89116205-067f-4826-bd15-235355564c16": {
+      "type": "multicolumn",
+      "blocks": {
+        "b5a5e561-2941-4e52-8266-7504759875cd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/profile-of-a-man-with-beard-and-styled-hair.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f386581d-9e20-4fde-8b58-1fe5638e08e0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/man-getting-his-beard-trimmed-by-barber.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "84b586a6-f3e8-46c6-b4c8-3efcb32f8459": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b5a5e561-2941-4e52-8266-7504759875cd",
+        "f386581d-9e20-4fde-8b58-1fe5638e08e0",
+        "84b586a6-f3e8-46c6-b4c8-3efcb32f8459"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -216,35 +393,82 @@
         "padding_bottom": 20
       }
     },
-    "48fa8709-1185-4797-9e31-6820b55af1d0": {
+    "82c6a802-903e-43d5-8c0f-9b97559db994": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "6e5ab670-4556-4cb2-956d-359a32e8be2b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-0",
+        "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-1",
+        "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-2",
+        "6e5ab670-4556-4cb2-956d-359a32e8be2b"
+      ],
+      "settings": {
+        "title": "Others also bought",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6c91571a-2d57-417b-a560-becbb0e8c1e7": {
       "type": "rich-text",
       "blocks": {
-        "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-0": {
+        "template--17982117511486__6c91571a-2d57-417b-a560-becbb0e8c1e7-16840981527ed83604-0": {
           "type": "heading",
-          "settings": {
-            "heading": "<p>Trending right now<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-1": {
-          "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
           }
         },
-        "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-2": {
+        "template--17982117511486__6c91571a-2d57-417b-a560-becbb0e8c1e7-16840981527ed83604-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Trending right now<\/strong><\/p>"
+          }
+        },
+        "template--17982117511486__6c91571a-2d57-417b-a560-becbb0e8c1e7-16840981527ed83604-2": {
           "type": "button",
           "settings": {
-            "button_label": "Linen T-Shirt For Men",
+            "button_label": "Linen T Shirt For Men",
             "button_link": "",
             "button_style_secondary": false,
-            "button_label_2": "Striped T-Shirts For Men",
+            "button_label_2": "Striped T-Shirts for Men",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
         },
-        "488ca258-811b-4562-9c29-302e5619e87f": {
+        "d2e00570-9234-49ad-885d-b533de695d0e": {
           "type": "button",
           "settings": {
             "button_label": "Men's Slim Fit T-Shirts",
@@ -257,14 +481,10 @@
         }
       },
       "block_order": [
-        "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-0",
-        "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-1",
-        "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-2",
-        "488ca258-811b-4562-9c29-302e5619e87f"
-      ],
-      "custom_css": [
-        "h2 {font-size: 17px; font-weight: 600;}",
-        ".button {border: 2px soild #000000 !important;}"
+        "template--17982117511486__6c91571a-2d57-417b-a560-becbb0e8c1e7-16840981527ed83604-0",
+        "template--17982117511486__6c91571a-2d57-417b-a560-becbb0e8c1e7-16840981527ed83604-1",
+        "template--17982117511486__6c91571a-2d57-417b-a560-becbb0e8c1e7-16840981527ed83604-2",
+        "d2e00570-9234-49ad-885d-b533de695d0e"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -278,9 +498,13 @@
   },
   "order": [
     "main",
-    "image-with-text",
+    "cc397997-76a6-4151-9145-70a125fccce5",
+    "5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6",
+    "7f6105c6-0577-4aaa-b3fb-a8b14a163851",
+    "89116205-067f-4826-bd15-235355564c16",
     "multicolumn",
     "product-recommendations",
-    "48fa8709-1185-4797-9e31-6820b55af1d0"
+    "82c6a802-903e-43d5-8c0f-9b97559db994",
+    "6c91571a-2d57-417b-a560-becbb0e8c1e7"
   ]
 }
