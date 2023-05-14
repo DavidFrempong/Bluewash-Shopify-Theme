@@ -13,6 +13,10 @@
   <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
   {%- endif -%}
 
+    {%- unless template.name == 'index' -%}
+      {%- section 'announcement-bar' -%}
+        {%- endunless -%}
+
   {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
   <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
   {%- endunless -%}
