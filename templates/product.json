@@ -104,11 +104,10 @@
         "share"
       ],
       "custom_css": [
-        "h1 {font-size: 15px; font-weight: 600;}",
-        ".quantity {height: 70px !important;}"
+
       ],
       "settings": {
-        "background_color": "#FFF3E7",
+        "background_color": "#fff3e7",
         "button_text_color": "#0a0a0a",
         "enable_sticky_info": true,
         "gallery_layout": "stacked",
@@ -143,7 +142,7 @@
         "image-with-text-1"
       ],
       "settings": {
-        "background_color": "#FFF3E7",
+        "background_color": "#fff3e7",
         "button_text_color": "#0a0a0a",
         "height": "small",
         "desktop_image_width": "medium",
