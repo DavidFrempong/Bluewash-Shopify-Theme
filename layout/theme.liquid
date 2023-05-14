@@ -336,12 +336,6 @@ class="gradient" style="background: var(--body-bg)">
   {%- render 'cart-drawer' -%}
   {%- endif -%}
 
-
-      {%- unless template.name == 'index' -%}
-      {%- section 'announcement-bar' -%}
-        {%- endunless -%}
-
-  
   {% section 'header' %}
   <main>
     {{ content_for_layout }}
