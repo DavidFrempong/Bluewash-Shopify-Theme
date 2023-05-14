@@ -242,7 +242,7 @@
             "button_style_secondary": false,
             "button_label_2": "Striped T-Shirts For Men",
             "button_link_2": "",
-            "button_style_secondary_2": true
+            "button_style_secondary_2": false
           }
         },
         "488ca258-811b-4562-9c29-302e5619e87f": {
@@ -250,10 +250,10 @@
           "settings": {
             "button_label": "Men's Slim Fit T-Shirts",
             "button_link": "",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "button_label_2": "Men's Crew Neck T-Shirts",
             "button_link_2": "",
-            "button_style_secondary_2": true
+            "button_style_secondary_2": false
           }
         }
       },
