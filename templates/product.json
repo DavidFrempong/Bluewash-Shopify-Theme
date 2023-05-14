@@ -229,6 +229,7 @@
         },
         "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
@@ -236,22 +237,35 @@
         "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Linen T-Shirt For Men",
             "button_link": "",
             "button_style_secondary": false,
-            "button_label_2": "",
+            "button_label_2": "Striped T-Shirts For Men",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
+          }
+        },
+        "488ca258-811b-4562-9c29-302e5619e87f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Men's Slim Fit T-Shirts",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "Men's Crew Neck T-Shirts",
+            "button_link_2": "",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
         "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-0",
         "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-1",
-        "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-2"
+        "template--17982117511486__48fa8709-1185-4797-9e31-6820b55af1d0-1684097049afaa132c-2",
+        "488ca258-811b-4562-9c29-302e5619e87f"
       ],
       "custom_css": [
-        ".{font-size: 15px;}"
+        "h2 {font-size: 17px; font-weight: 600;}",
+        ".button {border: 2px soild #000000 !important;}"
       ],
       "settings": {
         "desktop_content_position": "center",
