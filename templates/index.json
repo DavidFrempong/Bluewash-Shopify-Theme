@@ -290,7 +290,7 @@
       "type": "video",
       "settings": {
         "heading": "Video",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "video_url": "https:\/\/www.youtube.com\/watch?v=9xkJtEJbBBM",
         "description": "",
         "full_width": false,
