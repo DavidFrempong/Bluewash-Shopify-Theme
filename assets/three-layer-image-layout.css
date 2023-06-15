@@ -6,6 +6,11 @@
     margin-bottom: 20px;
 }
 
+.container-title p{
+    font-size: 21px;
+  font-weight: 600;
+}
+
 .image-container{
     max-width: 900px;
     display: grid;
