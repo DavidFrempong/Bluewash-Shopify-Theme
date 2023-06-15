@@ -17,6 +17,10 @@
     grid-template-columns: auto auto auto;
 }
 
+.image-container:hover{
+  opacity: 0.7;
+}
+
 .image-container a{
     /* width: 33%; */
     display: inline-block;
