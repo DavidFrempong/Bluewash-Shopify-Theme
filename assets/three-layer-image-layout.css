@@ -4,6 +4,7 @@
 
 .container-title{
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .container-title p{
@@ -15,6 +16,7 @@
     max-width: 900px;
     display: grid;
     grid-template-columns: auto auto auto;
+    margin: 0 auto;
 }
 
 .image-container a{
