@@ -1,7 +1,121 @@
+{{ 'three-layer-image-layout.css' | asset_url | stylesheet_tag }}
+
+    <div class="section-container">
+        <div class="container-title">
+            <!-- <p>Collection available now</p> -->
+        </div>
+       <div class="image-container">
+        <a href="{{ section.settings.imagelink }}"><img src="/images/shoe-removebg-preview.png"/></a>
+        <a href=""><img src="/images/shoe-removebg-preview.png"/></a>
+        <a href=""><img src="/images/shoe-removebg-preview.png"/></a>
+        <a href=""><img src="/images/shoe-removebg-preview.png"/></a>
+        <a href=""><img src="/images/shoe-removebg-preview.png"/></a>
+        <a href=""><img src="/images/shoe-removebg-preview.png"/></a>
+        <a href=""><img src="/images/shoe-removebg-preview.png"/></a>
+        <a href=""><img src="/images/shoe-removebg-preview.png"/></a>
+        <a href=""><img src="/images/shoe-removebg-preview.png"/></a>
+       </div>
+    </div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Three Image Layout",
+    "settings": [
+    {
+			"type": "select",
+			"id": "image_collage_grid",
+			"options": [{
+					"value": "2",
+					"label": "2 Images"
+				},
+				{
+					"value": "4",
+					"label": "4 Images"
+				}
+			],
+			"default": "4",
+			"label": "Amount of Images in Row"
+		},
+
+        
+        {
+			"type": "image_picker",
+			"id": "image",
+			"label": "Image 1"
+		},
+        {
+            "type": "text",
+            "id": "imagetext",
+            "label": "Text on hover",
+            "default": "Sunny Days"  
+          },     
+          {
+            "type": "url",
+            "id": "imagelink",
+            "label": "Image link"
+          },        
+
+
+        {
+			"type": "image_picker",
+			"id": "image1",
+			"label": "Image 2"
+		},
+        {
+            "type": "text",
+            "id": "image_1_text",
+            "label": "Text on hover",
+            "default": "Leafy Green"  
+          },     
+          {
+            "type": "url",
+            "id": "image_1_link",
+            "label": "Image 2 link"
+          }, 
+
+
+        {
+			"type": "image_picker",
+			"id": "image2",
+			"label": "Image"
+		},
+        {
+            "type": "text",
+            "id": "image_2_text",
+            "label": "Text on hover",
+            "default": "Coffee & Biscuits"  
+          },     
+          {
+            "type": "url",
+            "id": "image_2_link",
+            "label": "Image 3 link"
+          }, 
+
+
+        {
+			"type": "image_picker",
+			"id": "image3",
+			"label": "Image"
+		},
+        {
+            "type": "text",
+            "id": "image_3_text",
+            "label": "Text on hover",
+            "default": "Blue Skies"  
+          },     
+          {
+            "type": "url",
+            "id": "image_3_link",
+            "label": "Image 4 link"
+          }
+	],
+    	"blocks": [
+	],
+	"presets": [{
+		"name": "Three Image Layout",
+		"blocks": [
+		]
+	}]
   }
 {% endschema %}
 
