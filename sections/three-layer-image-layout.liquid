@@ -8,7 +8,7 @@
     {% for block in section.blocks %}
       {% case block.type %}
         {% when 'image' %}
-  <a href="{{ block.settings.image_link | escape }}">
+     <a href="{{ block.settings.image_link | escape }}">
             <div
               class="{% if block.settings.image_container != blank %}{% else %}show_placeholder placeholder{% endif %}">
               {%- if block.settings.image_container != blank -%}
