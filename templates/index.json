@@ -62,16 +62,76 @@
     },
     "0ed9a032-eef7-4a9c-9e5a-fa6b933a319a": {
       "type": "three-layer-image-layout",
+      "blocks": {
+        "4089980f-3706-4c3a-81a2-060e16c982e2": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "1047f7d1-7b83-4259-a646-3d412123a2f1": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "3b0d4b52-88ab-4354-86eb-ea3100292545": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "ac98a1cf-fe51-4919-832f-f50da800e012": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "9bc5b316-5af2-4ccd-8a46-af1b07892270": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "d888119c-9a19-4ee4-9017-de8a22bdde28": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "2deb8476-86f5-44ae-9e2c-fc92063b6fcd": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "72e38544-3327-470e-bc58-7926e98f63b9": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        },
+        "ee2b46e4-873f-4ce8-9e20-abd909eed1c9": {
+          "type": "image",
+          "settings": {
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "4089980f-3706-4c3a-81a2-060e16c982e2",
+        "1047f7d1-7b83-4259-a646-3d412123a2f1",
+        "3b0d4b52-88ab-4354-86eb-ea3100292545",
+        "ac98a1cf-fe51-4919-832f-f50da800e012",
+        "9bc5b316-5af2-4ccd-8a46-af1b07892270",
+        "d888119c-9a19-4ee4-9017-de8a22bdde28",
+        "2deb8476-86f5-44ae-9e2c-fc92063b6fcd",
+        "72e38544-3327-470e-bc58-7926e98f63b9",
+        "ee2b46e4-873f-4ce8-9e20-abd909eed1c9"
+      ],
       "settings": {
-        "image_collage_grid": "4",
-        "imagetext": "Sunny Days",
-        "imagelink": "",
-        "image_1_text": "Leafy Green",
-        "image_1_link": "",
-        "image_2_text": "Coffee & Biscuits",
-        "image_2_link": "",
-        "image_3_text": "Blue Skies",
-        "image_3_link": ""
+        "paragraph": "Bluewash is a Shopify 2.0 Template.",
+        "link": ""
       }
     },
     "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8": {
