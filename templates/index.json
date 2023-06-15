@@ -60,6 +60,20 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "0ed9a032-eef7-4a9c-9e5a-fa6b933a319a": {
+      "type": "three-layer-image-layout",
+      "settings": {
+        "image_collage_grid": "4",
+        "imagetext": "Sunny Days",
+        "imagelink": "",
+        "image_1_text": "Leafy Green",
+        "image_1_link": "",
+        "image_2_text": "Coffee & Biscuits",
+        "image_2_link": "",
+        "image_3_text": "Blue Skies",
+        "image_3_link": ""
+      }
+    },
     "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8": {
       "type": "two-image-layout",
       "blocks": {
@@ -302,6 +316,7 @@
   },
   "order": [
     "96101fb8-9d8f-41a8-afa1-139e52fd9d12",
+    "0ed9a032-eef7-4a9c-9e5a-fa6b933a319a",
     "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8",
     "24d7c57c-9b11-4fce-85fb-9fd07e454fcf",
     "16640590680b2f70f3",
