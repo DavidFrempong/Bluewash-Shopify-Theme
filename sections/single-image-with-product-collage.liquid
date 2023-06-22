@@ -1,7 +1,7 @@
 {{ 'single-image-with-product-collage.css' | asset_url | stylesheet_tag }}
 {{ 'three-layer-image-layout.css' | asset_url | stylesheet_tag }}
 
-<div class="main-content main-content--{{ section.settings.content_layout }}">
+<div class="main-content main-content--{{ section.settings.content_layout }} main-content--{{ section.settings.content_layout_mobile }}">
   <div class="large-image">
          <a href="{{ section.settings.image_link | escape }}">
 <div
@@ -114,23 +114,7 @@ class="{% if section.settings.single_image != blank %}{% else %}show_placeholder
 				"id": "image_link",
 				"label": "Large Image Link"
 		},
-      {
-      "type": "select",
-        "label": "Image and Collage Layout",
-      "id": "content_layout",
-      "options": [
-        {
-          "value": "row",
-          "label": "Image On Left Side, Collage On Right Side"
-        },
-        {
-          "value": "row-reverse",
-           "label": "Collage On Left Side, Image On Right Side"
-        }
-      ],
-      "default": "row",
-       "label": "Image and Collage Layout"
-    },
+
       {
 			"type": "text",
 			"id": "layout-title",
