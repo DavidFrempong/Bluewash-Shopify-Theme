@@ -1,5 +1,7 @@
 .main-content{
     display: flex;
+    padding: 20px;
+    margin-bottom: 50px;
 }
 
 .large-image{
