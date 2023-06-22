@@ -3,6 +3,7 @@
 
 <div class="main-content">
   <div class="large-image">
+         <a href="{{ block.settings.image_link | escape }}">
     <div
       class="{% if settings.single-image != blank %}{% else %}show_placeholder placeholder{% endif %}"
     >
@@ -40,6 +41,7 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </div>
+             </a>
   </div>
   <div class="section-container">
     <div class="container-title">
