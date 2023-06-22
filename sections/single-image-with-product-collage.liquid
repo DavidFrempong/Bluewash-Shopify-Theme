@@ -114,7 +114,40 @@ class="{% if section.settings.single_image != blank %}{% else %}show_placeholder
 				"id": "image_link",
 				"label": "Large Image Link"
 		},
-
+      {
+      "type": "select",
+        "label": "Image and Collage Layout",
+      "id": "content_layout",
+      "options": [
+        {
+          "value": "row",
+          "label": "Image On Left Side, Collage On Right Side"
+        },
+        {
+          "value": "row-reverse",
+           "label": "Collage On Left Side, Image On Right Side"
+        }
+      ],
+        "default": "row",
+       "label": "Image and Collage Layout"
+    },
+      {
+      "type": "select",
+        "label": "Image and Collage Layout (Mobile)",
+      "id": "content_layout_mobile",
+      "options": [
+        {
+          "value": "column",
+          "label": "Image On Top, Collage On Bottom"
+        },
+        {
+          "value": "column-reverse",
+           "label": "Collage On Top, Image On Bottom"
+        }
+      ],
+      "default": "column",
+       "label": "Image and Collage Layout (Mobile)"
+    },
       {
 			"type": "text",
 			"id": "layout-title",
