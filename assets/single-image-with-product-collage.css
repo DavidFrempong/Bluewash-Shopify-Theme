@@ -9,7 +9,6 @@
     padding: 20px;
     margin-bottom: 50px;
     flex-direction: row;
-/*   flex-direction: column-reverse; */
 }
 
 .main-content--row-reverse{
@@ -33,8 +32,21 @@
 @media only screen and (max-width: 500px) {
     .main-content{
         flex-direction: column;
-/*         flex-direction: column-reverse; */
     }
+
+  .main-content--column{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 50px;
+     flex-direction: column;
+}
+
+.main-content--column-reverse{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 50px;
+     flex-direction: column-reverse;
+}
 
     .large-image{
      margin: 0 auto;
