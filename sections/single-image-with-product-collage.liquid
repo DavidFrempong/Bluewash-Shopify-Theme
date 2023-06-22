@@ -3,7 +3,7 @@
 
 <div class="main-content">
   <div class="large-image">
-         <a href="{{ block.settings.image_link | escape }}">
+         <a href="{{ settings.image_link | escape }}">
     <div
       class="{% if settings.single-image != blank %}{% else %}show_placeholder placeholder{% endif %}"
     >
@@ -41,7 +41,7 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </div>
-                                   </a>
+   </a>
   </div>
 
   <div class="section-container">
@@ -112,7 +112,7 @@
        {
 				"type": "url",
 				"id": "image_link",
-				"label": "Image Link"
+				"label": "Large Image Link"
 			},
       {
 			"type": "text",
