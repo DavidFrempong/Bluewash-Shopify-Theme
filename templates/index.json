@@ -60,6 +60,24 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "89bc2530-19ea-411b-b7dc-fdcce6e262e1": {
+      "type": "single-image-with-product-collage",
+      "blocks": {
+        "template--17982117052734__89bc2530-19ea-411b-b7dc-fdcce6e262e1-1687469641f68cc14f-0": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__89bc2530-19ea-411b-b7dc-fdcce6e262e1-1687469641f68cc14f-0"
+      ],
+      "settings": {
+        "layout-title": "Collection available now."
+      }
+    },
     "0ed9a032-eef7-4a9c-9e5a-fa6b933a319a": {
       "type": "three-layer-image-layout",
       "blocks": {
@@ -389,6 +407,7 @@
   },
   "order": [
     "96101fb8-9d8f-41a8-afa1-139e52fd9d12",
+    "89bc2530-19ea-411b-b7dc-fdcce6e262e1",
     "0ed9a032-eef7-4a9c-9e5a-fa6b933a319a",
     "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8",
     "24d7c57c-9b11-4fce-85fb-9fd07e454fcf",
