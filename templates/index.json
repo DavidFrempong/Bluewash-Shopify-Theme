@@ -139,8 +139,8 @@
         "8aaf1720-65e5-47f1-abd5-48b6757586f8"
       ],
       "settings": {
-        "single-image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash.jpg",
-        "image_link": "",
+        "single_image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash.jpg",
+        "image_link": "shopify:\/\/products\/mens-beard-oil",
         "layout-title": "Collection available now."
       }
     },
