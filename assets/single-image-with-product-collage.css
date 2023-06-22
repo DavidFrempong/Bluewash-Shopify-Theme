@@ -4,9 +4,13 @@
     margin-bottom: 50px;
 }
 
-.switch-order{
-    flex-direction: row-reverse;
+.main-content--row{
+    flex-direction: row;
   flex-direction: column-reverse;
+}
+
+.main-content--row-reverse{
+    flex-direction: row-reverse;
 }
 
 .large-image{
