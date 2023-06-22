@@ -60,10 +60,66 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "89bc2530-19ea-411b-b7dc-fdcce6e262e1": {
+    "3aeb5e78-2419-47a4-8ad4-6927a94cc271": {
       "type": "single-image-with-product-collage",
       "blocks": {
-        "template--17982117052734__89bc2530-19ea-411b-b7dc-fdcce6e262e1-1687469641f68cc14f-0": {
+        "template--17982117052734__3aeb5e78-2419-47a4-8ad4-6927a94cc271-1687470575785b02ed-0": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
+            "image_link": ""
+          }
+        },
+        "9979a047-fcab-4ba6-a06c-5e3902a0f20f": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
+            "image_link": ""
+          }
+        },
+        "b4da6506-8d2c-4ac5-8a75-6393df76a888": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
+            "image_link": ""
+          }
+        },
+        "74e6563e-27e2-4d06-9640-e546ac028a7b": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
+            "image_link": ""
+          }
+        },
+        "10a95f85-2718-4567-b599-c29826f73d82": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
+            "image_link": ""
+          }
+        },
+        "dd4ef01a-1810-4805-a430-3ff36cecd8f3": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
+            "image_link": ""
+          }
+        },
+        "5361b2c7-b0ad-4332-96d1-9eb876f6b39e": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
+            "image_link": ""
+          }
+        },
+        "ae7ca094-2d9e-46c8-bf9c-a45cc466f5cd": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
+            "image_link": ""
+          }
+        },
+        "8aaf1720-65e5-47f1-abd5-48b6757586f8": {
           "type": "image",
           "settings": {
             "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
@@ -72,10 +128,19 @@
         }
       },
       "block_order": [
-        "template--17982117052734__89bc2530-19ea-411b-b7dc-fdcce6e262e1-1687469641f68cc14f-0"
+        "template--17982117052734__3aeb5e78-2419-47a4-8ad4-6927a94cc271-1687470575785b02ed-0",
+        "9979a047-fcab-4ba6-a06c-5e3902a0f20f",
+        "b4da6506-8d2c-4ac5-8a75-6393df76a888",
+        "74e6563e-27e2-4d06-9640-e546ac028a7b",
+        "10a95f85-2718-4567-b599-c29826f73d82",
+        "dd4ef01a-1810-4805-a430-3ff36cecd8f3",
+        "5361b2c7-b0ad-4332-96d1-9eb876f6b39e",
+        "ae7ca094-2d9e-46c8-bf9c-a45cc466f5cd",
+        "8aaf1720-65e5-47f1-abd5-48b6757586f8"
       ],
       "settings": {
         "single-image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash.jpg",
+        "image_link": "",
         "layout-title": "Collection available now."
       }
     },
@@ -408,7 +473,7 @@
   },
   "order": [
     "96101fb8-9d8f-41a8-afa1-139e52fd9d12",
-    "89bc2530-19ea-411b-b7dc-fdcce6e262e1",
+    "3aeb5e78-2419-47a4-8ad4-6927a94cc271",
     "0ed9a032-eef7-4a9c-9e5a-fa6b933a319a",
     "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8",
     "24d7c57c-9b11-4fce-85fb-9fd07e454fcf",
