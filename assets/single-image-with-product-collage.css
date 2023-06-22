@@ -1,8 +1,12 @@
 .main-content{
     display: flex;
-  flex-direction: row-reverse;
     padding: 20px;
     margin-bottom: 50px;
+}
+
+.switch-order{
+    flex-direction: row-reverse;
+  flex-direction: column-reverse;
 }
 
 .large-image{
@@ -19,6 +23,7 @@
 @media only screen and (max-width: 500px) {
     .main-content{
         flex-direction: column;
+/*         flex-direction: column-reverse; */
     }
 
     .large-image{
