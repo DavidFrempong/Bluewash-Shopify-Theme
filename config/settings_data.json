@@ -186,8 +186,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".link--text:hover {color: rgba(var(--color-foreground),.75); border: 2px solid; background: #fff2f8;}",
-          ".header__menu-item:hover span {text-decoration: none;}"
+
         ],
         "settings": {
           "color_scheme": "background-1",
