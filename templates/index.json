@@ -51,7 +51,7 @@
         "e96e9c36-6460-4829-9076-3b0d9a93ea5d"
       ],
       "custom_css": [
-
+        ".slideshow__slide{height: 100vh !important;}"
       ],
       "settings": {
         "layout": "full_bleed",

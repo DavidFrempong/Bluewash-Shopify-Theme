@@ -156,6 +156,9 @@
           "footer-1",
           "footer-2"
         ],
+        "custom_css": [
+          "li {height: 50px !important;}"
+        ],
         "settings": {
           "background_color": "#eef7f7",
           "footer_text_color": "#464646",
