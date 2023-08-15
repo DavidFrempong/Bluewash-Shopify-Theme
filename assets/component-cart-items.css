@@ -4,6 +4,10 @@
   border: none;
 }
 
+.quantity{
+    transform: scale(0.75);
+}
+
 .cart-items th {
   text-align: left;
   padding-bottom: 1.8rem;
