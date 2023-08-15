@@ -50,6 +50,9 @@
         "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0",
         "e96e9c36-6460-4829-9076-3b0d9a93ea5d"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
@@ -141,6 +144,8 @@
       "settings": {
         "single_image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash.jpg",
         "image_link": "shopify:\/\/products\/mens-beard-oil",
+        "content_layout": "row",
+        "content_layout_mobile": "column",
         "layout-title": "Collection available now."
       }
     },
