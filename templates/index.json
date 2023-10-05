@@ -51,7 +51,8 @@
         "e96e9c36-6460-4829-9076-3b0d9a93ea5d"
       ],
       "custom_css": [
-        ".slideshow__slide{height: 100vh !important;}"
+        ".slideshow__slide {height: 100vh !important;}",
+        "h2{font-size: 55px;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -61,182 +62,6 @@
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "3aeb5e78-2419-47a4-8ad4-6927a94cc271": {
-      "type": "single-image-with-product-collage",
-      "blocks": {
-        "template--17982117052734__3aeb5e78-2419-47a4-8ad4-6927a94cc271-1687470575785b02ed-0": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "9979a047-fcab-4ba6-a06c-5e3902a0f20f": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "b4da6506-8d2c-4ac5-8a75-6393df76a888": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "74e6563e-27e2-4d06-9640-e546ac028a7b": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "10a95f85-2718-4567-b599-c29826f73d82": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "dd4ef01a-1810-4805-a430-3ff36cecd8f3": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "5361b2c7-b0ad-4332-96d1-9eb876f6b39e": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "ae7ca094-2d9e-46c8-bf9c-a45cc466f5cd": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "8aaf1720-65e5-47f1-abd5-48b6757586f8": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17982117052734__3aeb5e78-2419-47a4-8ad4-6927a94cc271-1687470575785b02ed-0",
-        "9979a047-fcab-4ba6-a06c-5e3902a0f20f",
-        "b4da6506-8d2c-4ac5-8a75-6393df76a888",
-        "74e6563e-27e2-4d06-9640-e546ac028a7b",
-        "10a95f85-2718-4567-b599-c29826f73d82",
-        "dd4ef01a-1810-4805-a430-3ff36cecd8f3",
-        "5361b2c7-b0ad-4332-96d1-9eb876f6b39e",
-        "ae7ca094-2d9e-46c8-bf9c-a45cc466f5cd",
-        "8aaf1720-65e5-47f1-abd5-48b6757586f8"
-      ],
-      "settings": {
-        "single_image": "shopify:\/\/shop_images\/christin-hume-0MoF-Fe0w0A-unsplash.jpg",
-        "image_link": "shopify:\/\/products\/mens-beard-oil",
-        "content_layout": "row",
-        "content_layout_mobile": "column",
-        "layout-title": "Collection available now."
-      }
-    },
-    "0ed9a032-eef7-4a9c-9e5a-fa6b933a319a": {
-      "type": "three-layer-image-layout",
-      "blocks": {
-        "4089980f-3706-4c3a-81a2-060e16c982e2": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "1047f7d1-7b83-4259-a646-3d412123a2f1": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "3b0d4b52-88ab-4354-86eb-ea3100292545": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "ac98a1cf-fe51-4919-832f-f50da800e012": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "9bc5b316-5af2-4ccd-8a46-af1b07892270": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "d888119c-9a19-4ee4-9017-de8a22bdde28": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "2deb8476-86f5-44ae-9e2c-fc92063b6fcd": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "72e38544-3327-470e-bc58-7926e98f63b9": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        },
-        "ee2b46e4-873f-4ce8-9e20-abd909eed1c9": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/shoe-removebg-preview.png",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "4089980f-3706-4c3a-81a2-060e16c982e2",
-        "1047f7d1-7b83-4259-a646-3d412123a2f1",
-        "3b0d4b52-88ab-4354-86eb-ea3100292545",
-        "ac98a1cf-fe51-4919-832f-f50da800e012",
-        "9bc5b316-5af2-4ccd-8a46-af1b07892270",
-        "d888119c-9a19-4ee4-9017-de8a22bdde28",
-        "2deb8476-86f5-44ae-9e2c-fc92063b6fcd",
-        "72e38544-3327-470e-bc58-7926e98f63b9",
-        "ee2b46e4-873f-4ce8-9e20-abd909eed1c9"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "layout-title": "Collection available now."
       }
     },
     "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8": {
@@ -481,8 +306,6 @@
   },
   "order": [
     "96101fb8-9d8f-41a8-afa1-139e52fd9d12",
-    "3aeb5e78-2419-47a4-8ad4-6927a94cc271",
-    "0ed9a032-eef7-4a9c-9e5a-fa6b933a319a",
     "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8",
     "24d7c57c-9b11-4fce-85fb-9fd07e454fcf",
     "16640590680b2f70f3",
