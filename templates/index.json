@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9395858.jpg",
-            "heading": "Make your beard shine.",
+            "heading": "A soft, smooth, and silky beard.",
             "heading_size": "h1",
             "heading_color": "#ffffff",
             "subheading": "The smooth scent you love in an easy-to-carry bottle.",
@@ -52,7 +52,7 @@
       ],
       "custom_css": [
         ".slideshow__slide {height: 100vh !important;}",
-        "h2{font-size: 55px;}"
+        "h2 {font-size: 55px; font-weight: 600;}"
       ],
       "settings": {
         "layout": "full_bleed",
