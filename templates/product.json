@@ -56,6 +56,13 @@
             "page": ""
           }
         },
+        "08907479-50d5-454a-b224-5c42944fc670": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.limited_edition.value }}",
+            "text_style": "body"
+          }
+        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -99,6 +106,7 @@
         "buy_buttons",
         "collapsible-row-0",
         "collapsible-row-1",
+        "08907479-50d5-454a-b224-5c42944fc670",
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
@@ -334,7 +342,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -359,6 +366,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
