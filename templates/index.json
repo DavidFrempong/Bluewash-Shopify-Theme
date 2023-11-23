@@ -304,6 +304,67 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "92bc159b-f29d-4ffa-831d-7d6d48ae02ce": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Black Friday Early Access<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>25% off for new members!<\/p>"
+          }
+        },
+        "0c338218-c4df-44f1-b4a7-3bed983c06c1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join for free today!<\/p>"
+          }
+        },
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Men",
+            "button_link": "shopify:\/\/products\/mens-beard-oil",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "6580c5c3-9445-4030-89b5-2bec9e938635": {
+          "type": "button",
+          "settings": {
+            "button_label": "Women",
+            "button_link": "shopify:\/\/products\/the-3p-fulfilled-snowboard",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-heading-1",
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-text-1",
+        "0c338218-c4df-44f1-b4a7-3bed983c06c1",
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-button-1",
+        "6580c5c3-9445-4030-89b5-2bec9e938635"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -314,6 +375,7 @@
     "c0de255c-8a60-47ba-a772-39d42dee1389",
     "featured_collection",
     "22061fd9-f01c-4b98-a458-6c30cca4e9cf",
-    "e20681bb-fdbb-4b94-b222-2ed237dfded6"
+    "e20681bb-fdbb-4b94-b222-2ed237dfded6",
+    "92bc159b-f29d-4ffa-831d-7d6d48ae02ce"
   ]
 }
