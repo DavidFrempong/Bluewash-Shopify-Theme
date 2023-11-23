@@ -357,10 +357,13 @@
         "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-button-1",
         "6580c5c3-9445-4030-89b5-2bec9e938635"
       ],
+      "custom_css": [
+        ".rich-text{background: #0a0a0a;color: #ffffff;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
