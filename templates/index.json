@@ -358,7 +358,11 @@
         "6580c5c3-9445-4030-89b5-2bec9e938635"
       ],
       "custom_css": [
-        ".rich-text{background: #0a0a0a;color: #ffffff;}"
+        ".rich-text {background: #0a0a0a; color: #b1c6ff;}",
+        "span {color: #b1c6ff; font-size: 15px;}",
+        ".rich-text__text:first-of-type {font-size: 60px; font-weight: 600;}",
+        ".rich-text__text {font-size: 25px;}",
+        ".rich-text__buttons a {background: #ffffff; color: #0a0a0a; font-weight: 600; border-radius: 20px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
