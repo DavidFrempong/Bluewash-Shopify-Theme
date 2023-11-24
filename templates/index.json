@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9395858.jpg",
-            "heading": "A SOFT, SMOOTH, AND SILKY BEARD.",
+            "heading": "A Soft, Silky, and Smooth Beard.",
             "heading_size": "h1",
             "heading_color": "#ffffff",
             "subheading": "The smooth scent you love in an easy-to-carry bottle.",
@@ -53,7 +53,7 @@
       "custom_css": [
         ".slideshow__slide {height: 100vh !important;}",
         "body {font-family: Gill Sans, sans-serif;}",
-        "h2 {font-size: 55px; font-weight: 600;}",
+        "h2 {font-size: 65px; font-weight: 500;}",
         "span {font-size: 17px;}",
         ".slideshow__media img {animation-name: slidein; animation-duration: 2s;}"
       ],
