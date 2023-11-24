@@ -120,7 +120,7 @@
           "427d87f2-a2fc-4713-ab48-1ff19b598a79"
         ],
         "custom_css": [
-          ".announcement-bar {font-family: system-ui;}"
+          "p {font-family: system-ui;}"
         ],
         "settings": {
         }
@@ -192,9 +192,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".header {font-family: system-ui !important;}",
-          "a {font-family: system-ui !important;}",
-          "span{font-family: system-ui !important;}"
+          ".header,a,span {font-family: system-ui !important;}"
         ],
         "settings": {
           "color_scheme": "background-1",
