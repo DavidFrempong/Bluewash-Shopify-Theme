@@ -3072,7 +3072,7 @@ details-disclosure > details {
   }
 }
 
-.slideshow__media {
+.slideshow__media img{
   filter: brightness(0.7) !important;
 }
 
