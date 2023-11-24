@@ -119,6 +119,9 @@
         "block_order": [
           "427d87f2-a2fc-4713-ab48-1ff19b598a79"
         ],
+        "custom_css": [
+          ".announcement-bar{font-family: system-ui;}"
+        ],
         "settings": {
         }
       },

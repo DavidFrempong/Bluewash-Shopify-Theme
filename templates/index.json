@@ -52,7 +52,6 @@
       ],
       "custom_css": [
         ".slideshow__slide {height: 100vh !important;}",
-        "body {font-family: system-ui;}",
         "h2 {font-size: 65px; font-weight: 300; font-family: system-ui;}",
         "span {font-size: 17px; font-weight: 200; font-family: system-ui;}",
         ".slideshow__media img {animation-name: slidein; animation-duration: 2.25s;}",
