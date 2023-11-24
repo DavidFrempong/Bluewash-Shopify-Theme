@@ -192,7 +192,9 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".header{font-family: system-ui !important;}"
+          ".header {font-family: system-ui !important;}",
+          "a {font-family: system-ui !important;}",
+          "span{font-family: system-ui !important;}"
         ],
         "settings": {
           "color_scheme": "background-1",
