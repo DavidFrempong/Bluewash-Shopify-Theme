@@ -3064,11 +3064,11 @@ details-disclosure > details {
 
 @keyframes slidein {
   from {
-    opacity: 0;
+    filter: brightness(0);
   }
 
   to {
-     opacity: 1;
+     filter: brightness(1);
   }
 }
 
