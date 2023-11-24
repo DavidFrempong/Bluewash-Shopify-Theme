@@ -54,7 +54,8 @@
         ".slideshow__slide {height: 100vh !important;}",
         "body {font-family: Gill Sans, sans-serif;}",
         "h2 {font-size: 55px; font-weight: 600;}",
-        "span {font-size: 17px;}"
+        "span {font-size: 17px;}",
+        ".slideshow__media img {animation-name: slidein; animation-duration: 0.5s;}"
       ],
       "settings": {
         "layout": "full_bleed",

@@ -6260,3 +6260,17 @@ a:hover {
     width: 100%;
     z-index: 20;
 }
+
+/* Start | Custom Changes - David */
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+     opacity: 1;
+  }
+}
+
+/* End | Custom Changes - David */
