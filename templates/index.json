@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9395858.jpg",
             "heading": "A Soft, Silky, and Smooth Beard.",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "heading_color": "#ffffff",
             "subheading": "The smooth scent you love, in an easy-to-carry bottle.",
             "subheading_color": "#ffffff",
@@ -56,7 +56,8 @@
         "h2 {font-size: 65px; font-weight: 300; font-family: system-ui;}",
         "span {font-size: 17px; font-weight: 200; font-family: system-ui;}",
         ".slideshow__media img {animation-name: slidein; animation-duration: 2.25s;}",
-        ".button {border-radius: 20px; font-weight: 500; font-family: system-ui;}"
+        ".button {border-radius: 20px; font-weight: 500; font-family: system-ui;}",
+        "@media only screen and (max-width: 600px) {h2 {font-size: 35px;} span {font-size: 15px;}}"
       ],
       "settings": {
         "layout": "full_bleed",
