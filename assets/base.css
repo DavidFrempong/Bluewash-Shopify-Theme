@@ -3072,4 +3072,8 @@ details-disclosure > details {
   }
 }
 
+.slideshow__media {
+  filter: brightness(0.7);
+}
+
 /* End | Custom Changes - David */
