@@ -28,7 +28,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9379076.jpg",
-            "heading": "A BOTTLE OF PURE FRESHNESS.",
+            "heading": "Pure freshness.",
             "heading_size": "h1",
             "heading_color": "#ffffff",
             "subheading": "Available for purchase today.",
@@ -57,7 +57,7 @@
         "span {font-size: 17px; font-weight: 200; font-family: system-ui;}",
         ".slideshow__media img {animation-name: slidein; animation-duration: 2.25s;}",
         ".button {border-radius: 20px; font-weight: 500; font-family: system-ui;}",
-        "@media only screen and (max-width: 600px) {h2 {font-size: 35px;} span {font-size: 15px;}}"
+        "@media only screen and (max-width: 600px) {h2 {font-size: 35px; } span {font-size: 15px; }}"
       ],
       "settings": {
         "layout": "full_bleed",
