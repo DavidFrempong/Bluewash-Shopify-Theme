@@ -192,7 +192,8 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".header,a,span {font-family: system-ui !important;}"
+          ".header,a,span, svg {font-family: system-ui !important; color: #0a0a0a;}",
+          ".gradient {background: none;}"
         ],
         "settings": {
           "color_scheme": "background-1",
