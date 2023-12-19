@@ -160,11 +160,11 @@
           "footer-2"
         ],
         "custom_css": [
-          "li {height: 50px !important;}"
+          "li {height: 50px !important; font-family: system-ui;}"
         ],
         "settings": {
-          "background_color": "#eef7f7",
-          "footer_text_color": "#464646",
+          "background_color": "#353535",
+          "footer_text_color": "#ffffff",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our email list.",
           "show_social": true,
