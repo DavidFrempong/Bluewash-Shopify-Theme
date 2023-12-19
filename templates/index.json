@@ -109,6 +109,7 @@
         "b1e7218c-f789-4f92-a88b-964bc0a26285",
         "842b4da9-5415-4eb1-ade6-13bb3bd67c68"
       ],
+      "disabled": true,
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
