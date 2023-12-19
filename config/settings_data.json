@@ -163,7 +163,7 @@
           "li {height: 50px !important; font-family: system-ui;}"
         ],
         "settings": {
-          "background_color": "#353535",
+          "background_color": "#131313",
           "footer_text_color": "#ffffff",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our email list.",
