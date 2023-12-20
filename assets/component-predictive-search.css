@@ -6,8 +6,8 @@
   /* border-width: var(--popup-border-width);
   border-style: solid;
   border-color: rgba(var(--color-foreground), var(--popup-border-opacity)); */
-  border-radius: 10px;
-    border: 1px solid #d1d1d1;
+  border-radius: 10px !important;
+    border: 1px solid #d1d1d1 !important;
   background-color: rgb(var(--color-background));
   z-index: 3;
   border-bottom-right-radius: var(--popup-corner-radius);
