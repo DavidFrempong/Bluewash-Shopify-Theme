@@ -3107,11 +3107,11 @@ details-disclosure > details {
 }
 
 .field .search-bar *:focus-visible {
-  outline: none;
+  outline: none !important;
 }
 
 .search .search-modal__form *:focus-visible {
-  outline: none;
+  outline: none !important;
 }
 
 /* End | Custom Changes - David */
