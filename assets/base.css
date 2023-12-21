@@ -2364,10 +2364,6 @@ transition: all 0.3s ease-in-out;
   align-items: center;
 }
 
-.header-top-container{
-  display: flex;
-}
-
 @media screen and (min-width: 990px) {
   .header--top-left,
   .header--middle-left:not(.header--has-menu) {
@@ -3100,6 +3096,11 @@ details-disclosure > details {
 
 .field__label{
    font-size: 15px;
+}
+
+.header-top-container{
+  display: flex;
+  margin-bottom: 20px;
 }
 
 /* End | Custom Changes - David */
