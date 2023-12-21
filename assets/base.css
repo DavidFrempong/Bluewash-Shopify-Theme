@@ -3143,4 +3143,16 @@ details-disclosure > details {
   border-radius: 30px !important;
 }
 
+
+
+.field:before, .customer .field:before,.field:after, .customer .field:after {
+	display: none!important;
+}
+.customer .field input, .customer select, .field__input, .select__select {
+	box-shadow: 0 0 0!important;
+    border: 1px solid #000;
+}
+
+
+
 /* End | Custom Changes - David */
