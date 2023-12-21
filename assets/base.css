@@ -2558,6 +2558,7 @@ menu-drawer + .header__search {
 .field:after, .select:after, .customer .field:after, .customer select:after, .localization-form__select:after {
     border-radius: 30px;
     border: 1px solid #e7e7e7;
+  height: 5px !important;
 }
 
 
