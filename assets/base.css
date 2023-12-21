@@ -3128,15 +3128,19 @@ details-disclosure > details {
 }
 
 .field:hover{
-  border-radius: 30px;
+  border-radius: 30px !important;
 }
 
 .search-bar:hover{
-  border-radius: 30px;
+  border-radius: 30px !important;
 }
 
 .field.search-bar{
-  border-radius: 30px;
+  border-radius: 30px !important;
+}
+
+.field.search-bar:hover{
+  border-radius: 30px !important;
 }
 
 /* End | Custom Changes - David */
