@@ -3091,6 +3091,10 @@ details-disclosure > details {
     justify-content: center; 
 }
 
+.field__input:focus{
+  border: none;
+}
+
 .field:after {
     border-radius: 30px;
     border: 1px solid #e7e7e7 !important;
