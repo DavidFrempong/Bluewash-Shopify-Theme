@@ -2407,6 +2407,11 @@ transition: all 0.3s ease-in-out;
 .header__heading-link {
   grid-area: heading;
   justify-self: center;
+
+  /* Changes by David */
+    position: relative;
+    top: 5px;
+  /* Changes by David */
 }
 
 .header__heading-link {
