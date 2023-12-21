@@ -2555,7 +2555,7 @@ menu-drawer + .header__search {
 }
 
 .field__input {
-    height: 3.5rem !important;
+    height: 3rem !important;
       justify-content: center;
 }
 
