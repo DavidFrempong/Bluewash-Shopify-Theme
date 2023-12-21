@@ -3145,8 +3145,8 @@ details-disclosure > details {
 
 
 
-.field:before, .customer .field:before,.field:after, .customer .field:after {
-	display: none!important;
+.field:before, .field:after {
+	border-radius: 30px !important;
 }
 
 
