@@ -3127,4 +3127,12 @@ details-disclosure > details {
   border-radius: 30px;
 }
 
+.field:hover{
+  border: 0px;
+}
+
+.search-bar:hover{
+  border: 0px;
+}
+
 /* End | Custom Changes - David */
