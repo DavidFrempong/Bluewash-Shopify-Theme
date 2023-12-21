@@ -3111,7 +3111,7 @@ details-disclosure > details {
   border-radius: 30px;
 }
 
-.search .search-modal__form *:focus-visible {
+.search-modal__form *:focus-visible {
   outline: none !important;
   border-radius: 30px;
 }
