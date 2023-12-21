@@ -2554,11 +2554,10 @@ menu-drawer + .header__search {
   display: inline-flex;
 }
 
-.field__input {
+.field__input.search_bar {
     height: 3rem !important;
       justify-content: center;
 }
-
 
 .field:after {
     border-radius: 30px;
