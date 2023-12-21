@@ -3106,4 +3106,8 @@ details-disclosure > details {
   margin-bottom: 20px;
 }
 
+.field .search-bar:hover{
+  border-radius: 30px !important;
+}
+
 /* End | Custom Changes - David */
