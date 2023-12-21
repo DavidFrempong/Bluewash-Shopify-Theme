@@ -3111,7 +3111,13 @@ details-disclosure > details {
   border-radius: 30px;
 }
 
+.search-modal__form :focus:not(:focus-visible) {
+  /* styles for elements in focus, but not focus-visible */
+  outline: none !important;
+}
+
 .search-modal__form *:focus-visible {
+  /* styles for elements with focus-visible within .search-modal__form */
   outline: none !important;
   border-radius: 30px;
 }
