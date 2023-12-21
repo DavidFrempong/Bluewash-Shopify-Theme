@@ -396,15 +396,14 @@
     {%- endif -%}
 
 
-
-                    
+                    <!-- Search bar -->
 
   <div class="search-modal__content{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} search-modal__content-top{% else %} search-modal__content-bottom{% endif %}" tabindex="-1">
   {%- if settings.predictive_search_enabled -%}
                 <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
               {%- endif -%}
                 <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
-                  <div class="field">
+                  <div class="field search-bar">
                     <input class="search__input field__input"
                       id="Search-In-Modal-1"
                       type="search"
@@ -578,6 +577,7 @@
       {%- endif -%}
     {%- endif -%}
 
+    <!-- Icons -->
     <div class="header__icons">
       <details-modal class="header__search">
         <details>
