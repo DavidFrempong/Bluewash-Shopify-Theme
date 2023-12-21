@@ -3091,9 +3091,6 @@ details-disclosure > details {
     justify-content: center; 
 }
 
-.field__input placeholder{
-  font-size: 12px;
-}
 
 .field:after {
     border-radius: 30px;
@@ -3102,7 +3099,7 @@ details-disclosure > details {
 }
 
 .field__label{
-   font-size: 12px;
+   font-size: 15px;
 }
 
 /* End | Custom Changes - David */
