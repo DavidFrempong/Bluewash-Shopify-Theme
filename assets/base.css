@@ -2559,10 +2559,19 @@ menu-drawer + .header__search {
     border: 1px solid #d1d1d1;
 }
 
-#Search-In-Modal{
-    border-radius: 15px;
+
+
+.field__input, .select__select, .customer .field input, .customer select {
+      border-radius: 15px;
     border: 1px solid #d1d1d1;
 }
+.field:after, .select:after, .customer .field:after, .customer select:after, .localization-form__select:after {
+      border-radius: 15px;
+    border: 1px solid #d1d1d1;
+}
+
+
+
 
 @media screen and (min-width: 990px) {
   .header:not(.header--top-center) * > .header__search,
