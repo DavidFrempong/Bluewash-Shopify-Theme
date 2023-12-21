@@ -3106,8 +3106,11 @@ details-disclosure > details {
   margin-bottom: 20px;
 }
 
-.field .search-bar{
-  border-radius: 30px !important;
+.field .search-bar *:focus-visible {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
 
 /* End | Custom Changes - David */
