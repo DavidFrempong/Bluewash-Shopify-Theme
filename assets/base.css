@@ -3106,7 +3106,7 @@ details-disclosure > details {
   margin-bottom: 20px;
 }
 
-.field .search-bar *:focus-visible {
+*:focus-visible {
   outline: 0 !important;
   outline-offset: 0 !important;
   box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
