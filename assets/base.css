@@ -3135,4 +3135,8 @@ details-disclosure > details {
   border-radius: 30px;
 }
 
+.field .search-bar{
+  border-radius: 30px;
+}
+
 /* End | Custom Changes - David */
