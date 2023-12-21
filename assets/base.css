@@ -3106,12 +3106,12 @@ details-disclosure > details {
   margin-bottom: 20px;
 }
 
-.field .search-bar *:focus-visible {
+.search-bar *:focus-visible {
   outline: none !important;
   border-radius: 30px;
 }
 
-.field .search-bar :focus:not(:focus-visible) {
+.search-bar :focus:not(:focus-visible) {
   outline: none !important;
   border-radius: 30px;
 }
