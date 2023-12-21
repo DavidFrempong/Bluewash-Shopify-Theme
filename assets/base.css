@@ -3106,7 +3106,7 @@ details-disclosure > details {
   margin-bottom: 20px;
 }
 
-.field .search-bar:hover{
+.field .search-bar{
   border-radius: 30px !important;
 }
 
