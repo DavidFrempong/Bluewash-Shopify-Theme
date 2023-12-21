@@ -3128,11 +3128,11 @@ details-disclosure > details {
 }
 
 .field:hover{
-  border: 0px;
+  border-radius: 30px;
 }
 
 .search-bar:hover{
-  border: 0px;
+  border-radius: 30px;
 }
 
 /* End | Custom Changes - David */
