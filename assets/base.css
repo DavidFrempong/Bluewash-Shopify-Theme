@@ -3086,12 +3086,14 @@ details-disclosure > details {
   filter: brightness(0.7) !important;
 }
 
-
 .field__input{
     height: 2rem !important;
     justify-content: center; 
 }
 
+.field__input:active{
+  border: none;
+}
 
 .field:after {
     border-radius: 30px;
