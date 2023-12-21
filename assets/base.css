@@ -2554,6 +2554,10 @@ menu-drawer + .header__search {
   display: inline-flex;
 }
 
+.field__input {
+    height: 3rem !important;
+}
+
 
 .field:after {
     border-radius: 30px;
