@@ -3101,4 +3101,8 @@ details-disclosure > details {
   border-color: #e7e7e7 !important;
 }
 
+.field__label{
+   font-size: 12px;
+}
+
 /* End | Custom Changes - David */
