@@ -3092,7 +3092,7 @@ details-disclosure > details {
 }
 
 .field__input:focus{
-  border: 2px;
+  border: 10px;
 }
 
 .field__input placeholder{
