@@ -1737,7 +1737,7 @@ details[open] > .share-button__fallback {
   border-radius: var(--inputs-radius);
 }
 
-.field__input:focus,
+
 .select__select:focus,
 .customer .field input:focus,
 .customer select:focus,
@@ -3089,10 +3089,6 @@ details-disclosure > details {
 .field__input{
     height: 2rem !important;
     justify-content: center; 
-}
-
-.field__input:focus{
-  border: none !important;
 }
 
 .field__input placeholder{
