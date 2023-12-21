@@ -3108,10 +3108,12 @@ details-disclosure > details {
 
 .field .search-bar *:focus-visible {
   outline: none !important;
+  border-radius: 30px;
 }
 
 .search .search-modal__form *:focus-visible {
   outline: none !important;
+  border-radius: 30px;
 }
 
 /* End | Custom Changes - David */
