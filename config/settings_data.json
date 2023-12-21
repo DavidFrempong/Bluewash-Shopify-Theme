@@ -17,7 +17,7 @@
     "gradient_background_2": "",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "poppins_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -160,7 +160,7 @@
           "footer-2"
         ],
         "custom_css": [
-          "li {height: 50px !important; font-family: system-ui;}"
+          "li {height: 50px !important; \/* font-family: system-ui; *\/}"
         ],
         "settings": {
           "background_color": "#131313",
@@ -192,7 +192,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".header,a,span,svg {font-family: system-ui !important; font-weight: 500; color: #515151;}",
+          ".header,a,span,svg {\/* font-family: system-ui !important; *\/ font-weight: 500; color: #515151;}",
           "span,a {font-size: 15px;}"
         ],
         "settings": {
