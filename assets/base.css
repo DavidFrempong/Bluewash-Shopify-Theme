@@ -3056,7 +3056,7 @@ details-disclosure > details {
     outline: solid transparent 1px;
   }
 
-  .field__input:focus,
+  
   .select__select:focus,
   .customer .field input:focus,
   .customer select:focus,
@@ -3089,6 +3089,10 @@ details-disclosure > details {
 .field__input{
     height: 2rem !important;
     justify-content: center; 
+}
+
+.field__input:focus{
+  border: 2px;
 }
 
 .field__input placeholder{
