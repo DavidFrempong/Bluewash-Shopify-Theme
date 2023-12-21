@@ -2554,7 +2554,7 @@ menu-drawer + .header__search {
   display: inline-flex;
 }
 
-.field__input .search_bar input{
+.field__input{
     height: 3rem !important;
       justify-content: center;
 }
