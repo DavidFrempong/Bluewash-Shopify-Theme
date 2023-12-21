@@ -3091,7 +3091,7 @@ details-disclosure > details {
     justify-content: center; 
 }
 
-.field__input:focus{
+.field:focus{
   border: none !important;
 }
 
