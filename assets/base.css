@@ -3110,4 +3110,8 @@ details-disclosure > details {
   outline: none;
 }
 
+.search .search-modal__form *:focus-visible {
+  outline: none;
+}
+
 /* End | Custom Changes - David */
