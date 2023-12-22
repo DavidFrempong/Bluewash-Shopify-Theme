@@ -160,6 +160,7 @@ predictive-search[loading] .predictive-search__results-list:first-child {
   .predictive-search__item--term {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background: #f2f2f2;
   }
 }
 
