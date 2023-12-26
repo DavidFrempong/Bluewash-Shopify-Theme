@@ -59,6 +59,7 @@ li {
 .link-categories a {
     margin-bottom: 15px;
     font-size: 12px;
+  color: #0a0a0a !important;
 }
 
 .link-categories a:last-child {
