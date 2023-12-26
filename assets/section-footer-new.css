@@ -77,10 +77,10 @@ li {
 }
 
 .email-sign-up button {
-    border: none;
+     border: 1px solid;
     background-color: rgb(20, 20, 20);
     color: #ffffff;
-    margin: 15px 0px;
+    margin: 25px 0px;
     padding: 10px 20px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -134,10 +134,6 @@ li {
 .list-social__item a {
     /* width: 25px;
     height: 25px; */
-}
-
-#Subscribe{
-  border: 1px solid;
 }
 
 @media only screen and (max-width: 770px) {
