@@ -37,6 +37,9 @@
 
 .template-search__information{
   text-align: left;
+}
+
+.template-search__information h1{
   font-size: 30px;
 }
 
