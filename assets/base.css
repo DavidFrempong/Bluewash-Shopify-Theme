@@ -3147,10 +3147,12 @@ details-disclosure > details {
   border-radius: 30px !important;
 }
 
-
-
 .field:before, .field:after {
 	border-radius: 30px !important;
+}
+
+.template-search{
+  background: #ffffff;
 }
 
 
