@@ -36,7 +36,7 @@
 }
 
 .template-search__information{
-  justify-content: left;
+  text-align: left;
 }
 
 /* Remove extra spacing for search inputs in Safari */
