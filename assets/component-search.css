@@ -32,6 +32,7 @@
   height: 1.4rem;
   width: 1.4rem;
   position: relative;
+  top: -10px;
 }
 
 /* Remove extra spacing for search inputs in Safari */
