@@ -3156,7 +3156,7 @@ details-disclosure > details {
 }
 
 .template-search__header{
-  display: none;
+  /* display: none; */
 }
 
 .template-search__header h1{
