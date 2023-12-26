@@ -37,6 +37,7 @@
 
 .template-search__information{
   text-align: left;
+  font-size: 30px;
 }
 
 /* Remove extra spacing for search inputs in Safari */
