@@ -3155,6 +3155,10 @@ details-disclosure > details {
   background: #fbfbfb;
 }
 
+.template-search__header{
+  display: none;
+}
+
 .template-search__header h1{
   font-size: 25px;
 }
