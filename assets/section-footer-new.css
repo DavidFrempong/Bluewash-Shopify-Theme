@@ -68,7 +68,7 @@ li {
 .email-sign-up input {
     border: none;
     background: none;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 0.7px solid #ffffff;
     padding: 20px !important;
     width: 100%;
     height: 30px;
