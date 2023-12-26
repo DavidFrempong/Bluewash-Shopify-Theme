@@ -3155,6 +3155,9 @@ details-disclosure > details {
   background: #fbfbfb;
 }
 
+.template-search__header h1{
+  font-size: 25px;
+}
 
 
 /* End | Custom Changes - David */
