@@ -2,6 +2,9 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+</style>
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
