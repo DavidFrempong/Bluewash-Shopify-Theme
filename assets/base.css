@@ -396,6 +396,10 @@ h5,
   word-break: break-word;
 }
 
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&family=Seymour+One&display=swap');
+</style>
+
 .hxl {
   font-size: calc(var(--font-heading-scale) * 5rem);
 }
