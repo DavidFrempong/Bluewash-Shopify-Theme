@@ -387,8 +387,7 @@ h5,
 .h5 {
   /* font-family: var(--font-heading-family); */
   /* font-family: system-ui !important; */
-  /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Seymour One', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
