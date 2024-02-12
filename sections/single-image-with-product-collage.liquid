@@ -101,8 +101,8 @@ class="{% if section.settings.single_image != blank %}{% else %}show_placeholder
 
 <script>
 window.addEventListener('scroll', function() {
-  var sectionContainer = document.getElementByClassname('section-container');
-  var largeImage = document.getElementByClassname('large-image');
+  var sectionContainer = document.getElementsByClassName('section-container');
+  var largeImage = document.getElementsByClassName('large-image');
   console.log(largeImage)
   var sectionRect = sectionContainer.getBoundingClientRect();
   var imageRect = largeImage.getBoundingClientRect();
