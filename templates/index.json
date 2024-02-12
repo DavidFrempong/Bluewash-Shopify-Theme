@@ -71,6 +71,12 @@
     "65cfd1f7-ee2f-4f22-ba07-b59c776e3138": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_Km7WjA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
         "template--17982117052734__65cfd1f7-ee2f-4f22-ba07-b59c776e3138-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
@@ -103,6 +109,7 @@
         }
       },
       "block_order": [
+        "featured_collection_Km7WjA",
         "template--17982117052734__65cfd1f7-ee2f-4f22-ba07-b59c776e3138-featured_collection-1",
         "template--17982117052734__65cfd1f7-ee2f-4f22-ba07-b59c776e3138-featured_collection-2",
         "template--17982117052734__65cfd1f7-ee2f-4f22-ba07-b59c776e3138-featured_collection-3",
@@ -181,7 +188,6 @@
     },
     "16640590680b2f70f3": {
       "type": "image-collage",
-      "disabled": true,
       "settings": {
         "image_collage_grid": "4",
         "image": "shopify:\/\/shop_images\/castlebeard-co-0D6aORtbl-c-unsplash.jpg",
@@ -294,6 +300,88 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "three_layer_image_layout_XhQkxy": {
+      "type": "three-layer-image-layout",
+      "blocks": {
+        "image_dnKYCq": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/ff087cbf-9e3c-4735-a7d9-634b06252041.e4430da78e371efd91845ec37062a013.webp",
+            "image_link": ""
+          }
+        },
+        "image_mFgwpT": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/Cremo-Beard-Oil-Bourbon-Vanilla-1oz_124e71d9-bb6c-4e93-89b7-5aeb1da5330b.58967f7944894cce31fbdb9fa4421690.webp",
+            "image_link": ""
+          }
+        },
+        "image_aDc77e": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/o7u3n5k3vlksgl1wmz3idcxe10b7.webp",
+            "image_link": ""
+          }
+        },
+        "image_bRwFcV": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/o7u3n5k3vlksgl1wmz3idcxe10b7.webp",
+            "image_link": ""
+          }
+        },
+        "image_zJrXeT": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/ff087cbf-9e3c-4735-a7d9-634b06252041.e4430da78e371efd91845ec37062a013.webp",
+            "image_link": ""
+          }
+        },
+        "image_W7b4WA": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/Cremo-Beard-Oil-Bourbon-Vanilla-1oz_124e71d9-bb6c-4e93-89b7-5aeb1da5330b.58967f7944894cce31fbdb9fa4421690.webp",
+            "image_link": ""
+          }
+        },
+        "image_h6raGW": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/Cremo-Beard-Oil-Bourbon-Vanilla-1oz_124e71d9-bb6c-4e93-89b7-5aeb1da5330b.58967f7944894cce31fbdb9fa4421690.webp",
+            "image_link": ""
+          }
+        },
+        "image_79dbYF": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/o7u3n5k3vlksgl1wmz3idcxe10b7.webp",
+            "image_link": ""
+          }
+        },
+        "image_FU6xUa": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/ff087cbf-9e3c-4735-a7d9-634b06252041.e4430da78e371efd91845ec37062a013.webp",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dnKYCq",
+        "image_mFgwpT",
+        "image_aDc77e",
+        "image_bRwFcV",
+        "image_zJrXeT",
+        "image_W7b4WA",
+        "image_h6raGW",
+        "image_79dbYF",
+        "image_FU6xUa"
+      ],
+      "settings": {
+        "layout-title": "Collection available now."
+      }
     }
   },
   "order": [
@@ -302,6 +390,7 @@
     "24d7c57c-9b11-4fce-85fb-9fd07e454fcf",
     "16640590680b2f70f3",
     "22061fd9-f01c-4b98-a458-6c30cca4e9cf",
-    "92bc159b-f29d-4ffa-831d-7d6d48ae02ce"
+    "92bc159b-f29d-4ffa-831d-7d6d48ae02ce",
+    "three_layer_image_layout_XhQkxy"
   ]
 }
