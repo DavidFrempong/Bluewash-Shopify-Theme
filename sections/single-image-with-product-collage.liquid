@@ -112,6 +112,16 @@
     sectionContainer.style.position = 'fixed';
     sectionContainer.style.top = '0px';
     sectionContainer.style.right = '0px';
+
+        // Assuming imageRect is the rect object of the large image
+  const sectionBottom = sectionContainer.getBoundingClientRect().bottom;
+  const imageBottom = imageRect.bottom;
+
+  if (sectionBottom === imageBottom) {
+    // Execute the else block
+    sectionContainer.style.position = 'relative';
+    largeImage.style.width = '75vw';
+  }
   } else {
     // Large image is out of view, revert to absolute positioning
     sectionContainer.style.position = 'relative';
