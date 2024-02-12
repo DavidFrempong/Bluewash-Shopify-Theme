@@ -106,29 +106,17 @@
     var imageRect = largeImage.getBoundingClientRect();
     console.log(imageRect)
     // Check if the top of large-image is above the viewport
-    if (imageRect.top < 0) {
-       largeImage.style.width = '70vw';
-       sectionContainer.style.width = '30vw';
-      sectionContainer.style.position = 'fixed';
-      sectionContainer.style.top = '0px';
-      sectionContainer.style.right = '0px';
-      // Check if the bottom of large-image is still in view
-    } else {
-        // Large image is out of view, revert to absolute positioning
-        sectionContainer.style.position = 'relative';
-      largeImage.style.width = '75vw';
-       // sectionContainer.style.width = '30vw';
-      // sectionContainer.style.top = '0px';
-      // sectionContainer.style.right = '0px';
-      }
-
-    if (imageRect.top > 415) {
-      sectionContainer.style.position = 'relative';
-      largeImage.style.width = '75vw';
-       // sectionContainer.style.width = '30vw';
-      // sectionContainer.style.top = '0px';
-      // sectionContainer.style.right = '0px';
-    }
+     if (imageRect.top > -880 && imageRect.top < 0) {
+    largeImage.style.width = '70vw';
+    sectionContainer.style.width = '30vw';
+    sectionContainer.style.position = 'fixed';
+    sectionContainer.style.top = '0px';
+    sectionContainer.style.right = '0px';
+  } else {
+    // Large image is out of view, revert to absolute positioning
+    sectionContainer.style.position = 'absolute';
+    largeImage.style.width = '75vw';
+  }
         
   });
 </script>
