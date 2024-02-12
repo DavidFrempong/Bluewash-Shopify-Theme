@@ -99,6 +99,7 @@
 
 <script>
   window.addEventListener('scroll', function() {
+     if (window.innerWidth >= 800) {
     var sectionContainer = document.getElementsByClassName('section-container')[0];
     var largeImage = document.getElementsByClassName('large-image')[0];
     console.log(largeImage)
@@ -118,6 +119,7 @@
     sectionContainer.style.position = 'relative';
     largeImage.style.width = '75vw';
   }
+     }
         
   });
 </script>
