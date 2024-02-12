@@ -113,11 +113,16 @@
     sectionContainer.style.top = '0px';
     sectionContainer.style.right = '0px';
 
-        // Assuming imageRect is the rect object of the large image
-  const sectionBottom = sectionContainer.getBoundingClientRect().bottom;
+ // Get viewport height
+  const viewportHeight = window.innerHeight;
+
+  // Calculate the threshold for the bottom position
+  const threshold = viewportHeight * 0.6;
+
+  // Calculate the bottom position of largeImage
   const imageBottom = imageRect.bottom;
 
-  if (sectionBottom === imageBottom) {
+  if (imageBottom > threshold) {
     // Execute the else block
     sectionContainer.style.position = 'relative';
     largeImage.style.width = '75vw';
