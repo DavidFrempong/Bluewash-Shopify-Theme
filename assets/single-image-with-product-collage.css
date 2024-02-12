@@ -55,3 +55,50 @@
     }
 
 }
+
+
+
+
+
+
+
+
+/* Test */
+
+.main-content {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 50px;
+    position: relative; /* Needed for positioning children */
+  }
+
+  .large-image {
+    width: 75vw;
+    padding: 20px;
+    position: sticky;
+    top: 0; /* Stick to top of the viewport */
+    height: 100vh; /* Make it full height for scroll effect */
+    overflow-y: scroll; /* Enable vertical scrolling */
+  }
+
+  .section-container {
+    width: 25vw; /* Adjust width as needed */
+    padding: 20px;
+    position: fixed; /* Initially fixed position */
+    top: 0; /* Stick to top */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  /* Adjustments for smaller screens */
+  @media only screen and (max-width: 500px) {
+    .main-content {
+      flex-direction: column;
+    }
+    .large-image {
+      width: 100%;
+      height: auto; /* Reset height */
+    }
+    .section-container {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }

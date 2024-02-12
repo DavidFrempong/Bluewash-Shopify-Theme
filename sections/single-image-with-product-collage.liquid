@@ -98,6 +98,33 @@ class="{% if section.settings.single_image != blank %}{% else %}show_placeholder
  </div>
 </div>
 
+
+
+<script>
+window.addEventListener('scroll', function() {
+  var sectionContainer = document.querySelector('.section-container');
+  var largeImage = document.querySelector('.large-image');
+  
+  var sectionRect = sectionContainer.getBoundingClientRect();
+  var imageRect = largeImage.getBoundingClientRect();
+  
+  // Check if section-container is about to go out of view
+  if (sectionRect.bottom <= 0) {
+    sectionContainer.style.position = 'static';
+  } else {
+    sectionContainer.style.position = 'fixed';
+  }
+  
+  // Check if large-image has reached the bottom
+  if (imageRect.bottom <= window.innerHeight) {
+    largeImage.style.position = 'static';
+  } else {
+    largeImage.style.position = 'sticky';
+  }
+});
+</script>
+
+
 {% schema %}
 {
 	"name": "Single Image with Collage",
