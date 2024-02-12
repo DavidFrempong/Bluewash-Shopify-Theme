@@ -113,20 +113,6 @@
     sectionContainer.style.top = '0px';
     sectionContainer.style.right = '0px';
 
- // Get viewport height
-  const viewportHeight = window.innerHeight;
-
-  // Calculate the threshold for the bottom position
-  const threshold = viewportHeight * 0.6;
-
-  // Calculate the bottom position of largeImage
-  const imageBottom = imageRect.bottom;
-
-  if (imageBottom > threshold) {
-    // Execute the else block
-    sectionContainer.style.position = 'relative';
-    largeImage.style.width = '75vw';
-  }
   } else {
     // Large image is out of view, revert to absolute positioning
     sectionContainer.style.position = 'relative';
