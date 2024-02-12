@@ -380,10 +380,10 @@
         "image_FU6xUa"
       ],
       "custom_css": [
-        "body{background: #ffffff;}"
+        "body {background: #ffffff;}"
       ],
       "settings": {
-        "layout-title": "Collection available now."
+        "layout-title": ""
       }
     }
   },
