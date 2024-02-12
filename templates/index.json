@@ -304,13 +304,6 @@
     "three_layer_image_layout_XhQkxy": {
       "type": "three-layer-image-layout",
       "blocks": {
-        "image_dnKYCq": {
-          "type": "image",
-          "settings": {
-            "image_container": "shopify:\/\/shop_images\/ff087cbf-9e3c-4735-a7d9-634b06252041.e4430da78e371efd91845ec37062a013.webp",
-            "image_link": ""
-          }
-        },
         "image_mFgwpT": {
           "type": "image",
           "settings": {
@@ -318,31 +311,38 @@
             "image_link": ""
           }
         },
+        "image_dnKYCq": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/651b650d-2e3e-4424-a841-0eeb1deb2cb0.7e75ca5ce9a4dc0812efeb5c2a71cc42.webp",
+            "image_link": ""
+          }
+        },
         "image_aDc77e": {
           "type": "image",
           "settings": {
-            "image_container": "shopify:\/\/shop_images\/o7u3n5k3vlksgl1wmz3idcxe10b7.webp",
+            "image_container": "shopify:\/\/shop_images\/Cremo-Beard-Oil-Bourbon-Vanilla-1oz_124e71d9-bb6c-4e93-89b7-5aeb1da5330b.58967f7944894cce31fbdb9fa4421690.webp",
             "image_link": ""
           }
         },
         "image_bRwFcV": {
           "type": "image",
           "settings": {
-            "image_container": "shopify:\/\/shop_images\/o7u3n5k3vlksgl1wmz3idcxe10b7.webp",
+            "image_container": "shopify:\/\/shop_images\/651b650d-2e3e-4424-a841-0eeb1deb2cb0.7e75ca5ce9a4dc0812efeb5c2a71cc42.webp",
             "image_link": ""
           }
         },
         "image_zJrXeT": {
           "type": "image",
           "settings": {
-            "image_container": "shopify:\/\/shop_images\/ff087cbf-9e3c-4735-a7d9-634b06252041.e4430da78e371efd91845ec37062a013.webp",
+            "image_container": "shopify:\/\/shop_images\/Cremo-Beard-Oil-Bourbon-Vanilla-1oz_124e71d9-bb6c-4e93-89b7-5aeb1da5330b.58967f7944894cce31fbdb9fa4421690.webp",
             "image_link": ""
           }
         },
         "image_W7b4WA": {
           "type": "image",
           "settings": {
-            "image_container": "shopify:\/\/shop_images\/Cremo-Beard-Oil-Bourbon-Vanilla-1oz_124e71d9-bb6c-4e93-89b7-5aeb1da5330b.58967f7944894cce31fbdb9fa4421690.webp",
+            "image_container": "shopify:\/\/shop_images\/651b650d-2e3e-4424-a841-0eeb1deb2cb0.7e75ca5ce9a4dc0812efeb5c2a71cc42.webp",
             "image_link": ""
           }
         },
@@ -356,21 +356,21 @@
         "image_79dbYF": {
           "type": "image",
           "settings": {
-            "image_container": "shopify:\/\/shop_images\/o7u3n5k3vlksgl1wmz3idcxe10b7.webp",
+            "image_container": "shopify:\/\/shop_images\/651b650d-2e3e-4424-a841-0eeb1deb2cb0.7e75ca5ce9a4dc0812efeb5c2a71cc42.webp",
             "image_link": ""
           }
         },
         "image_FU6xUa": {
           "type": "image",
           "settings": {
-            "image_container": "shopify:\/\/shop_images\/ff087cbf-9e3c-4735-a7d9-634b06252041.e4430da78e371efd91845ec37062a013.webp",
+            "image_container": "shopify:\/\/shop_images\/Cremo-Beard-Oil-Bourbon-Vanilla-1oz_124e71d9-bb6c-4e93-89b7-5aeb1da5330b.58967f7944894cce31fbdb9fa4421690.webp",
             "image_link": ""
           }
         }
       },
       "block_order": [
-        "image_dnKYCq",
         "image_mFgwpT",
+        "image_dnKYCq",
         "image_aDc77e",
         "image_bRwFcV",
         "image_zJrXeT",
