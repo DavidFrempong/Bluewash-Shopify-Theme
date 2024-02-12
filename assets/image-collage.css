@@ -6,7 +6,6 @@ body {
 }
 
 
-
 .image-banner {
     display: grid;
     /* grid-template-columns: auto auto auto auto; */
@@ -17,8 +16,16 @@ body {
     grid-template-columns: auto auto;
 }
 
+.image-banner--2 img {
+    width: 50vw;
+}
+
 .image-banner--4 {
     grid-template-columns: auto auto auto auto;
+}
+
+.image-banner--2 .image-banner-container {
+    width: 50vw;
 }
 
 .image-banner-link {
@@ -80,10 +87,6 @@ body {
 
 .blue{
     background: linear-gradient(360deg, #97DBD7 0%, rgba(173, 218, 216, 0.65625) 38.02%, rgba(217, 217, 217, 0) 100%);
-}
-
-.image-banner--2 .image-banner-container {
-    width: 50vw;
 }
 
 .image-banner-container img {
