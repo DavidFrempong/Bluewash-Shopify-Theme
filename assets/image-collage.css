@@ -13,11 +13,11 @@ body {
     width: 100vw;
 }
 
-.2 {
+.image-banner--2 {
     grid-template-columns: auto auto;
 }
 
-.4 {
+.image-banner--4 {
     grid-template-columns: auto auto auto auto;
 }
 
