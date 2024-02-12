@@ -101,21 +101,27 @@ class="{% if section.settings.single_image != blank %}{% else %}show_placeholder
 
 <script>
 window.addEventListener('scroll', function() {
-  var sectionContainer = document.querySelector('.section-container');
-  var largeImage = document.querySelector('.large-image');
+  var sectionContainer = document.getElementById('section-container');
+  var largeImage = document.getElementById('large-image');
   
   var sectionRect = sectionContainer.getBoundingClientRect();
   var imageRect = largeImage.getBoundingClientRect();
   
-  // Check if the top of section-container is in view and the bottom of large-image is still in view
-  if (sectionRect.top >= 0 && imageRect.bottom >= 0) {
-    sectionContainer.style.position = 'fixed';
+  // Check if the top of large-image is above the viewport
+  if (imageRect.top < 0) {
+    // Check if the bottom of large-image is still in view
+    if (imageRect.bottom > 0) {
+      sectionContainer.style.position = 'fixed';
+    } else {
+      // Large image is out of view, revert to absolute positioning
+      sectionContainer.style.position = 'relative';
+    }
   } else {
+    // Large image is still in view, keep section-container absolute
     sectionContainer.style.position = 'absolute';
   }
 });
 </script>
-
 
 
 {% schema %}
