@@ -24,7 +24,9 @@ body {
     grid-template-columns: auto auto auto auto;
 }
 
-
+.image-banner--2 .image-banner-container {
+    width: 50vw;
+}
 
 .image-banner-link {
     display: grid;
