@@ -389,6 +389,7 @@
         },
         "image_fbLxaz": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_container": "shopify:\/\/shop_images\/oil-dripping-into-jar.jpg",
             "image_link": ""
@@ -396,6 +397,7 @@
         },
         "image_GBU3zT": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_container": "shopify:\/\/shop_images\/beard-oil-and-balm.jpg",
             "image_link": ""
@@ -403,6 +405,7 @@
         },
         "image_rTkBmV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_container": "shopify:\/\/shop_images\/two-sets-of-barber-scissors.jpg",
             "image_link": ""
