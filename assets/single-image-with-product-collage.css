@@ -56,17 +56,3 @@
 
 }
 
-
-
-
-
-
-
-
-/* Test */
- .section-container {
-    width: 25vw;
-    padding: 20px;
-    position: absolute; /* Initially absolute position */
-    top: 0;
-  }
