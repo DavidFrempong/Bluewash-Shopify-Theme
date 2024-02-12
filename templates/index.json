@@ -379,6 +379,9 @@
         "image_79dbYF",
         "image_FU6xUa"
       ],
+      "custom_css": [
+        "body{background: #ffffff;}"
+      ],
       "settings": {
         "layout-title": "Collection available now."
       }
