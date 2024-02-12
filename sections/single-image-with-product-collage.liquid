@@ -109,6 +109,7 @@ window.addEventListener('scroll', function() {
   
   // Check if the top of large-image is above the viewport
   if (imageRect.top < 0) {
+    alert('Test')
     // Check if the bottom of large-image is still in view
     if (imageRect.bottom > 0) {
       sectionContainer.style.position = 'fixed';
