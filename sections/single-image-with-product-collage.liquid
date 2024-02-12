@@ -107,14 +107,20 @@
     var imageRect = largeImage.getBoundingClientRect();
     console.log(imageRect)
     // Check if the top of large-image is above the viewport
-     if (imageRect.top > -565 && imageRect.top < 0) {
-    largeImage.style.width = '60vw';
-    sectionContainer.style.width = '40vw';
-    sectionContainer.style.position = 'fixed';
-    sectionContainer.style.top = '0px';
-    sectionContainer.style.right = '0px';
-
-  } else {
+       if (imageRect.top > -565 && imageRect.top < 0) {
+            largeImage.style.width = '60vw';
+            sectionContainer.style.width = '40vw';
+            sectionContainer.style.position = 'fixed';
+            sectionContainer.style.top = '0px';
+            sectionContainer.style.right = '0px';
+        } 
+        // Check if the bottom of large-image is in view
+        else if (imageRect.bottom > 0 && imageRect.bottom < window.innerHeight) {
+            // Execute your desired behavior here
+            // For example:
+            largeImage.style.width = '75vw'; // Adjust width as needed
+            sectionContainer.style.position = 'relative'; // Revert to absolute positioning
+        }  else {
     // Large image is out of view, revert to absolute positioning
     sectionContainer.style.position = 'relative';
     largeImage.style.width = '75vw';
