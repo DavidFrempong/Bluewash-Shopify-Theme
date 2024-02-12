@@ -123,4 +123,12 @@ body {
     .image-banner-container img {
         width: 100vw;
     }
+
+  .image-banner--2 img {
+    width: 100vw;
+}
+
+.image-banner--2 .image-banner-container {
+    width: 100vw;
+}
 }
