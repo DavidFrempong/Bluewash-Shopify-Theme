@@ -188,7 +188,7 @@
 .facets__heading {
   display: block;
   color: rgba(var(--color-foreground), 0.85);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: -1.5rem 2rem 0 0;
 }
 
@@ -225,6 +225,7 @@
 
 .facets__summary span {
   transition: text-decoration var(--duration-short) ease;
+   font-size: 1.2rem;
 }
 
 .facets__summary:hover span {
