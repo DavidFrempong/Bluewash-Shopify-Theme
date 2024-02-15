@@ -63,10 +63,6 @@
   min-width: 25rem;
   margin-top: 2.4rem;
   border: 0.1rem solid rgba(var(--color-foreground), 0.55);
-
-  border: 0.1rem solid #b2b2b2;
-    border-radius: 12px;
-    padding: 1rem 2rem;
 }
 
 .facet-filters__summary::after {
@@ -210,6 +206,9 @@
   font-size: 1.4rem;
   padding: 0 1.75rem 0 0;
   margin-bottom: 1.5rem;
+    border: 0.1rem solid #b2b2b2;
+    border-radius: 12px;
+    padding: 1rem 2rem;
 }
 
 .facets__disclosure fieldset {
