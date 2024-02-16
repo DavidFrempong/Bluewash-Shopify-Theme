@@ -674,11 +674,11 @@ hr {
   text-decoration: none;
   color: currentColor;
   display: block;
-  font-weight: 700 !important;
+  /* font-weight: 700 !important; */
 }
 
 .full-unstyled-link a{
-  font-weight: 700 !important;
+  /* font-weight: 700 !important; */
 }
 
 .placeholder {
