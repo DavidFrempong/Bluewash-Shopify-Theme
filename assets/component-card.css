@@ -154,6 +154,10 @@
   margin-bottom: 0;
 }
 
+.card__heading h5{
+    font-size: 17px;
+}
+
 .card__heading:last-child {
   margin-bottom: 0;
 }
@@ -284,6 +288,7 @@
 
 .card-information {
   width: 100%;
+  font-size: 15px;
 }
 
 .card-information > * {
