@@ -208,11 +208,12 @@
 .facets__summary {
   color: rgba(var(--color-foreground), 0.75);
   font-size: 1rem;
-  padding: 0 1.75rem 0 0;
   margin-bottom: 1.5rem;
     border: 0.1rem solid #222222;
     border-radius: 12px;
-    padding: 1rem 1rem;
+    padding-right: 3.3125rem;
+    padding-left: 1rem;
+  width: 100%;
 }
 
 .facets__disclosure fieldset {
