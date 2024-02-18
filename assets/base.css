@@ -783,7 +783,7 @@ hr {
   text-decoration: none;
   color: currentColor;
   display: block;
-  /* font-weight: 600 !important; */
+  font-weight: 600 !important;
 }
 
 .full-unstyled-link a{
