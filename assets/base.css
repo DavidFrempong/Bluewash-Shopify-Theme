@@ -2183,6 +2183,8 @@ input[type='checkbox'] {
 .quantity__input:not(:focus-visible):not(.focused) {
   box-shadow: inherit;
   background-color: inherit;
+  border: 1px solid #0a0a0a;
+    border-radius: 50%;
 }
 
 .quantity__input:-webkit-autofill,
