@@ -15,6 +15,10 @@
   border-radius: 20px;
 }
 
+.product__media img{
+  border-radius: 20px;
+}
+
 .product__media-wrapper {
   padding-left: 0;
 }
