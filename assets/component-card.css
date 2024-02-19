@@ -155,7 +155,7 @@
 }
 
 .card__heading h5{
-    font-size: 15px;
+    font-size: 15px !important;
 }
 
 .card__heading:last-child {
