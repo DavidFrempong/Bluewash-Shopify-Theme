@@ -96,8 +96,8 @@
   transition: none;
   font-size: 1rem;
   border: 0.1rem solid #adacac;
-    border-radius: 12px;
-    padding: 1rem 2rem;
+  border-radius: 12px;
+  padding: 1rem 3rem 1rem 1rem;
 }
 
 .facet-filters button {
