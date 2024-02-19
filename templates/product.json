@@ -113,11 +113,11 @@
         "description"
       ],
       "custom_css": [
-        "h1 {font-size: 17px; font-weight: 600;}"
+
       ],
       "settings": {
-        "background_color": "#fff3e7",
-        "button_text_color": "#0a0a0a",
+        "background_color": "#000000",
+        "button_text_color": "#ffffff",
         "enable_sticky_info": true,
         "gallery_layout": "thumbnail_slider",
         "media_size": "large",
