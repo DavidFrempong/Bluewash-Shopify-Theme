@@ -13,6 +13,7 @@
 
 .product__media{
   border-radius: 20px;
+  width: 90%;
 }
 
 .product__media img{
