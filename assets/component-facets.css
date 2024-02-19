@@ -1033,7 +1033,7 @@ input.mobile-facets__checkbox {
     /* margin-left: 3.5rem; */
     padding: 0rem 5rem;
      font-size: 1rem;
-    color: #0a0a0a;
+    color: #0a0a0a !important;
   }
 
   .facets-vertical .active-facets__button-wrapper {
