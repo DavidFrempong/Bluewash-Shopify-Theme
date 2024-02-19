@@ -217,6 +217,7 @@ html.no-js .no-js-hidden {
   max-width: var(--page-width);
   margin: 0 auto;
   padding: 0 1.5rem;
+  background: #ffffff;
 }
 
 .page-width-desktop {
