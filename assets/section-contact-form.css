@@ -22,6 +22,9 @@
 
 .contact__button {
   margin-top: 3rem;
+}
+
+.contact__button button {
   border-radius: 20px;
 }
 
