@@ -2185,7 +2185,7 @@ input[type='checkbox'] {
   background-color: inherit;
 }
 
-.quantity__button.border{
+.quantity__button:not(:focus-visible):not(.focused).border{
     border: 2px solid #0a0a0a;
     border-radius: 50%;
 }
