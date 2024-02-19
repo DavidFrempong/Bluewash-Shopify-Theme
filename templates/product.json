@@ -315,6 +315,7 @@
         "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-2",
         "6e5ab670-4556-4cb2-956d-359a32e8be2b"
       ],
+      "disabled": true,
       "settings": {
         "title": "Others also bought",
         "heading_size": "h2",
@@ -374,6 +375,7 @@
         "template--17982117511486__6c91571a-2d57-417b-a560-becbb0e8c1e7-16840981527ed83604-2",
         "d2e00570-9234-49ad-885d-b533de695d0e"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
