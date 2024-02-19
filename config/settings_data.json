@@ -47,7 +47,7 @@
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "background-2",
+    "card_color_scheme": "background-1",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 0,
@@ -163,8 +163,8 @@
           "li {height: 50px !important; \/* font-family: system-ui; *\/}"
         ],
         "settings": {
-          "background_color": "#131313",
-          "footer_text_color": "#ffffff",
+          "background_color": "#f2f2f2",
+          "footer_text_color": "#000000",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our email list.",
           "show_social": true,
