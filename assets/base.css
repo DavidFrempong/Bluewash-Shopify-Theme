@@ -2531,15 +2531,9 @@ justify-content: space-between; */
 .header__heading-link {
   grid-area: heading;
   justify-self: center;
-
-  /* Changes by David */
   position: relative;
-  top: 3px;
-  /* Changes by David */
-
   display: flex;
-    /* justify-content: center; */
-    align-items: center;
+  align-items: center;
 }
 
 .header__heading-link {
@@ -3308,11 +3302,11 @@ details-disclosure > details {
   display: block;
 }
 
-.desktop-logo{
+.desktop-logo {
   display: block;
 }
 
-.mobile-logo{
+.mobile-logo {
   display: none;
 }
 
@@ -3330,16 +3324,16 @@ details-disclosure > details {
   }
 
   .header__heading-link {
-  padding: 0rem;
-}
+    padding: 0rem;
+  }
 
-  .desktop-logo{
-  display: none;
-}
+  .desktop-logo {
+    display: none;
+  }
 
-.mobile-logo{
-  display: block;
-}
+  .mobile-logo {
+    display: block;
+  }
 }
 
 /* End | Custom Changes - David */
