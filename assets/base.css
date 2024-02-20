@@ -3338,6 +3338,11 @@ details-disclosure > details {
   .search-modal__content {
   padding: 0rem;
 }
+
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 }
 
 /* End | Custom Changes - David */
