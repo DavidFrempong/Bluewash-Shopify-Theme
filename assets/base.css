@@ -3310,6 +3310,16 @@ details-disclosure > details {
   display: none;
 }
 
+@media screen and (max-width: 1000px) {
+    .desktop-logo {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .search-bar-mobile {
     display: block;
@@ -3325,14 +3335,6 @@ details-disclosure > details {
 
   .header__heading-link {
     padding: 0rem;
-  }
-
-  .desktop-logo {
-    display: none;
-  }
-
-  .mobile-logo {
-    display: block;
   }
 
   .search-modal__content {
