@@ -2,6 +2,13 @@
   padding-right: 5rem;
    font-size: 15px;
    border-radius: 30px;
+  width: 50vw;
+}
+
+@media screen and (max-width: 1000px) {
+  .search__input.field__input {
+  width: 70vw;
+}
 }
 
 .search__input.field__input:focus {
