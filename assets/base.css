@@ -2536,6 +2536,10 @@ justify-content: space-between; */
   position: relative;
   top: 3px;
   /* Changes by David */
+
+  display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .header__heading-link {
