@@ -215,7 +215,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__utility-links {
-  padding: 0.1rem 1rem;
+  padding: 0.1rem 2rem;
   background-color: rgba(var(--color-foreground), 0.03);
 }
 
@@ -240,7 +240,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer .list-social {
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-left: -1.25rem;
   margin-top: 2rem;
 }
