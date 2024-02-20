@@ -317,7 +317,9 @@
 }
 
 @media screen and (max-width: 1000px) {
-   padding: 1rem;
+  .banner__box {
+     padding: 1rem;
+}
 }
 
 @media screen and (min-width: 750px) {
