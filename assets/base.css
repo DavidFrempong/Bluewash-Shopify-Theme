@@ -3340,6 +3340,10 @@ details-disclosure > details {
   .search-modal__content {
   padding: 0rem;
 }
+
+  .field.search-bar{
+    margin-bottom: 10px;
+  }
 }
 
 /* End | Custom Changes - David */
