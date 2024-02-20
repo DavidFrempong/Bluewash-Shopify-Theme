@@ -3289,9 +3289,17 @@ details-disclosure > details {
   display: none;
 }
 
+.search-bar-desktop{
+  display: block;
+}
+
   @media screen and (max-width: 749px) {
    .search-bar-mobile{
   display: block;
+}
+
+    .search-bar-desktop{
+  display: none;
 }
   }
 
