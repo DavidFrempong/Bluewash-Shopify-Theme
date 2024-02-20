@@ -3311,10 +3311,6 @@ details-disclosure > details {
 }
 
 @media screen and (max-width: 1000px) {
-  
-}
-
-@media screen and (max-width: 1000px) {
   .search-bar-mobile {
     display: block;
   }
