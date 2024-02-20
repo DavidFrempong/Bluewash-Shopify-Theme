@@ -3334,6 +3334,10 @@ details-disclosure > details {
   .mobile-logo {
     display: block;
   }
+
+  .search-modal__content {
+  padding: 0rem;
+}
 }
 
 /* End | Custom Changes - David */
