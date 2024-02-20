@@ -3289,7 +3289,7 @@ details-disclosure > details {
   display: none;
 }
 
-  @media screen and (min-width: 749px) {
+  @media screen and (max-width: 749px) {
    .search-bar-mobile{
   display: block;
 }
