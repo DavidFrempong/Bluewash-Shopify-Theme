@@ -3316,6 +3316,10 @@ details-disclosure > details {
   .header-top-container {
     justify-content: space-between;
   }
+
+  .header__heading-link {
+  padding: 0rem;
+}
 }
 
 /* End | Custom Changes - David */
