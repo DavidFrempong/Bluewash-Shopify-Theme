@@ -3311,16 +3311,10 @@ details-disclosure > details {
 }
 
 @media screen and (max-width: 1000px) {
-    .desktop-logo {
-    display: none;
-  }
-
-  .mobile-logo {
-    display: block;
-  }
+  
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 1000px) {
   .search-bar-mobile {
     display: block;
   }
@@ -3335,6 +3329,14 @@ details-disclosure > details {
 
   .header__heading-link {
     padding: 0rem;
+  }
+
+  .desktop-logo {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
   }
 
   .search-modal__content {
