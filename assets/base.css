@@ -3285,4 +3285,14 @@ details-disclosure > details {
   background-color: #ffffff;
 }
 
+.search-bar-mobile{
+  display: none;
+}
+
+  @media screen and (min-width: 749px) {
+   .search-bar-mobile{
+  display: block;
+}
+  }
+
 /* End | Custom Changes - David */
