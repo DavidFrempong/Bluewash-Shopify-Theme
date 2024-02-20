@@ -3234,6 +3234,8 @@ details-disclosure > details {
 .header-top-container {
   display: flex;
   margin-bottom: 20px;
+
+  justify-content: space-between;
 }
 
 .search-bar *:focus-visible {
