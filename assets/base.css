@@ -3314,7 +3314,7 @@ details-disclosure > details {
   }
 
   .header-top-container {
-    justify-content: center;
+    justify-content: space-between;
   }
 }
 
