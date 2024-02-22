@@ -3355,6 +3355,7 @@ details-disclosure > details {
 
   .grid__item{
     max-width: calc(70% - var(--grid-mobile-horizontal-spacing) / 2);
+    margin-bottom: 5rem;
   }
 
   #product-grid{
