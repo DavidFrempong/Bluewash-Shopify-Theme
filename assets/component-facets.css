@@ -210,9 +210,9 @@
   font-size: 1rem;
   padding: 0 1.75rem 0 0;
   margin-bottom: 1.5rem;
-     border: 0.1rem solid #adacac;
-    border-radius: 12px;
-    padding: 1rem 3rem 1rem 1rem;
+  border: 0.1rem solid #adacac;
+  border-radius: 12px;
+  padding: 1rem 3rem 1rem 1rem;
   width: 100%;
 }
 
@@ -1130,13 +1130,18 @@ input.mobile-facets__checkbox {
 @media screen and (max-width: 1000px) {
   .mobile-facets__heading {
     text-align: left;
-}
+  }
 
   .mobile-facets__close svg {
     width: 1.2rem;
     position: relative;
     top: -17px;
-}
+  }
+
+  .mobile-facets__sort .select .icon-caret {
+    top: 2.2rem !important;
+    right: 1rem !important;
+  }
 }
 
 /* End | Changed by David */
