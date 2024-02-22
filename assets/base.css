@@ -3316,6 +3316,10 @@ details-disclosure > details {
     display: block;
   }
 
+.centered{
+    text-align: left;
+  }
+
 @media screen and (max-width: 1000px) {
   .search-bar-mobile {
     display: block;
