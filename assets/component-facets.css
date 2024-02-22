@@ -645,6 +645,12 @@ a.active-facets__button.focused .active-facets__button-inner,
   margin: 0;
 }
 
+@media screen and (max-width: 1000px) {
+  .mobile-facets__heading {
+    text-align: left;
+}
+}
+
 .mobile-facets__count {
   color: rgba(var(--color-foreground), 0.7);
   font-size: 1.3rem;
