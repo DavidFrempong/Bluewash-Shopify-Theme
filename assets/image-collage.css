@@ -139,4 +139,12 @@ body {
 .image-banner--2 .image-banner-container {
     width: 100vw;
 }
+
+    .background-overlay{
+    width: 100vw;
+  }
+
+  .image-banner-container{
+    width: 100vw;
+  }
 }
