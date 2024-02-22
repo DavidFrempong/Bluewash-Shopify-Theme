@@ -3361,6 +3361,10 @@ details-disclosure > details {
   #product-grid{
     justify-content: center;
   }
+
+  .centered{
+    justify-content: center;
+  }
 }
 
 /* End | Custom Changes - David */
