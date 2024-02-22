@@ -3312,6 +3312,10 @@ details-disclosure > details {
   display: none;
 }
 
+ #ProductCountDesktop{
+    display: block;
+  }
+
 @media screen and (max-width: 1000px) {
   .search-bar-mobile {
     display: block;
@@ -3343,6 +3347,10 @@ details-disclosure > details {
 
   .field.search-bar{
     margin-bottom: 10px;
+  }
+
+  #ProductCountDesktop{
+    display: none;
   }
 }
 
