@@ -3352,6 +3352,14 @@ details-disclosure > details {
   #ProductCountDesktop{
     display: none;
   }
+
+  .grid__item{
+    max-width: calc(70% - var(--grid-mobile-horizontal-spacing) / 2);
+  }
+
+  #product-grid{
+    justify-content: center;
+  }
 }
 
 /* End | Custom Changes - David */
