@@ -115,6 +115,10 @@ body {
   .background-overlay{
     width: 50vw;
   }
+
+  .image-banner-container{
+    width: 50vw;
+  }
 }
 
 @media screen and (max-width: 450px) {
