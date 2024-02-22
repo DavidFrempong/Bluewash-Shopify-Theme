@@ -317,3 +317,13 @@
 .card-article-info {
   margin-top: 1rem;
 }
+
+/* Start | Changes by David */
+
+@media screen and (max-width: 1000px) {
+  .card-information {
+  text-align: center;
+}
+}
+
+/* End | Changes by David */
