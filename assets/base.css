@@ -3364,6 +3364,7 @@ details-disclosure > details {
 
   .centered{
     justify-content: center;
+    text-align: center;
   }
 }
 
