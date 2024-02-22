@@ -111,6 +111,10 @@ body {
         grid-template-columns: auto auto;
         width: 100vw;
     }
+
+  .backgroun-overlay{
+    width: 50vw;
+  }
 }
 
 @media screen and (max-width: 450px) {
