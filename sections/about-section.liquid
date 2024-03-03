@@ -1,136 +1,77 @@
 {{ 'about-section.css' | asset_url | stylesheet_tag }}
 
+<div id="main-content" class="main-content">
+  <div class="section-title {{ block.settings.heading_size }}">
+    <h1>{{ block.settings.heading | escape }}</h1>
+  </div>
+  <div class="image-container">
+    <div class="individual-image">
+      {%- if section.settings.image != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+          "
+          src="{{ section.settings.image | image_url: width: 1500 }}"
+          sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+          alt="{{ section.settings.image.alt | escape }}"
+          loading="lazy"
+          width="{{ section.settings.image.width }}"
+          height="{{ section.settings.image.height }}"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      <h2 class="{{ block.settings.image_heading_size }}">{{ block.settings.image_heading | escape }}</h2>
+      <p class="{{ block.settings.image_description_size }}">{{ block.settings.image_description | escape }}</p>
+      <div class="icon-bar">
+        <a href="/">
+          <a
+            {% if block.settings.button_link == blank %}
+              role="link" aria-disabled="true"
+            {% else %}
+              href="{{ block.settings.button_link }}"
+            {% endif %}
+           >
+            {{ block.settings.button_label | escape }}
+          </a>
+          {%- if section.settings.image != blank -%}
+            <img
+              srcset="
+                {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+                {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+                {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+              "
+              src="{{ section.settings.image | image_url: width: 1500 }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ section.settings.image.alt | escape }}"
+              loading="lazy"
+              width="{{ section.settings.image.width }}"
+              height="{{ section.settings.image.height }}"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% schema %}
 {
   "name": "About Section",
   "settings": [
-    
-  ],
-    "blocks": [
-    {
-      "type": "heading",
-      "name": "t:sections.image-banner.blocks.heading.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Image banner",
-          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
-        },
-        {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
-        }
-      ]
-    },
-    {
-      "type": "text",
-      "name": "t:sections.image-banner.blocks.text.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Give customers details about the banner image(s) or content on the template.",
-          "label": "t:sections.image-banner.blocks.text.settings.text.label"
-        },
-        {
-          "type": "select",
-          "id": "text_style",
-          "options": [
-            {
-              "value": "body",
-              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__1.label"
-            },
-            {
-              "value": "subtitle",
-              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__2.label"
-            },
-            {
-              "value": "caption-with-letter-spacing",
-              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__3.label"
-            }
-          ],
-          "default": "body",
-          "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
-        }
-      ]
-    },
-    {
-      "type": "buttons",
-      "name": "t:sections.image-banner.blocks.buttons.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "button_label_1",
-          "default": "Button label",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
-          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
-        },
-        {
-          "type": "url",
-          "id": "button_link_1",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_1",
-          "default": false,
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
-        },
-        {
-          "type": "text",
-          "id": "button_label_2",
-          "default": "Button label",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_2.label",
-          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_2.info"
-        },
-        {
-          "type": "url",
-          "id": "button_link_2",
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary_2",
-          "default": false,
-          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
-        }
-      ]
-    }
-  ],
-   	"presets": [
-  {
-    "name": "About Section",
-    "settings": {
-    },
-    "blocks": [
-      {
-        "type": "text",
-        "settings": {
-          "text": "This is a slide!"
-        }
-      }
-    ]
-  }
-]
+
+  ]
 }
 {% endschema %}
