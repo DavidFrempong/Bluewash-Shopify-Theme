@@ -50,6 +50,28 @@
         "info_alignment": "center"
       }
     },
+    "about_section_kK3xhp": {
+      "type": "about-section",
+      "blocks": {
+        "image_dbtn73": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-nappy-3460134.jpg",
+            "individual_image_heading": "John Smith",
+            "individual_image_subheading": "CEO",
+            "individual_image_link_one": "",
+            "individual_image_link_two": "",
+            "individual_image_link_three": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dbtn73"
+      ],
+      "settings": {
+        "heading": "Meet the Owner"
+      }
+    },
     "cf0c5a9d-1817-4414-be34-a662a746092d": {
       "type": "two-image-layout",
       "blocks": {
@@ -64,7 +86,7 @@
             "image_link": "",
             "image_link_title": "",
             "image_link_color": "#000000",
-            "image_link_background_color": "#FFFFFF"
+            "image_link_background_color": "#ffffff"
           }
         },
         "template--17982117216574__cf0c5a9d-1817-4414-be34-a662a746092d-16774478876026612c-1": {
@@ -78,7 +100,7 @@
             "image_link": "",
             "image_link_title": "",
             "image_link_color": "#000000",
-            "image_link_background_color": "#FFFFFF"
+            "image_link_background_color": "#ffffff"
           }
         }
       },
@@ -147,6 +169,7 @@
   "order": [
     "main",
     "1660938307a9913a0a",
+    "about_section_kK3xhp",
     "cf0c5a9d-1817-4414-be34-a662a746092d",
     "151d5214-157e-484f-a9fa-0a84af8d9c21",
     "10d13fd9-3511-474d-b6a3-1ab144fe6437"
