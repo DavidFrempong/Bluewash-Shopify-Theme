@@ -78,10 +78,13 @@
         "template--17982117413182__ba3ea448-08aa-4d68-9e51-a869bca8fc8d-167745224949c6fddc-1",
         "template--17982117413182__ba3ea448-08aa-4d68-9e51-a869bca8fc8d-167745224949c6fddc-2"
       ],
+      "custom_css": [
+        ".rich-text {background: #1d1d1d;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "full_width": true,
         "padding_top": 100,
         "padding_bottom": 100
