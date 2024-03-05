@@ -76,6 +76,7 @@ body{
 
     max-width: 500px;
     max-height: 600px;
+  height: fit-content;
         filter: brightness(0.5);
     /* max-width: 500px; */
     /* height: 50%; */
@@ -165,7 +166,7 @@ body{
       }
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .image_container img {
      max-height: 500px;
   }
@@ -175,4 +176,4 @@ body{
   .image_container img {
      max-height: 400px;
   }
-}
+} */
