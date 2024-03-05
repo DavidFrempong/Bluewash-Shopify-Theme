@@ -57,10 +57,12 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-nappy-3460134.jpg",
-            "individual_image_heading": "John Smith",
+            "individual_image_heading": "Tyler Jones",
             "individual_image_subheading": "CEO",
-            "individual_image_link_one": "",
-            "individual_image_link_two": "",
+            "individual_image_link_one": "https:\/\/www.instagram.com\/shopify\/",
+            "button_link_image_one": "shopify:\/\/shop_images\/Instagram.svg",
+            "individual_image_link_two": "https:\/\/twitter.com\/Shopify",
+            "button_link_image_two": "shopify:\/\/shop_images\/image-removebg-preview_1.png",
             "individual_image_link_three": ""
           }
         }
