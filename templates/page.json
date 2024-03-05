@@ -158,6 +158,9 @@
         "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-0",
         "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-1"
       ],
+      "custom_css": [
+        ".rich-text {background: #1d1d1d;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
