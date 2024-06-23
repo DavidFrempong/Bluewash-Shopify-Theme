@@ -9,6 +9,16 @@
   <link rel="canonical" href="{{ canonical_url }}">
   <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
+  <script>
+    window.Shopify = window.Shopify || {theme: {id: {{ theme.id }}, role: '{{ theme.role }}' } };
+    window._template = {
+        directory: "{{ template.directory }}",
+        name: "{{ template.name }}",
+        suffix: "{{ template.suffix }}"
+    }
+  </script> 
+  <script src="https://cdn.intelligems.io/6191a86dacb2.js"></script>
+
   {%- if settings.favicon != blank -%}
   <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
   {%- endif -%}
