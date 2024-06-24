@@ -103,6 +103,12 @@
         {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.
       </span>
     {%- endif -%}
+            
+    <div>
+        <label for="phone_number">Phone Number</label>
+        <input type="text" id="phone_number" name="phone_number">
+    </div>
+    
     <div class="field">     
       <input
         type="password"
