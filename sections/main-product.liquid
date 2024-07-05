@@ -411,6 +411,18 @@
     value="1"
     form="{{ product_form_id }}"
   >
+
+    <script>
+  function changeQuantity(delta) {
+    var input = document.getElementById('Quantity-{{ section.id }}');
+    var currentValue = parseInt(input.value);
+    var newValue = currentValue + delta;
+    
+    if (newValue >= parseInt(input.min)) {
+      input.value = newValue;
+    }
+  }
+</script>        
             {%- when 'popup' -%}
               <modal-opener
                 class="product-popup-modal__opener no-js-hidden quick-add-hidden"
