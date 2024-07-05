@@ -47,6 +47,7 @@
         "1660938307ce2917f6-1",
         "1660938307ce2917f6-2"
       ],
+      "disabled": true,
       "custom_css": [
         "h1 {font-weight: 700; margin-bottom: 20px;}"
       ],
@@ -79,6 +80,7 @@
       "block_order": [
         "image_dbtn73"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Meet the Owner"
       }
@@ -88,6 +90,7 @@
       "blocks": {
         "template--17982117216574__cf0c5a9d-1817-4414-be34-a662a746092d-16774478876026612c-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_container": "shopify:\/\/shop_images\/man-getting-his-beard-trimmed-by-barber.jpg",
             "image_title": "It's our standard.",
@@ -102,6 +105,7 @@
         },
         "template--17982117216574__cf0c5a9d-1817-4414-be34-a662a746092d-16774478876026612c-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_container": "shopify:\/\/shop_images\/profile-of-a-man-with-beard-and-styled-hair.jpg",
             "image_title": "A fresh look for all.",
@@ -123,9 +127,9 @@
         "h3 {font-weight: 600; font-size: 25px;}"
       ],
       "settings": {
-        "title": "Operating since 2011.",
+        "title": "Frequently asked questions.",
         "title_color": "#000000",
-        "paragraph": "We've created a brand that offers high-quality, natural products for men that are both effective and affordable.",
+        "paragraph": "Here are some questions that our customers frequently ask us.",
         "paragraph_color": "#000000",
         "link": "",
         "link_title": ""
@@ -133,6 +137,7 @@
     },
     "151d5214-157e-484f-a9fa-0a84af8d9c21": {
       "type": "contact-form",
+      "disabled": true,
       "custom_css": [
         "h2 {text-align: center;}",
         ".field__input {border: none;}",
@@ -167,6 +172,7 @@
         "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-0",
         "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text {background: #1d1d1d;}"
       ],
