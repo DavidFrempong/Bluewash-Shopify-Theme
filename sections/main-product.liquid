@@ -376,7 +376,7 @@
                   {{ 'products.product.quantity.label' | t }}
                 </label>
 
-                <quantity-input class="quantity">
+                <!-- <quantity-input class="quantity">
                   <button class="quantity__button border no-js-hidden" name="minus" type="button">
                     <span class="visually-hidden">
                       {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
@@ -399,7 +399,7 @@
                     {% render 'icon-plus' %}
                   </button>
                 </quantity-input>
-              </div>    
+              </div>     -->
 
             <div class="quantity">
   <button class="quantity__button border" type="button" onclick="changeQuantity(-5)">
@@ -410,9 +410,9 @@
     type="number"
     name="quantity"
     id="quantity"
-    min="1"
+    min="5"
     step="5"
-    value="1"
+    value="5"
   >
   <button class="quantity__button border" type="button" onclick="changeQuantity(5)">
     +
