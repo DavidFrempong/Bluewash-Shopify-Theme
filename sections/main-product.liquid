@@ -399,7 +399,38 @@
                     {% render 'icon-plus' %}
                   </button>
                 </quantity-input>
-              </div>      
+              </div>    
+
+            <div class="quantity">
+  <button class="quantity__button border" type="button" onclick="changeQuantity(-5)">
+    -
+  </button>
+  <input
+    class="quantity__input"
+    type="number"
+    name="quantity"
+    id="quantity"
+    min="1"
+    step="5"
+    value="1"
+  >
+  <button class="quantity__button border" type="button" onclick="changeQuantity(5)">
+    +
+  </button>
+</div>
+
+<script>
+  function changeQuantity(delta) {
+    var input = document.getElementById('quantity');
+    var currentValue = parseInt(input.value);
+    var newValue = currentValue + delta;
+    
+    if (newValue >= parseInt(input.min)) {
+      input.value = newValue;
+    }
+  }
+</script>
+
             {%- when 'popup' -%}
               <modal-opener
                 class="product-popup-modal__opener no-js-hidden quick-add-hidden"
