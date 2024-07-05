@@ -399,8 +399,9 @@
                     {% render 'icon-plus' %}
                   </button>
                 </quantity-input>
+              </div>
 
-                  <input
+              <input
     class="quantity__input"
     type="number"
     name="quantity"
@@ -410,7 +411,6 @@
     value="1"
     form="{{ product_form_id }}"
   >
-              </div>
             {%- when 'popup' -%}
               <modal-opener
                 class="product-popup-modal__opener no-js-hidden quick-add-hidden"
