@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -5,8 +14,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -17,8 +25,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -28,8 +35,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -85,8 +91,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -103,9 +108,7 @@
         "share",
         "description"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "background_color": "#000000",
         "button_text_color": "#ffffff",
@@ -125,7 +128,7 @@
         "template--17982117511486__5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6-1684098226eb33ad58-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/profile-of-a-man-with-beard-and-styled-hair.jpg",
+            "image": "shopify://shop_images/profile-of-a-man-with-beard-and-styled-hair.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -135,7 +138,7 @@
         "template--17982117511486__5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6-1684098226eb33ad58-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/man-getting-his-beard-trimmed-by-barber.jpg",
+            "image": "shopify://shop_images/man-getting-his-beard-trimmed-by-barber.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -147,7 +150,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -182,7 +185,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -191,7 +194,7 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -291,14 +294,14 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Talk about your brand</p>",
             "heading_size": "h1"
           }
         },
         "template--17982117511486__6c91571a-2d57-417b-a560-becbb0e8c1e7-16840981527ed83604-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Trending right now<\/strong><\/p>"
+            "text": "<p><strong>Trending right now</strong></p>"
           }
         },
         "template--17982117511486__6c91571a-2d57-417b-a560-becbb0e8c1e7-16840981527ed83604-2": {
@@ -339,9 +342,27 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1745333115eb8c603a": {
+      "type": "apps",
+      "blocks": {
+        "currency_converter_currency_converter_kDPx3Q": {
+          "type": "shopify://apps/currency-converter/blocks/currency-converter/2132d24b-94ee-466f-944c-31ae0e2b3331",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "currency_converter_currency_converter_kDPx3Q"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
+    "1745333115eb8c603a",
     "main",
     "5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6",
     "multicolumn",
