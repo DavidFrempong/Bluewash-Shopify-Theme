@@ -231,7 +231,7 @@
       },
       "15773739358340951133": {
         "type": "shopify://apps/multicurrency/blocks/currency-converter/2132d24b-94ee-466f-944c-31ae0e2b3331",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       }
     }
