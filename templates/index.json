@@ -464,14 +464,24 @@
     },
     "custom_liquid_wAJBb8": {
       "type": "custom-liquid",
-      "disabled": true,
       "custom_css": [
         ".custom-brown-button {display: inline-block; padding: 10px 20px; background-color: #8b4513; /* SaddleBrown */ color: white; text-decoration: none; font-weight: normal; /* Regular weight */ border-radius: 5px; transition: background-color 0.3s ease;}",
         ".custom-brown-button:hover {background-color: #a0522d; /* Lighter brown on hover */}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<h2>Collections</h2>\n\n<a href=\"https://yourlink.com\" class=\"custom-brown-button\">Click Here</a>\n\n<a href=\"https://yourlink.com\" class=\"custom-brown-button\">Click Here</a>\n\n<a href=\"https://yourlink.com\" class=\"custom-brown-button\">Click Here</a>",
+        "custom_liquid": "<h2>Collections</h2>\n<p>Description here</p>\n<a href=\"https://yourlink.com\" class=\"custom-brown-button\">Click Here</a>\n\n<a href=\"https://yourlink.com\" class=\"custom-brown-button\">Click Here</a>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_bqrBy9": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -487,6 +497,7 @@
     "92bc159b-f29d-4ffa-831d-7d6d48ae02ce",
     "three_layer_image_layout_XhQkxy",
     "single_image_with_product_collage_nXLLnW",
-    "custom_liquid_wAJBb8"
+    "custom_liquid_wAJBb8",
+    "custom_liquid_bqrBy9"
   ]
 }
