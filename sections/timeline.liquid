@@ -1,185 +1,199 @@
 <style>
-/* Timeline Section — clean, robust, responsive */
-.timeline-section {
-  position: relative;
-  padding: 60px 20px;
-  text-align: center;
-  box-sizing: border-box;
-}
+  /* Timeline Section — clean, robust, responsive */
+  .timeline-section {
+    position: relative;
+    padding: 60px 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
 
-.timeline-section-title {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 40px;
-}
+  .timeline-section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
 
-/* Container & center line */
-.timeline-container {
-  position: relative;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px 0;
-}
+  /* Container & center line */
+  .timeline-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
 
-.timeline-line {
-  position: absolute;
-  top: 0;
-  bottom: 0; /* ensures it stretches to fit content */
-  left: 50%;
-  width: 4px;
-  background: #e0e0e0;
-  transform: translateX(-50%);
-  z-index: 1;
-}
+  .timeline-line {
+    position: absolute;
+    top: 0;
+    bottom: 0; /* ensures it stretches to fit content */
+    left: 50%;
+    width: 4px;
+    background: #e0e0e0;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
 
-/* Items flow vertically; each item aligns left or right */
-.timeline-items {
-  display: flex;
-  flex-direction: column;
-  gap: 72px;
-  position: relative;
-}
-
-.timeline-item {
-  display: flex;
-  align-items: flex-start;
-  width: 100%;
-  position: relative;
-  z-index: 2;
-  opacity: 0;
-  transform: translateY(36px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-
-.timeline-item.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* left/right alignment */
-.timeline-item.left {
-  justify-content: flex-end;
-  text-align: right;
-}
-
-.timeline-item.right {
-  justify-content: flex-start;
-  text-align: left;
-}
-
-/* Marker — centered on the middle line and vertically centered to the item */
-.timeline-marker {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: #bdbdbd;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  z-index: 3;
-  transition: transform 0.28s ease, background 0.28s ease;
-}
-
-/* Card base */
-.timeline-content {
-  background: #ffffff;
-  padding: 18px;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-  max-width: 420px;
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), 
-              box-shadow 0.35s ease,
-              background 0.4s ease;
-  will-change: transform, box-shadow, background;
-  position: relative;
-  overflow: hidden;
-}
-
-/* Gradient shimmer effect */
-.timeline-content::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(120deg, rgba(10,132,255,0.1), rgba(10,132,255,0));
-  opacity: 0;
-  transition: opacity 0.4s ease;
-  pointer-events: none;
-}
-
-/* Hover animations */
-.timeline-content:hover {
-  transform: translateY(-10px) scale(1.04);
-  box-shadow: 0 20px 45px rgba(0,0,0,0.14);
-}
-
-.timeline-content:hover::after {
-  opacity: 1;
-}
-
-.timeline-content:hover .timeline-icon img {
-  transform: translateY(-4px) scale(1.05);
-  transition: transform 0.35s ease;
-}
-
-.timeline-item.left .timeline-content {
-  margin-right: 68px; /* space from center line */
-}
-
-.timeline-item.right .timeline-content {
-  margin-left: 68px;
-}
-
-/* Icon / image */
-.timeline-icon img {
-  display: block;
-  width: 80px;
-  height: auto;
-  margin-bottom: 12px;
-}
-
-/* Hover effects */
-.timeline-content:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
-}
-
-.timeline-item:hover .timeline-marker {
-  background: #0a84ff; /* accent color (adjustable later in schema) */
-  transform: translate(-50%, -50%) scale(1.18);
-}
-
-/* Responsive / mobile fallback — stack with marker on the left */
-@media (max-width: 767px) {
-  .timeline-line { left: 18px; }
-  .timeline-items { gap: 36px; }
+  /* Items flow vertically; each item aligns left or right */
+  .timeline-items {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    position: relative;
+  }
 
   .timeline-item {
-    flex-direction: row;
-    justify-content: flex-start !important;
-    text-align: left !important;
-    padding-left: 12px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(36px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
   }
 
-  .timeline-item.left .timeline-content,
-  .timeline-item.right .timeline-content {
-    margin: 0 0 0 44px;
+  .timeline-item.visible {
+    opacity: 1;
+    transform: translateY(0);
   }
 
+  /* left/right alignment */
+  .timeline-item.left {
+    justify-content: flex-end;
+    text-align: right;
+  }
+
+  .timeline-item.right {
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  /* Marker — centered on the middle line and vertically centered to the item */
   .timeline-marker {
-    left: 18px !important;
-    transform: translateY(-50%) scale(1) !important;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #bdbdbd;
+    position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 3;
+    transition: transform 0.28s ease, background 0.28s ease;
   }
 
+  /* Card base */
+  .timeline-content {
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    max-width: 420px;
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.35s ease,
+                background 0.4s ease;
+    will-change: transform, box-shadow, background;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Gradient shimmer effect */
+  .timeline-content::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, rgba(10,132,255,0.1), rgba(10,132,255,0));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+  }
+
+  /* Hover animations */
+  .timeline-content:hover {
+    transform: translateY(-10px) scale(1.04);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.14);
+  }
+
+  .timeline-content:hover::after {
+    opacity: 1;
+  }
+
+  .timeline-content:hover .timeline-icon img {
+    transform: translateY(-4px) scale(1.05);
+    transition: transform 0.35s ease;
+  }
+
+  .timeline-item.left .timeline-content {
+    margin-right: 68px; /* space from center line */
+  }
+
+  .timeline-item.right .timeline-content {
+    margin-left: 68px;
+  }
+
+  /* Icon / image */
   .timeline-icon img {
-    width: 48px;
-    margin-bottom: 8px;
+    display: block;
+    width: 80px;
+    height: auto;
+    margin-bottom: 12px;
   }
-}
 
-/* Small utility to scope styles if needed (optional):
-   .section-timeline .timeline-* { ... } */
+  /* Hover effects */
+  .timeline-content:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+  }
+
+  .timeline-item:hover .timeline-marker {
+    background: #0a84ff; /* accent color (adjustable later in schema) */
+    transform: translate(-50%, -50%) scale(1.18);
+  }
+
+  /* Progress line overlay */
+  .timeline-line-progress {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 0%;
+    background: linear-gradient(180deg, #0a84ff, #6dc6ff); /* brand gradient */
+    transform: translateX(-50%);
+    z-index: 2;
+    transition: height 0.25s ease-out;
+  }
+
+
+  /* Responsive / mobile fallback — stack with marker on the left */
+  @media (max-width: 767px) {
+    .timeline-line { left: 18px; }
+    .timeline-items { gap: 36px; }
+
+    .timeline-item {
+      flex-direction: row;
+      justify-content: flex-start !important;
+      text-align: left !important;
+      padding-left: 12px;
+    }
+
+    .timeline-item.left .timeline-content,
+    .timeline-item.right .timeline-content {
+      margin: 0 0 0 44px;
+    }
+
+    .timeline-marker {
+      left: 18px !important;
+      transform: translateY(-50%) scale(1) !important;
+      top: 50%;
+    }
+
+    .timeline-icon img {
+      width: 48px;
+      margin-bottom: 8px;
+    }
+  }
+
+  /* Small utility to scope styles if needed (optional):
+     .section-timeline .timeline-* { ... } */
 </style>
 
 <section class="timeline-section" aria-label="Timeline">
@@ -189,6 +203,8 @@
 
   <div class="timeline-container">
     <div class="timeline-line" aria-hidden="true"></div>
+    <div class="timeline-line" aria-hidden="true"></div>
+    <div class="timeline-line-progress" aria-hidden="true"></div>
 
     <div class="timeline-items" role="list">
       {% for block in section.blocks %}
@@ -198,7 +214,11 @@
           <div class="timeline-content">
             {% if block.settings.image != blank %}
               <div class="timeline-icon">
-                <img src="{{ block.settings.image | img_url: '160x' }}" alt="{{ block.settings.heading | escape }}" loading="lazy" />
+                <img
+                  src="{{ block.settings.image | img_url: '160x' }}"
+                  alt="{{ block.settings.heading | escape }}"
+                  loading="lazy"
+                >
               </div>
             {% endif %}
 
@@ -212,27 +232,48 @@
 </section>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  const items = document.querySelectorAll('.timeline-item');
+  document.addEventListener('DOMContentLoaded', function () {
+    const items = document.querySelectorAll('.timeline-item');
 
-  if (!items.length) return;
+    if (!items.length) return;
 
-  if ('IntersectionObserver' in window) {
-    const io = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target); // reveal once
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target); // reveal once
+            }
+          });
+        },
+        { threshold: 0.18 }
+      );
+
+      items.forEach((i) => io.observe(i));
+    } else {
+      // fallback: reveal all immediately if IO not supported
+      items.forEach((i) => i.classList.add('visible'));
+    }
+
+    // Progress line fill effect
+    const section = document.querySelector('.timeline-section');
+    const progressLine = document.querySelector('.timeline-line-progress');
+
+    if (section && progressLine) {
+      window.addEventListener('scroll', () => {
+        const rect = section.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+
+        if (rect.top < windowHeight && rect.bottom > 0) {
+          const totalHeight = rect.height;
+          const scrolled = Math.min(Math.max(windowHeight - rect.top, 0), totalHeight);
+          const progress = (scrolled / totalHeight) * 100;
+          progressLine.style.height = progress + '%';
         }
       });
-    }, { threshold: 0.18 });
-
-    items.forEach(i => io.observe(i));
-  } else {
-    // fallback: reveal all immediately if IO not supported
-    items.forEach(i => i.classList.add('visible'));
-  }
-});
+    }
+  });
 </script>
 
 {% schema %}
@@ -286,11 +327,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       "name": "Timeline",
       "category": "Custom Sections",
-      "blocks": [
-        { "type": "step" },
-        { "type": "step" },
-        { "type": "step" }
-      ]
+      "blocks": [{ "type": "step" }, { "type": "step" }, { "type": "step" }]
     }
   ]
 }
