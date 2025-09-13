@@ -81,14 +81,17 @@
 .timeline-item:nth-child(odd) {
   left: 0;
   text-align: right;
-}
-
-.timeline-item:nth-child(odd) .timeline-marker {
-  left: 100%;
+  padding-right: 40px; /* space away from center */
 }
 
 .timeline-item:nth-child(even) {
   left: 50%;
+  text-align: left;
+  padding-left: 40px; /* space away from center */
+}
+
+.timeline-item:nth-child(odd) .timeline-marker {
+  left: 100%;
 }
 
 .timeline-item:nth-child(even) .timeline-marker {
