@@ -483,29 +483,33 @@
         "step_zNmPbK": {
           "type": "step",
           "settings": {
-            "title": "Step Title",
-            "description": "Write a short description for this step."
+            "heading": "Step Title",
+            "text": "Describe this step in your process.",
+            "position": "left"
           }
         },
         "step_hMzx7q": {
           "type": "step",
           "settings": {
-            "title": "Step Title",
-            "description": "Write a short description for this step."
+            "heading": "Step Title",
+            "text": "Describe this step in your process.",
+            "position": "right"
           }
         },
         "step_CLMi7f": {
           "type": "step",
           "settings": {
-            "title": "Step Title",
-            "description": "Write a short description for this step."
+            "heading": "Step Title",
+            "text": "Describe this step in your process.",
+            "position": "left"
           }
         },
         "step_V9Kx4K": {
           "type": "step",
           "settings": {
-            "title": "Step Title",
-            "description": "Write a short description for this step."
+            "heading": "Step Title",
+            "text": "Describe this step in your process.",
+            "position": "right"
           }
         }
       },
@@ -517,7 +521,7 @@
       ],
       "name": "Timeline",
       "settings": {
-        "heading": "Our Process"
+        "title": "Our Process"
       }
     }
   },
