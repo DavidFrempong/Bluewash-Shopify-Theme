@@ -484,8 +484,7 @@
           "type": "step",
           "settings": {
             "title": "Step Title",
-            "description": "Write a short description for this step.",
-            "icon": "shopify://shop_images/image-removebg-preview_2.png"
+            "description": "Write a short description for this step."
           }
         },
         "step_hMzx7q": {
