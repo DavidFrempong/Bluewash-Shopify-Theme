@@ -476,6 +476,50 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "timeline_DpTcYM": {
+      "type": "timeline",
+      "blocks": {
+        "step_zNmPbK": {
+          "type": "step",
+          "settings": {
+            "title": "Step Title",
+            "description": "Write a short description for this step.",
+            "icon": "shopify://shop_images/image-removebg-preview_2.png"
+          }
+        },
+        "step_hMzx7q": {
+          "type": "step",
+          "settings": {
+            "title": "Step Title",
+            "description": "Write a short description for this step."
+          }
+        },
+        "step_CLMi7f": {
+          "type": "step",
+          "settings": {
+            "title": "Step Title",
+            "description": "Write a short description for this step."
+          }
+        },
+        "step_V9Kx4K": {
+          "type": "step",
+          "settings": {
+            "title": "Step Title",
+            "description": "Write a short description for this step."
+          }
+        }
+      },
+      "block_order": [
+        "step_zNmPbK",
+        "step_hMzx7q",
+        "step_CLMi7f",
+        "step_V9Kx4K"
+      ],
+      "name": "Timeline",
+      "settings": {
+        "heading": "Our Process"
+      }
     }
   },
   "order": [
@@ -487,6 +531,7 @@
     "92bc159b-f29d-4ffa-831d-7d6d48ae02ce",
     "three_layer_image_layout_XhQkxy",
     "single_image_with_product_collage_nXLLnW",
-    "custom_liquid_wAJBb8"
+    "custom_liquid_wAJBb8",
+    "timeline_DpTcYM"
   ]
 }
