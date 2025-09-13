@@ -1,123 +1,121 @@
 {% stylesheet %}
 .timeline-section {
+  position: relative;
   padding: 60px 20px;
   text-align: center;
 }
 
-.timeline-heading {
+.timeline-section-title {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
-.timeline-container {
-  position: relative;
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
-/* Vertical line down the middle */
-.timeline-container::before {
-  content: "";
+.timeline-line {
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 50%;
-  width: 2px;
-  background: #ccc;
+  width: 4px;
+  height: 100%;
+  background: #e5e5e5;
   transform: translateX(-50%);
+  z-index: 1;
+}
+
+.timeline-items {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  position: relative;
 }
 
 .timeline-item {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: 40px 0;
+  align-items: center;
   position: relative;
-  width: 50%;
   opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.6s ease-out;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  z-index: 2;
 }
 
-/* Markers */
-.timeline-marker {
-  width: 20px;
-  height: 20px;
-  background: #000;
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  transform: translateX(-50%);
-  left: 100%;
-}
-
-/* Content */
-.timeline-content {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-}
-
-.timeline-icon img {
-  width: 60px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.timeline-title {
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-
-.timeline-description {
-  font-size: 1rem;
-  color: #555;
-}
-
-/* Zigzag positions */
-.timeline-item:nth-child(odd) {
-  left: 0;
-  text-align: right;
-  padding-right: 40px; /* space away from center */
-}
-
-.timeline-item:nth-child(even) {
-  left: 50%;
-  text-align: left;
-  padding-left: 40px; /* space away from center */
-}
-
-.timeline-item:nth-child(odd) .timeline-marker {
-  left: 100%;
-}
-
-.timeline-item:nth-child(even) .timeline-marker {
-  left: 0%;
-}
-
-/* Animation trigger */
 .timeline-item.visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Mobile - stack */
+/* Zigzag positioning */
+.timeline-item.left {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.timeline-item.right {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.timeline-marker {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #bbb;
+  position: relative;
+  z-index: 2;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.timeline-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  max-width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-item.left .timeline-content {
+  margin-right: 40px;
+}
+
+.timeline-item.right .timeline-content {
+  margin-left: 40px;
+}
+
+/* Hover effects */
+.timeline-content:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.timeline-item:hover .timeline-marker {
+  background: #007bff;
+  transform: scale(1.2);
+}
+
+/* Mobile stack */
 @media (max-width: 767px) {
-  .timeline-container::before {
+  .timeline-line {
     left: 10px;
   }
+
   .timeline-item {
     width: 100%;
-    padding-left: 40px;
+    padding-left: 50px;
+    flex-direction: row;
     text-align: left !important;
   }
-  .timeline-item:nth-child(even),
-  .timeline-item:nth-child(odd) {
-    left: 0;
+
+  .timeline-item.left,
+  .timeline-item.right {
+    flex-direction: row;
   }
+
+  .timeline-item.left .timeline-content,
+  .timeline-item.right .timeline-content {
+    margin: 0 0 0 20px;
+  }
+
   .timeline-marker {
     left: 0 !important;
     transform: translateX(0);
@@ -126,21 +124,23 @@
 {% endstylesheet %}
 
 <section class="timeline-section">
-  {% if section.settings.heading != blank %}
-    <h2 class="timeline-heading">{{ section.settings.heading }}</h2>
+  {% if section.settings.title != blank %}
+    <h2 class="timeline-section-title">{{ section.settings.title }}</h2>
   {% endif %}
-  <div class="timeline-container">
+
+  <div class="timeline-line"></div>
+  <div class="timeline-items">
     {% for block in section.blocks %}
-      <div class="timeline-item">
+      <div class="timeline-item {{ block.settings.position }}">
         <div class="timeline-marker"></div>
         <div class="timeline-content">
-          {% if block.settings.icon != blank %}
+          {% if block.settings.image != blank %}
             <div class="timeline-icon">
-              <img src="{{ block.settings.icon | image_url: width: 80 }}" alt="{{ block.settings.title }}">
+              <img src="{{ block.settings.image | image_url: width: 80 }}" alt="{{ block.settings.heading }}">
             </div>
           {% endif %}
-          <h3 class="timeline-title">{{ block.settings.title }}</h3>
-          <p class="timeline-description">{{ block.settings.description }}</p>
+          <h3>{{ block.settings.heading }}</h3>
+          <p>{{ block.settings.text }}</p>
         </div>
       </div>
     {% endfor %}
@@ -150,18 +150,16 @@
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const items = document.querySelectorAll(".timeline-item");
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-        }
-      });
-    },
-    { threshold: 0.2 }
-  );
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target); // reveal once
+      }
+    });
+  }, { threshold: 0.2 });
 
-  items.forEach((item) => observer.observe(item));
+  items.forEach(item => observer.observe(item));
 });
 </script>
 
@@ -170,50 +168,52 @@ document.addEventListener("DOMContentLoaded", () => {
   "name": "Timeline",
   "settings": [
     {
-      "type": "header",
-      "content": "Timeline Settings"
-    },
-    {
       "type": "text",
-      "id": "heading",
-      "label": "Section Heading",
+      "id": "title",
+      "label": "Section Title",
       "default": "Our Process"
     }
   ],
   "blocks": [
     {
       "type": "step",
-      "name": "Timeline Step",
+      "name": "Step",
       "settings": [
         {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Step Image"
+        },
+        {
           "type": "text",
-          "id": "title",
-          "label": "Step Title",
+          "id": "heading",
+          "label": "Step Heading",
           "default": "Step Title"
         },
         {
           "type": "textarea",
-          "id": "description",
+          "id": "text",
           "label": "Step Description",
-          "default": "Write a short description for this step."
+          "default": "Describe this step in your process."
         },
         {
-          "type": "image_picker",
-          "id": "icon",
-          "label": "Step Icon/Image"
+          "type": "select",
+          "id": "position",
+          "label": "Position",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "right", "label": "Right" }
+          ]
         }
       ]
     }
   ],
+  "max_blocks": 10,
   "presets": [
     {
       "name": "Timeline",
-      "category": "Custom",
-      "blocks": [
-        { "type": "step" },
-        { "type": "step" },
-        { "type": "step" }
-      ]
+      "category": "Custom Sections"
     }
   ]
 }
