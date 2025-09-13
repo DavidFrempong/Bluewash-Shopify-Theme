@@ -1,165 +1,206 @@
-{% stylesheet %}
+<style>
+/* Timeline Section — clean, robust, responsive */
 .timeline-section {
   position: relative;
   padding: 60px 20px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .timeline-section-title {
   font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 
+/* Container & center line */
 .timeline-container {
   position: relative;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
-/* Center vertical line */
 .timeline-line {
   position: absolute;
   top: 0;
+  bottom: 0; /* ensures it stretches to fit content */
   left: 50%;
   width: 4px;
-  height: 100%;
-  background: #ccc;
+  background: #e0e0e0;
   transform: translateX(-50%);
   z-index: 1;
 }
 
+/* Items flow vertically; each item aligns left or right */
+.timeline-items {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  position: relative;
+}
+
 .timeline-item {
-  position: absolute;
-  width: 45%;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+  z-index: 2;
   opacity: 0;
-  transition: all 0.6s ease;
+  transform: translateY(36px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .timeline-item.visible {
   opacity: 1;
+  transform: translateY(0);
 }
 
+/* left/right alignment */
 .timeline-item.left {
-  left: 0;
+  justify-content: flex-end;
   text-align: right;
 }
 
 .timeline-item.right {
-  right: 0;
+  justify-content: flex-start;
   text-align: left;
 }
 
+/* Marker — centered on the middle line and vertically centered to the item */
 .timeline-marker {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
-  background: #bbb;
+  background: #bdbdbd;
   position: absolute;
-  top: 0;
-  z-index: 2;
-  transition: transform 0.3s ease, background 0.3s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 3;
+  transition: transform 0.28s ease, background 0.28s ease;
 }
 
-.timeline-item.left .timeline-marker {
-  right: -12px; /* half marker width */
-}
-
-.timeline-item.right .timeline-marker {
-  left: -12px;
-}
-
+/* Card content */
 .timeline-content {
-  background: #fff;
-  padding: 20px;
+  background: #ffffff;
+  padding: 18px;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  max-width: 400px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  max-width: 420px;
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
 }
 
 .timeline-item.left .timeline-content {
-  margin-right: 40px;
+  margin-right: 68px; /* space from center line */
 }
 
 .timeline-item.right .timeline-content {
-  margin-left: 40px;
+  margin-left: 68px;
+}
+
+/* Icon / image */
+.timeline-icon img {
+  display: block;
+  width: 80px;
+  height: auto;
+  margin-bottom: 12px;
 }
 
 /* Hover effects */
 .timeline-content:hover {
-  transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
 }
 
 .timeline-item:hover .timeline-marker {
-  background: #007bff;
-  transform: scale(1.2);
+  background: #0a84ff; /* accent color (adjustable later in schema) */
+  transform: translate(-50%, -50%) scale(1.18);
 }
 
-/* Mobile fallback */
+/* Responsive / mobile fallback — stack with marker on the left */
 @media (max-width: 767px) {
-  .timeline-container, .timeline-item {
-    position: static;
-    width: 100%;
-  }
+  .timeline-line { left: 18px; }
+  .timeline-items { gap: 36px; }
 
   .timeline-item {
-    margin-bottom: 60px;
-  }
-
-  .timeline-marker {
-    left: 0 !important;
-    transform: translateX(0);
+    flex-direction: row;
+    justify-content: flex-start !important;
+    text-align: left !important;
+    padding-left: 12px;
   }
 
   .timeline-item.left .timeline-content,
   .timeline-item.right .timeline-content {
-    margin: 0 0 0 50px;
-    text-align: left !important;
+    margin: 0 0 0 44px;
+  }
+
+  .timeline-marker {
+    left: 18px !important;
+    transform: translateY(-50%) scale(1) !important;
+    top: 50%;
+  }
+
+  .timeline-icon img {
+    width: 48px;
+    margin-bottom: 8px;
   }
 }
-{% endstylesheet %}
 
-<section class="timeline-section">
+/* Small utility to scope styles if needed (optional):
+   .section-timeline .timeline-* { ... } */
+</style>
+
+<section class="timeline-section" aria-label="Timeline">
   {% if section.settings.title != blank %}
     <h2 class="timeline-section-title">{{ section.settings.title }}</h2>
   {% endif %}
 
   <div class="timeline-container">
-    <div class="timeline-line"></div>
+    <div class="timeline-line" aria-hidden="true"></div>
 
-    {% for block in section.blocks %}
-      <div class="timeline-item {{ block.settings.position }}">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          {% if block.settings.image != blank %}
-            <div class="timeline-icon">
-              <img src="{{ block.settings.image | image_url: width: 80 }}" alt="{{ block.settings.heading }}">
-            </div>
-          {% endif %}
-          <h3>{{ block.settings.heading }}</h3>
-          <p>{{ block.settings.text }}</p>
+    <div class="timeline-items" role="list">
+      {% for block in section.blocks %}
+        <div class="timeline-item {{ block.settings.position }}" role="listitem">
+          <span class="timeline-marker" aria-hidden="true"></span>
+
+          <div class="timeline-content">
+            {% if block.settings.image != blank %}
+              <div class="timeline-icon">
+                <img src="{{ block.settings.image | img_url: '160x' }}" alt="{{ block.settings.heading | escape }}" loading="lazy" />
+              </div>
+            {% endif %}
+
+            <h3 class="timeline-step-heading">{{ block.settings.heading }}</h3>
+            <div class="timeline-step-description">{{ block.settings.text }}</div>
+          </div>
         </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </section>
 
 <script>
-document.addEventListener("DOMContentLoaded", () => {
-  const items = document.querySelectorAll(".timeline-item");
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.2 });
+document.addEventListener('DOMContentLoaded', function () {
+  const items = document.querySelectorAll('.timeline-item');
 
-  items.forEach(item => observer.observe(item));
+  if (!items.length) return;
+
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target); // reveal once
+        }
+      });
+    }, { threshold: 0.18 });
+
+    items.forEach(i => io.observe(i));
+  } else {
+    // fallback: reveal all immediately if IO not supported
+    items.forEach(i => i.classList.add('visible'));
+  }
 });
 </script>
 
@@ -209,11 +250,16 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     }
   ],
-  "max_blocks": 10,
+  "max_blocks": 20,
   "presets": [
     {
       "name": "Timeline",
-      "category": "Custom Sections"
+      "category": "Custom Sections",
+      "blocks": [
+        { "type": "step" },
+        { "type": "step" },
+        { "type": "step" }
+      ]
     }
   ]
 }
