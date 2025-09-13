@@ -511,13 +511,49 @@
             "text": "Describe this step in your process.",
             "position": "right"
           }
+        },
+        "step_ihizn8": {
+          "type": "step",
+          "settings": {
+            "heading": "Step Title",
+            "text": "Describe this step in your process.",
+            "position": "left"
+          }
+        },
+        "step_DAYzG4": {
+          "type": "step",
+          "settings": {
+            "heading": "Step Title",
+            "text": "Describe this step in your process.",
+            "position": "left"
+          }
+        },
+        "step_gU37zw": {
+          "type": "step",
+          "settings": {
+            "heading": "Step Title",
+            "text": "Describe this step in your process.",
+            "position": "left"
+          }
+        },
+        "step_NAUxzH": {
+          "type": "step",
+          "settings": {
+            "heading": "Step Title",
+            "text": "Describe this step in your process.",
+            "position": "left"
+          }
         }
       },
       "block_order": [
         "step_zNmPbK",
         "step_hMzx7q",
         "step_CLMi7f",
-        "step_V9Kx4K"
+        "step_V9Kx4K",
+        "step_ihizn8",
+        "step_DAYzG4",
+        "step_gU37zw",
+        "step_NAUxzH"
       ],
       "name": "Timeline",
       "settings": {
