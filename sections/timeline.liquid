@@ -81,7 +81,7 @@
   transition: transform 0.28s ease, background 0.28s ease;
 }
 
-/* Card hover animations */
+/* Card base */
 .timeline-content {
   background: #ffffff;
   padding: 18px;
@@ -89,16 +89,34 @@
   box-shadow: 0 6px 18px rgba(0,0,0,0.06);
   max-width: 420px;
   transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), 
-              box-shadow 0.35s ease;
-  will-change: transform, box-shadow;
+              box-shadow 0.35s ease,
+              background 0.4s ease;
+  will-change: transform, box-shadow, background;
+  position: relative;
+  overflow: hidden;
 }
 
+/* Gradient shimmer effect */
+.timeline-content::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(10,132,255,0.1), rgba(10,132,255,0));
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+/* Hover animations */
 .timeline-content:hover {
   transform: translateY(-10px) scale(1.04);
   box-shadow: 0 20px 45px rgba(0,0,0,0.14);
 }
 
-/* Make icon float a little on hover */
+.timeline-content:hover::after {
+  opacity: 1;
+}
+
 .timeline-content:hover .timeline-icon img {
   transform: translateY(-4px) scale(1.05);
   transition: transform 0.35s ease;
