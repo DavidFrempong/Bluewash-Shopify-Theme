@@ -11,48 +11,44 @@
   margin-bottom: 50px;
 }
 
+.timeline-container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+/* Center vertical line */
 .timeline-line {
   position: absolute;
   top: 0;
   left: 50%;
   width: 4px;
   height: 100%;
-  background: #e5e5e5;
+  background: #ccc;
   transform: translateX(-50%);
   z-index: 1;
 }
 
-.timeline-items {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-  position: relative;
-}
-
 .timeline-item {
-  display: flex;
-  align-items: center;
-  position: relative;
+  position: absolute;
+  width: 45%;
   opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-  z-index: 2;
+  transition: all 0.6s ease;
 }
 
 .timeline-item.visible {
   opacity: 1;
-  transform: translateY(0);
 }
 
-/* Zigzag positioning */
 .timeline-item.left {
-  flex-direction: row-reverse;
-  justify-content: flex-start;
+  left: 0;
+  text-align: right;
 }
 
 .timeline-item.right {
-  flex-direction: row;
-  justify-content: flex-start;
+  right: 0;
+  text-align: left;
 }
 
 .timeline-marker {
@@ -60,9 +56,18 @@
   height: 24px;
   border-radius: 50%;
   background: #bbb;
-  position: relative;
+  position: absolute;
+  top: 0;
   z-index: 2;
   transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.timeline-item.left .timeline-marker {
+  right: -12px; /* half marker width */
+}
+
+.timeline-item.right .timeline-marker {
+  left: -12px;
 }
 
 .timeline-content {
@@ -93,32 +98,26 @@
   transform: scale(1.2);
 }
 
-/* Mobile stack */
+/* Mobile fallback */
 @media (max-width: 767px) {
-  .timeline-line {
-    left: 10px;
+  .timeline-container, .timeline-item {
+    position: static;
+    width: 100%;
   }
 
   .timeline-item {
-    width: 100%;
-    padding-left: 50px;
-    flex-direction: row;
-    text-align: left !important;
-  }
-
-  .timeline-item.left,
-  .timeline-item.right {
-    flex-direction: row;
-  }
-
-  .timeline-item.left .timeline-content,
-  .timeline-item.right .timeline-content {
-    margin: 0 0 0 20px;
+    margin-bottom: 60px;
   }
 
   .timeline-marker {
     left: 0 !important;
     transform: translateX(0);
+  }
+
+  .timeline-item.left .timeline-content,
+  .timeline-item.right .timeline-content {
+    margin: 0 0 0 50px;
+    text-align: left !important;
   }
 }
 {% endstylesheet %}
@@ -128,8 +127,9 @@
     <h2 class="timeline-section-title">{{ section.settings.title }}</h2>
   {% endif %}
 
-  <div class="timeline-line"></div>
-  <div class="timeline-items">
+  <div class="timeline-container">
+    <div class="timeline-line"></div>
+
     {% for block in section.blocks %}
       <div class="timeline-item {{ block.settings.position }}">
         <div class="timeline-marker"></div>
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
-        observer.unobserve(entry.target); // reveal once
+        observer.unobserve(entry.target);
       }
     });
   }, { threshold: 0.2 });
