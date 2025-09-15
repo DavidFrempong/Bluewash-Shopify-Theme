@@ -476,89 +476,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "timeline_DpTcYM": {
-      "type": "timeline",
-      "blocks": {
-        "step_zNmPbK": {
-          "type": "step",
-          "settings": {
-            "heading": "Step Title",
-            "text": "Describe this step in your process.",
-            "position": "left"
-          }
-        },
-        "step_hMzx7q": {
-          "type": "step",
-          "settings": {
-            "heading": "Step Title",
-            "text": "Describe this step in your process.",
-            "position": "right"
-          }
-        },
-        "step_CLMi7f": {
-          "type": "step",
-          "settings": {
-            "heading": "Step Title",
-            "text": "Describe this step in your process.",
-            "position": "left"
-          }
-        },
-        "step_V9Kx4K": {
-          "type": "step",
-          "settings": {
-            "heading": "Step Title",
-            "text": "Describe this step in your process.",
-            "position": "right"
-          }
-        },
-        "step_ihizn8": {
-          "type": "step",
-          "settings": {
-            "heading": "Step Title",
-            "text": "Describe this step in your process.",
-            "position": "left"
-          }
-        },
-        "step_DAYzG4": {
-          "type": "step",
-          "settings": {
-            "heading": "Step Title",
-            "text": "Describe this step in your process.",
-            "position": "left"
-          }
-        },
-        "step_gU37zw": {
-          "type": "step",
-          "settings": {
-            "heading": "Step Title",
-            "text": "Describe this step in your process.",
-            "position": "left"
-          }
-        },
-        "step_NAUxzH": {
-          "type": "step",
-          "settings": {
-            "heading": "Step Title",
-            "text": "Describe this step in your process.",
-            "position": "left"
-          }
-        }
-      },
-      "block_order": [
-        "step_zNmPbK",
-        "step_hMzx7q",
-        "step_CLMi7f",
-        "step_V9Kx4K",
-        "step_ihizn8",
-        "step_DAYzG4",
-        "step_gU37zw",
-        "step_NAUxzH"
-      ],
-      "name": "Timeline",
-      "settings": {
-        "title": "Our Process"
-      }
     }
   },
   "order": [
@@ -570,7 +487,6 @@
     "92bc159b-f29d-4ffa-831d-7d6d48ae02ce",
     "three_layer_image_layout_XhQkxy",
     "single_image_with_product_collage_nXLLnW",
-    "custom_liquid_wAJBb8",
-    "timeline_DpTcYM"
+    "custom_liquid_wAJBb8"
   ]
 }
