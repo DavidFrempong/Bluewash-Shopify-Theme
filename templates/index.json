@@ -476,6 +476,16 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_liquid_iadzBx": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!-- Add the reviews widget container -->\n<div id=\"company-reviews\"></div>\n\n<!-- Add the widget script -->\n<script>\n    (function() {\n        const loadScript = (src) => new Promise((resolve, reject) => {\n            const script = document.createElement('script');\n            script.src = src;\n            script.onload = resolve;\n            script.onerror = reject;\n            document.head.appendChild(script);\n        });\n\n        Promise.all([\n            loadScript('https://unpkg.com/react@18/umd/react.production.min.js'),\n            loadScript('https://unpkg.com/react-dom@18/umd/react-dom.production.min.js')\n        ])\n        .then(() => loadScript('https://stryo.net/build/widget.js?v=2.1.0'))\n        .then(() => {\n            if (typeof initReviewWidget === 'function') {\n                initReviewWidget('company-reviews', '2');\n            } else {\n                console.error('Widget initialization function not found');\n            }\n        })\n        .catch(error => {\n            console.error('Widget loading failed:', error);\n        });\n    })();\n</script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -487,6 +497,7 @@
     "92bc159b-f29d-4ffa-831d-7d6d48ae02ce",
     "three_layer_image_layout_XhQkxy",
     "single_image_with_product_collage_nXLLnW",
-    "custom_liquid_wAJBb8"
+    "custom_liquid_wAJBb8",
+    "custom_liquid_iadzBx"
   ]
 }
