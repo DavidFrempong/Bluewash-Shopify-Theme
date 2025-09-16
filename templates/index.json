@@ -198,7 +198,7 @@
     "16640590680b2f70f3": {
       "type": "image-collage",
       "settings": {
-        "image_collage_grid": "2",
+        "image_collage_grid": "4",
         "image": "shopify://shop_images/castlebeard-co-0D6aORtbl-c-unsplash.jpg",
         "imagetext": "Radiant",
         "imagelink": "shopify://products/the-collection-snowboard-hydrogen",
@@ -486,6 +486,21 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "image_collage_Ffwq6m": {
+      "type": "image-collage",
+      "name": "Image Collage",
+      "settings": {
+        "image_collage_grid": "4",
+        "imagetext": "Sunny Days",
+        "imagelink": "",
+        "image_1_text": "Leafy Green",
+        "image_1_link": "",
+        "image_2_text": "Coffee & Biscuits",
+        "image_2_link": "",
+        "image_3_text": "Blue Skies",
+        "image_3_link": ""
+      }
     }
   },
   "order": [
@@ -493,6 +508,7 @@
     "65cfd1f7-ee2f-4f22-ba07-b59c776e3138",
     "24d7c57c-9b11-4fce-85fb-9fd07e454fcf",
     "16640590680b2f70f3",
+    "image_collage_Ffwq6m",
     "22061fd9-f01c-4b98-a458-6c30cca4e9cf",
     "92bc159b-f29d-4ffa-831d-7d6d48ae02ce",
     "three_layer_image_layout_XhQkxy",
